@@ -813,11 +813,20 @@ def parse_match_result(summary_json):
         return None
 
 
-def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 90, verbose=True):
+def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, verbose=True,
+                             max_matches: int = 500):
     """
     Walks back `days_back` days of scoreboard data for a tour, fetching
     each completed match's summary and feeding it into the Elo engine
     chronologically (oldest first, so ratings evolve correctly).
+
+    max_matches is a hard safety cap on individual summary fetches per
+    tour per run -- protects against a run hanging for an unexpectedly
+    long time if a tour has far more completed matches than assumed, or
+    ESPN returns unusually large day-by-day results. If the cap is hit,
+    the run stops early (partial history is still fine -- Elo doesn't
+    need every match, just a reasonable recent sample) rather than
+    continuing indefinitely.
     """
     all_matches = []
     today = datetime.now(timezone.utc)
@@ -835,10 +844,16 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 90, ve
         print(f"  [{tour}] found {len(all_matches)} raw match entries across {days_back} days")
 
     fed_count = 0
+    fetched_count = 0
     for m in all_matches:
         if not m["completed"]:
             continue
+        if fetched_count >= max_matches:
+            if verbose:
+                print(f"  [{tour}] [SAFETY CAP] hit {max_matches} match fetches, stopping early this run")
+            break
         summary = fetch_match_summary(tour, m["match_id"])
+        fetched_count += 1
         result = parse_match_result(summary)
         if result is None:
             continue
@@ -855,7 +870,7 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 90, ve
         fed_count += 1
 
     if verbose:
-        print(f"  [{tour}] fed {fed_count} completed matches into Elo engine")
+        print(f"  [{tour}] fed {fed_count} completed matches into Elo engine ({fetched_count} summary fetches)")
 
     return fed_count
 
@@ -907,7 +922,7 @@ Run standalone: python3 run_predictions.py
 Writes predictions.json and predictions.html to the working directory.
 """
 
-DAYS_OF_HISTORY = 90  # how far back to build Elo from before predicting
+DAYS_OF_HISTORY = 14  # how far back to build Elo from before predicting
 
 
 def build_combined_prediction(engine: EloEngine, player_a: str, player_b: str,
