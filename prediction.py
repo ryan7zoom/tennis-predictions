@@ -13,7 +13,7 @@ Modules merged into this file (in dependency order):
   7. HTML report generator (dark-mode, 3-tab)
 
 Run directly: python3 prediction.py
-Produces predictions.json and predictions.html in the working directory.
+Produces predictions.json and index.html in the working directory.
 
 Tested modules (surface lookup, tier classifier, Elo engine, match
 simulator) passed 22/22 synthetic tests before merge -- see project
@@ -977,7 +977,7 @@ other by construction (they come from the same point-probability, not
 three independently-guessed numbers).
 
 Run standalone: python3 run_predictions.py
-Writes predictions.json and predictions.html to the working directory.
+Writes predictions.json and index.html to the working directory.
 """
 
 DAYS_OF_HISTORY = 14  # how far back to build Elo from before predicting
@@ -1088,7 +1088,7 @@ def run_pipeline(verbose=True):
 # generate_html.py
 # ============================================================
 """
-Generates predictions.html from predictions.json.
+Generates index.html from predictions.json.
 Style: dark-mode, 3-tab (ATP / WTA / All), card layout per match.
 Confidence label is prominent on every card -- non-negotiable per outline.
 """
@@ -1227,7 +1227,7 @@ def render_card(pred):
     )
 
 
-def generate_html(predictions_json_path="predictions.json", output_path="predictions.html"):
+def generate_html(predictions_json_path="predictions.json", output_path="index.html"):
     with open(predictions_json_path) as f:
         data = json.load(f)
 
