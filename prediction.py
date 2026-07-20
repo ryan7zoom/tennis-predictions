@@ -161,7 +161,7 @@ def get_surface(tournament_name: str):
     return surface
 
 
-def coverage_report():
+def surface_coverage_report():
     """
     Returns the set of tournament names that were looked up and missed.
     Call this periodically against real ESPN data to find gaps to add.
@@ -169,7 +169,7 @@ def coverage_report():
     return sorted(_MISSED_LOOKUPS)
 
 
-def reset_coverage_tracking():
+def reset_surface_coverage_tracking():
     _MISSED_LOOKUPS.clear()
 
 
@@ -254,11 +254,11 @@ def get_k_multiplier(tier: str, default: float = 0.75):
     return TIER_K_MULTIPLIER.get(tier, default)
 
 
-def coverage_report():
+def tier_coverage_report():
     return sorted(_MISSED_TIER_LOOKUPS)
 
 
-def reset_coverage_tracking():
+def reset_tier_coverage_tracking():
     _MISSED_TIER_LOOKUPS.clear()
 
 
@@ -703,18 +703,30 @@ file's assumptions and get flagged back to the surface/tier tables too.
 
 
 SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/scoreboard"
-SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/summary?event={match_id}"
+SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/summary?region=us&lang=en&contentorigin=espn&event={match_id}"
 
 TOURS = ["atp", "wta"]
 
 
-def _http_get_json(url, timeout=15):
+def _http_get_json(url, timeout=15, debug_label=None):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        # Capture the actual response body ESPN sent back with the error --
+        # this tells us WHY it's a 400 (bad param, bad id, etc) instead of
+        # just that it happened.
+        try:
+            body = e.read().decode("utf-8")[:500]
+        except Exception:
+            body = "<could not read error body>"
+        label = f" [{debug_label}]" if debug_label else ""
+        print(f"  [WARN]{label} HTTP {e.code} for {url}\n    body: {body}")
+        return None
     except urllib.error.URLError as e:
-        print(f"  [WARN] fetch failed for {url}: {e}")
+        label = f" [{debug_label}]" if debug_label else ""
+        print(f"  [WARN]{label} fetch failed for {url}: {e}")
         return None
 
 
@@ -729,6 +741,9 @@ def fetch_scoreboard(tour, date_str=None):
     return _http_get_json(url)
 
 
+_STRUCTURE_DEBUG_PRINTED = {"done": False}
+
+
 def extract_matches_from_scoreboard(scoreboard_json, tour):
     """
     Walks the tournament-level 'events' -> groupings -> competitions
@@ -739,35 +754,78 @@ def extract_matches_from_scoreboard(scoreboard_json, tour):
     if not scoreboard_json:
         return matches
 
+    # One-time diagnostic dump: print the raw shape of the FIRST event we
+    # see, so live GitHub Actions logs show us ESPN's actual current
+    # structure instead of us guessing at it. This was the root cause of
+    # the last failure -- the nested id assumption was never verified
+    # against live data. Remove this block once the structure is confirmed
+    # stable across a few runs.
+    if not _STRUCTURE_DEBUG_PRINTED["done"] and scoreboard_json.get("events"):
+        _STRUCTURE_DEBUG_PRINTED["done"] = True
+        first_event = scoreboard_json["events"][0]
+        print(f"  [DEBUG] first event top-level keys: {list(first_event.keys())}")
+        print(f"  [DEBUG] first event id: {first_event.get('id')}, name: {first_event.get('name')}")
+        groupings = first_event.get("groupings", [])
+        print(f"  [DEBUG] groupings count: {len(groupings)}")
+        if groupings:
+            comps = groupings[0].get("competitions", [])
+            print(f"  [DEBUG] first grouping competitions count: {len(comps)}")
+            if comps:
+                print(f"  [DEBUG] first competition keys: {list(comps[0].keys())}")
+                print(f"  [DEBUG] first competition id: {comps[0].get('id')}")
+        # Also check if competitions live directly on the event (alternate
+        # structure some ESPN sports use instead of nested groupings)
+        direct_comps = first_event.get("competitions", [])
+        print(f"  [DEBUG] event-level (non-grouped) competitions count: {len(direct_comps)}")
+        if direct_comps:
+            print(f"  [DEBUG] event-level competition id: {direct_comps[0].get('id')}")
+
     for event in scoreboard_json.get("events", []):
         tournament_name = event.get("name", "") or event.get("shortName", "")
+
+        # Try nested groupings[].competitions[] first (the original
+        # documented structure for tennis).
+        found_any = False
         for grouping in event.get("groupings", []):
             for competition in grouping.get("competitions", []):
-                match_id = competition.get("id")
-                if not match_id:
-                    continue
-                competitors = competition.get("competitors", [])
-                if len(competitors) != 2:
-                    continue  # skip walkovers/byes/malformed entries
+                found_any = True
+                _append_match_from_competition(matches, competition, tournament_name, tour)
 
-                status = competition.get("status", {}).get("type", {}).get("name", "")
-                completed = competition.get("status", {}).get("type", {}).get("completed", False)
+        # Fallback: some ESPN responses put competitions directly on the
+        # event (no groupings layer). If groupings produced nothing, try
+        # this shape instead of silently returning zero matches.
+        if not found_any:
+            for competition in event.get("competitions", []):
+                _append_match_from_competition(matches, competition, tournament_name, tour)
 
-                matches.append({
-                    "tour": tour,
-                    "tournament_name": tournament_name,
-                    "match_id": match_id,
-                    "status": status,
-                    "completed": completed,
-                    "competitors_raw": competitors,
-                    "date": competition.get("date"),
-                })
     return matches
+
+
+def _append_match_from_competition(matches, competition, tournament_name, tour):
+    match_id = competition.get("id")
+    if not match_id:
+        return
+    competitors = competition.get("competitors", [])
+    if len(competitors) != 2:
+        return  # skip walkovers/byes/malformed entries
+
+    status = competition.get("status", {}).get("type", {}).get("name", "")
+    completed = competition.get("status", {}).get("type", {}).get("completed", False)
+
+    matches.append({
+        "tour": tour,
+        "tournament_name": tournament_name,
+        "match_id": match_id,
+        "status": status,
+        "completed": completed,
+        "competitors_raw": competitors,
+        "date": competition.get("date"),
+    })
 
 
 def fetch_match_summary(tour, match_id):
     url = SUMMARY_URL.format(tour=tour, match_id=match_id)
-    return _http_get_json(url)
+    return _http_get_json(url, debug_label=f"summary {tour}/{match_id}")
 
 
 def parse_match_result(summary_json):
@@ -978,7 +1036,11 @@ def run_pipeline(verbose=True):
             print(f"  found {len(upcoming)} upcoming/live matches")
 
         for match in upcoming:
-            names = extract_player_names(match)
+            try:
+                names = extract_player_names(match)
+            except Exception as e:
+                print(f"  [WARN] could not extract player names from match {match.get('match_id')}: {e}")
+                continue
             if not names:
                 continue
             player_a, player_b = names
@@ -997,8 +1059,8 @@ def run_pipeline(verbose=True):
             except Exception as e:
                 print(f"  [WARN] prediction failed for {player_a} vs {player_b}: {e}")
 
-    surf_gap_report = surface_gaps()
-    tier_gap_report = tier_gaps()
+    surf_gap_report = surface_coverage_report()
+    tier_gap_report = tier_coverage_report()
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -1199,5 +1261,12 @@ def generate_html(predictions_json_path="predictions.json", output_path="predict
 # Combined entry point
 # ============================================================
 if __name__ == "__main__":
-    run_pipeline()
-    generate_html()
+    import traceback
+    import sys
+    try:
+        run_pipeline()
+        generate_html()
+    except Exception:
+        print("\n[FATAL] Unhandled exception in pipeline:")
+        traceback.print_exc()
+        sys.exit(1)
