@@ -708,21 +708,31 @@ SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/summa
 TOURS = ["atp", "wta"]
 
 
+_FIRST_HTTP_ERROR_PRINTED = {"done": False}
+
+
 def _http_get_json(url, timeout=15, debug_label=None):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
-        # Capture the actual response body ESPN sent back with the error --
-        # this tells us WHY it's a 400 (bad param, bad id, etc) instead of
-        # just that it happened.
-        try:
-            body = e.read().decode("utf-8")[:500]
-        except Exception:
-            body = "<could not read error body>"
         label = f" [{debug_label}]" if debug_label else ""
-        print(f"  [WARN]{label} HTTP {e.code} for {url}\n    body: {body}")
+        if not _FIRST_HTTP_ERROR_PRINTED["done"]:
+            _FIRST_HTTP_ERROR_PRINTED["done"] = True
+            try:
+                body = e.read().decode("utf-8")[:1000]
+            except Exception:
+                body = "<could not read error body>"
+            print("=" * 60)
+            print(f"[FIRST HTTP ERROR - FULL DIAGNOSTIC]{label}")
+            print(f"  Full URL requested: {url}")
+            print(f"  HTTP status: {e.code}")
+            print(f"  Response headers: {dict(e.headers) if e.headers else 'none'}")
+            print(f"  Response body:\n{body}")
+            print("=" * 60)
+        else:
+            print(f"  [WARN]{label} HTTP {e.code} for {url}")
         return None
     except urllib.error.URLError as e:
         label = f" [{debug_label}]" if debug_label else ""
@@ -900,6 +910,13 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
 
     if verbose:
         print(f"  [{tour}] found {len(all_matches)} raw match entries across {days_back} days")
+        completed_matches = [m for m in all_matches if m["completed"]]
+        print(f"  [{tour}] of those, {len(completed_matches)} are marked completed")
+        if completed_matches:
+            sample = completed_matches[0]
+            print(f"  [{tour}] [DIAGNOSTIC] first completed match sample: "
+                  f"match_id={sample['match_id']!r}, tournament={sample['tournament_name']!r}, "
+                  f"status={sample['status']!r}")
 
     fed_count = 0
     fetched_count = 0
