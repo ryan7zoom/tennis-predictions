@@ -322,6 +322,8 @@ class EloEngine:
         self.players = {}
 
     def get_player(self, name):
+        if name is None:
+            raise ValueError("Player name cannot be None -- caller should filter this out before calling get_player/update_match")
         if name not in self.players:
             self.players[name] = Player(name)
         return self.players[name]
@@ -413,6 +415,10 @@ class EloEngine:
                 "surface_match_counts": dict(p.surface_match_counts),
             }
             for name, p in self.players.items()
+            if name is not None  # defensive: a None-named player should never
+                                  # exist (get_player rejects it), but skip
+                                  # rather than crash the whole save if one
+                                  # slips through some other path.
         }
 
     def load_dict(self, data):
@@ -992,6 +998,10 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
         fetched_count += 1
         result = parse_match_result(summary)
         if result is None:
+            continue
+        if not result.get("winner") or not result.get("loser"):
+            if verbose:
+                print(f"  [{tour}] [WARN] skipping match {m['match_id']} -- missing winner/loser name in summary")
             continue
 
         surface = get_surface(m["tournament_name"])
