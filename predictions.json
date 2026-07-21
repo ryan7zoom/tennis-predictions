@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T17:42:17.774112+00:00",
+  "generated_at": "2026-07-21T07:02:59.341993+00:00",
   "predictions": [
     {
       "tour": "ATP",
@@ -511,8 +511,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -534,8 +534,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -557,8 +557,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -580,8 +580,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -601,10 +601,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Pablo Carreno Busta",
+      "player_b": "Vilius Gaubas",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -624,10 +624,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Jesper de Jong",
+      "player_b": "Jan Choinski",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -647,10 +647,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Tiago Pereira",
+      "player_b": "Gonzalo Bueno",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -670,10 +670,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Orlando Luz",
+      "player_b": "Nuno Borges",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -693,10 +693,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Damir Dzumhur",
+      "player_b": "Hugo Gaston",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -716,10 +716,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Kyrian Jacquet",
+      "player_b": "Daniel Merida",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -739,10 +739,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Roman Andres Burruchaga",
+      "player_b": "Stan Wawrinka",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -762,10 +762,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Jaime Faria",
+      "player_b": "Botic Van De Zandschulp",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -787,8 +787,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Luca Van Assche",
-      "player_b": "Frederico Ferreira Silva",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -810,8 +810,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Pedro Martinez",
-      "player_b": "Henrique Rocha",
+      "player_a": "Luciano Darderi",
+      "player_b": "Pedro Martinez",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -833,8 +833,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Pablo Carreno Busta",
-      "player_b": "Vilius Gaubas",
+      "player_a": "Alexander Blockx",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -856,8 +856,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Jesper de Jong",
-      "player_b": "Jan Choinski",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -879,8 +879,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Tiago Pereira",
-      "player_b": "Gonzalo Bueno",
+      "player_a": "Titouan Droguet",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -902,8 +902,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Orlando Luz",
-      "player_b": "Nuno Borges",
+      "player_a": "Tiago Torres",
+      "player_b": "Alejandro Tabilo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -925,8 +925,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Damir Dzumhur",
-      "player_b": "Hugo Gaston",
+      "player_a": "TBD",
+      "player_b": "Luca Van Assche",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -948,8 +948,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Taro Daniel",
-      "player_b": "Daniel Merida",
+      "player_a": "TBD",
+      "player_b": "Andrey Rublev",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -971,8 +971,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Roman Andres Burruchaga",
-      "player_b": "Stan Wawrinka",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -994,8 +994,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Jaime Faria",
-      "player_b": "Botic Van De Zandschulp",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1040,7 +1040,7 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Luciano Darderi",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -1063,7 +1063,7 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Alexander Blockx",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -1109,7 +1109,7 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Titouan Droguet",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -1132,8 +1132,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Tiago Torres",
-      "player_b": "Alejandro Tabilo",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1179,7 +1179,7 @@
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "Andrey Rublev",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1245,10 +1245,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Marco Trungelliti",
+      "player_b": "Juan Manuel Cerundolo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1268,10 +1268,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Aleksandr Shevchenko",
+      "player_b": "Jan-Lennard Struff",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1291,10 +1291,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Miomir Kecmanovic",
+      "player_b": "Sebastian Baez",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1314,10 +1314,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Quentin Halys",
+      "player_b": "Laslo Djere",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1337,10 +1337,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Sebastian Ofner",
+      "player_b": "Alex Molcan",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1360,10 +1360,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Kilian Feldbausch",
+      "player_b": "Adolfo Daniel Vallejo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1383,10 +1383,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Raphael Collignon",
+      "player_b": "Daniel Altmaier",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1406,10 +1406,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Facundo Diaz Acosta",
+      "player_b": "Alexander Bublik",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1429,10 +1429,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Valentin Vacherot",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1452,9 +1452,9 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Mariano Navone",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -1475,10 +1475,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Arthur Rinderknech",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1498,10 +1498,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Yannick Hanfmann",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1521,7 +1521,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -1544,10 +1544,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Jurij Rodionov",
+      "player_b": "Tomas Martin Etcheverry",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1567,9 +1567,9 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Ignacio Buse",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -1590,10 +1590,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1613,7 +1613,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -1636,7 +1636,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -1659,7 +1659,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tournament": "Generali Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -1684,8 +1684,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Marco Trungelliti",
-      "player_b": "Juan Manuel Cerundolo",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1707,8 +1707,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Aleksandr Shevchenko",
-      "player_b": "Jan-Lennard Struff",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1730,8 +1730,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Miomir Kecmanovic",
-      "player_b": "Sebastian Baez",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1753,8 +1753,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Quentin Halys",
-      "player_b": "Laslo Djere",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1776,8 +1776,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Sebastian Ofner",
-      "player_b": "Alex Molcan",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1799,8 +1799,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Kilian Feldbausch",
-      "player_b": "Adolfo Daniel Vallejo",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1822,8 +1822,8 @@
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Raphael Collignon",
-      "player_b": "Daniel Altmaier",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1843,10 +1843,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Facundo Diaz Acosta",
-      "player_b": "Alexander Bublik",
+      "player_a": "Pablo Carreno Busta",
+      "player_b": "Vilius Gaubas",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1866,10 +1866,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Valentin Vacherot",
-      "player_b": "TBD",
+      "player_a": "Jesper de Jong",
+      "player_b": "Jan Choinski",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1889,10 +1889,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Mariano Navone",
-      "player_b": "TBD",
+      "player_a": "Tiago Pereira",
+      "player_b": "Gonzalo Bueno",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1912,10 +1912,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Arthur Rinderknech",
-      "player_b": "TBD",
+      "player_a": "Orlando Luz",
+      "player_b": "Nuno Borges",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1935,10 +1935,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Yannick Hanfmann",
-      "player_b": "TBD",
+      "player_a": "Damir Dzumhur",
+      "player_b": "Hugo Gaston",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1958,10 +1958,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Kyrian Jacquet",
+      "player_b": "Daniel Merida",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -1981,10 +1981,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Jurij Rodionov",
-      "player_b": "Tomas Martin Etcheverry",
+      "player_a": "Roman Andres Burruchaga",
+      "player_b": "Stan Wawrinka",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2004,10 +2004,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Ignacio Buse",
-      "player_b": "TBD",
+      "player_a": "Jaime Faria",
+      "player_b": "Botic Van De Zandschulp",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2027,7 +2027,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2050,10 +2050,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Luciano Darderi",
+      "player_b": "Pedro Martinez",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2073,9 +2073,9 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Alexander Blockx",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -2096,7 +2096,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2119,9 +2119,9 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Titouan Droguet",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -2142,10 +2142,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Tiago Torres",
+      "player_b": "Alejandro Tabilo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2165,10 +2165,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Luca Van Assche",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2188,10 +2188,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "Andrey Rublev",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2211,10 +2211,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2234,10 +2234,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2257,10 +2257,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2280,10 +2280,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2303,10 +2303,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2326,10 +2326,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2349,10 +2349,10 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2372,7 +2372,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2395,7 +2395,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2418,7 +2418,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2441,7 +2441,7 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2466,8 +2466,8 @@
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Luca Van Assche",
-      "player_b": "Frederico Ferreira Silva",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2486,11 +2486,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Pedro Martinez",
-      "player_b": "Henrique Rocha",
+      "player_a": "Yuan Yue",
+      "player_b": "Nikola Bartunkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2509,11 +2509,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Pablo Carreno Busta",
-      "player_b": "Vilius Gaubas",
+      "player_a": "Aliaksandra Sasnovich",
+      "player_b": "Maria Timofeeva",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2532,11 +2532,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Jesper de Jong",
-      "player_b": "Jan Choinski",
+      "player_a": "Mai Hontama",
+      "player_b": "Diane Parry",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2555,11 +2555,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Tiago Pereira",
-      "player_b": "Gonzalo Bueno",
+      "player_a": "Maya Joint",
+      "player_b": "Laura Samson",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2578,11 +2578,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Orlando Luz",
-      "player_b": "Nuno Borges",
+      "player_a": "Tereza Valentova",
+      "player_b": "Priscilla Hon",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2601,11 +2601,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Damir Dzumhur",
-      "player_b": "Hugo Gaston",
+      "player_a": "Lilli Tagger",
+      "player_b": "Gao Xinyu",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2624,11 +2624,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Taro Daniel",
-      "player_b": "Daniel Merida",
+      "player_a": "Sara Bejlek",
+      "player_b": "Anna Blinkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2647,11 +2647,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Roman Andres Burruchaga",
-      "player_b": "Stan Wawrinka",
+      "player_a": "Lanlana Tararudee",
+      "player_b": "Jana Kovackova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2670,11 +2670,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Jaime Faria",
-      "player_b": "Botic Van De Zandschulp",
+      "player_a": "Barbora Krejcikova",
+      "player_b": "Linda Fruhvirtova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2693,11 +2693,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Carol Young Suh Lee",
+      "player_b": "Marie Bouzkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2716,11 +2716,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Luciano Darderi",
-      "player_b": "TBD",
+      "player_a": "TBD",
+      "player_b": "Lucie Havlickova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2739,11 +2739,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Alexander Blockx",
-      "player_b": "TBD",
+      "player_a": "Oceane Dodin",
+      "player_b": "Dominika Salkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2762,11 +2762,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Daria Snigur",
+      "player_b": "Ayla Aksu",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2785,10 +2785,10 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Titouan Droguet",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -2808,11 +2808,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Tiago Torres",
-      "player_b": "Alejandro Tabilo",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2831,8 +2831,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2854,11 +2854,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "Andrey Rublev",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -2877,8 +2877,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2900,8 +2900,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2923,8 +2923,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2946,8 +2946,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2969,8 +2969,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2992,8 +2992,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3015,8 +3015,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3038,11 +3038,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3061,11 +3061,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3084,11 +3084,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3107,11 +3107,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3130,8 +3130,8 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3153,11 +3153,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Darya Astakhova",
+      "player_b": "Francesca Jones",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3176,11 +3176,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Mina Hodzic",
+      "player_b": "Caroline Werner",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3199,11 +3199,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Tyra Caterina Grant",
+      "player_b": "Noemi Basiletti",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3222,11 +3222,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Lucia Bronzetti",
+      "player_b": "Ilary Pistola",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3245,11 +3245,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Anastasia Tikhonova",
+      "player_b": "Alice Rame",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3268,11 +3268,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Alevtina Ibragimova",
+      "player_b": "Tamara Zidansek",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3291,11 +3291,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Clara Burel",
+      "player_b": "Anastasia Abbagnato",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3314,11 +3314,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Caijsa Hennemann",
+      "player_b": "Miriam Bulgaru",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3337,11 +3337,11 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Dalila Spiteri",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3361,10 +3361,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Yuan Yue",
-      "player_b": "Nikola Bartunkova",
+      "player_a": "Lola Radivojevic",
+      "player_b": "Jennifer Ruggeri",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3384,10 +3384,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Aliaksandra Sasnovich",
-      "player_b": "Maria Timofeeva",
+      "player_a": "Yasmine Kabbaj",
+      "player_b": "Ekaterine Gorgodze",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3407,10 +3407,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Mai Hontama",
-      "player_b": "Diane Parry",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3430,10 +3430,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Maya Joint",
-      "player_b": "Laura Samson",
+      "player_a": "Erika Andreeva",
+      "player_b": "Fiona Ferro",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3453,10 +3453,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Tereza Valentova",
-      "player_b": "Priscilla Hon",
+      "player_a": "Federica Urgesi",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3476,10 +3476,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Lilli Tagger",
-      "player_b": "Gao Xinyu",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3499,10 +3499,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Sara Bejlek",
-      "player_b": "Anna Blinkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3522,10 +3522,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Lanlana Tararudee",
-      "player_b": "Jana Kovackova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3545,10 +3545,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Barbora Krejcikova",
-      "player_b": "Linda Fruhvirtova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3568,10 +3568,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Carol Young Suh Lee",
-      "player_b": "Marie Bouzkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3591,10 +3591,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "Lucie Havlickova",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3614,10 +3614,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Oceane Dodin",
-      "player_b": "Dominika Salkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3637,10 +3637,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Daria Snigur",
-      "player_b": "Ayla Aksu",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3660,7 +3660,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3683,7 +3683,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3706,7 +3706,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3729,7 +3729,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3752,7 +3752,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3775,7 +3775,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3798,10 +3798,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Panna Udvardy",
+      "player_b": "Elena Pridankina",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3821,10 +3821,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Sinja Kraus",
+      "player_b": "Darja Semenistaja",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3844,10 +3844,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Yulia Putintseva",
+      "player_b": "Mona Barthel",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3867,10 +3867,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Veronika Erjavec",
+      "player_b": "Leyre Romero Gormaz",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3890,10 +3890,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Noma Noha Akugue",
+      "player_b": "Valentina Steiner",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3913,10 +3913,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Jule Niemeier",
+      "player_b": "Maria Lourdes Carle",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3936,10 +3936,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Alina Charaeva",
+      "player_b": "Sara Sorribes Tormo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3959,10 +3959,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Victoria Jimenez Kasintseva",
+      "player_b": "Tamara Korpatsch",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3982,10 +3982,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Elina Avanesyan",
+      "player_b": "Arantxa Rus",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4005,10 +4005,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Nastasja Schunk",
+      "player_b": "Oleksandra Oliynykova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4028,10 +4028,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Elsa Jacquemot",
+      "player_b": "Tessa Johanna Brockmann",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4051,10 +4051,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4074,10 +4074,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4097,10 +4097,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Paula Badosa",
+      "player_b": "Katarzyna Kawa",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4120,10 +4120,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Mayar Sherif",
+      "player_b": "Simona Waltert",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4143,9 +4143,9 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Anhelina Kalinina",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -4166,9 +4166,9 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
+      "player_a": "Julia Stusek",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -4189,7 +4189,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -4212,10 +4212,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Lola Radivojevic",
-      "player_b": "Sofya Lansere",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4235,10 +4235,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Jennifer Ruggeri",
-      "player_b": "Amarissa Toth",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4258,10 +4258,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Ane Mintegi Del Olmo",
-      "player_b": "Ekaterine Gorgodze",
+      "player_a": "TBD",
+      "player_b": "Anna Bondar",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4281,10 +4281,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Elizara Yaneva",
-      "player_b": "Federica Urgesi",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4304,10 +4304,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Ren Yufei",
-      "player_b": "Fiona Ferro",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4327,10 +4327,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Dalila Spiteri",
-      "player_b": "Alessandra Mazzola",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4350,10 +4350,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Lucia Bronzetti",
-      "player_b": "Ilary Pistola",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4373,10 +4373,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Caijsa Hennemann",
-      "player_b": "Miriam Bulgaru",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4396,10 +4396,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Anastasia Tikhonova",
-      "player_b": "Alice Rame",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4419,10 +4419,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Tyra Caterina Grant",
-      "player_b": "Noemi Basiletti",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4442,10 +4442,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Alevtina Ibragimova",
-      "player_b": "Tamara Zidansek",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4465,10 +4465,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Mina Hodzic",
-      "player_b": "Caroline Werner",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4488,10 +4488,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Clara Burel",
-      "player_b": "Anastasia Abbagnato",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4511,10 +4511,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Darya Astakhova",
-      "player_b": "Francesca Jones",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4534,9 +4534,9 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Yasmine Kabbaj",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -4557,7 +4557,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -4580,7 +4580,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -4603,10 +4603,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Yuan Yue",
+      "player_b": "Nikola Bartunkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4626,10 +4626,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Erika Andreeva",
-      "player_b": "TBD",
+      "player_a": "Aliaksandra Sasnovich",
+      "player_b": "Maria Timofeeva",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4649,10 +4649,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Mai Hontama",
+      "player_b": "Diane Parry",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4672,10 +4672,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Maya Joint",
+      "player_b": "Laura Samson",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4695,10 +4695,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Tereza Valentova",
+      "player_b": "Priscilla Hon",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4718,10 +4718,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Lilli Tagger",
+      "player_b": "Gao Xinyu",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4741,10 +4741,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Sara Bejlek",
+      "player_b": "Anna Blinkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4764,10 +4764,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Lanlana Tararudee",
+      "player_b": "Jana Kovackova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4787,10 +4787,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Barbora Krejcikova",
+      "player_b": "Linda Fruhvirtova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4810,10 +4810,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Carol Young Suh Lee",
+      "player_b": "Marie Bouzkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4833,10 +4833,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Lucie Havlickova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4856,10 +4856,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Oceane Dodin",
+      "player_b": "Dominika Salkova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4879,10 +4879,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Daria Snigur",
+      "player_b": "Ayla Aksu",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4902,10 +4902,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4925,10 +4925,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4948,10 +4948,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4971,10 +4971,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -4994,10 +4994,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5017,10 +5017,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5040,7 +5040,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5063,7 +5063,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5086,10 +5086,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5109,7 +5109,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5132,7 +5132,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5155,7 +5155,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5178,10 +5178,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Moyuka Uchijima",
-      "player_b": "Anna Bondar",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5201,10 +5201,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Panna Udvardy",
-      "player_b": "Elena Pridankina",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5224,10 +5224,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Sinja Kraus",
-      "player_b": "Darja Semenistaja",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5247,10 +5247,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "Yulia Putintseva",
-      "player_b": "Mona Barthel",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5270,10 +5270,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Veronika Erjavec",
-      "player_b": "Leyre Romero Gormaz",
+      "player_a": "Darya Astakhova",
+      "player_b": "Francesca Jones",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5293,10 +5293,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Noma Noha Akugue",
-      "player_b": "Valentina Steiner",
+      "player_a": "Mina Hodzic",
+      "player_b": "Caroline Werner",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5316,10 +5316,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Jule Niemeier",
-      "player_b": "Maria Lourdes Carle",
+      "player_a": "Tyra Caterina Grant",
+      "player_b": "Noemi Basiletti",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5339,10 +5339,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Alina Charaeva",
-      "player_b": "Sara Sorribes Tormo",
+      "player_a": "Lucia Bronzetti",
+      "player_b": "Ilary Pistola",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5362,10 +5362,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Victoria Jimenez Kasintseva",
-      "player_b": "Tamara Korpatsch",
+      "player_a": "Anastasia Tikhonova",
+      "player_b": "Alice Rame",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5385,10 +5385,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Elina Avanesyan",
-      "player_b": "Arantxa Rus",
+      "player_a": "Alevtina Ibragimova",
+      "player_b": "Tamara Zidansek",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5408,10 +5408,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Nastasja Schunk",
-      "player_b": "Oleksandra Oliynykova",
+      "player_a": "Clara Burel",
+      "player_b": "Anastasia Abbagnato",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5431,10 +5431,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Elsa Jacquemot",
-      "player_b": "Tessa Johanna Brockmann",
+      "player_a": "Caijsa Hennemann",
+      "player_b": "Miriam Bulgaru",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5454,10 +5454,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Dalila Spiteri",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5477,10 +5477,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Lola Radivojevic",
+      "player_b": "Jennifer Ruggeri",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5500,10 +5500,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Paula Badosa",
-      "player_b": "Katarzyna Kawa",
+      "player_a": "Yasmine Kabbaj",
+      "player_b": "Ekaterine Gorgodze",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5523,10 +5523,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Mayar Sherif",
-      "player_b": "Simona Waltert",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5546,10 +5546,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Anhelina Kalinina",
-      "player_b": "TBD",
+      "player_a": "Erika Andreeva",
+      "player_b": "Fiona Ferro",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5569,9 +5569,9 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Julia Stusek",
+      "player_a": "Federica Urgesi",
       "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -5592,7 +5592,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5615,7 +5615,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5638,7 +5638,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5661,7 +5661,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5684,7 +5684,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5707,7 +5707,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5730,7 +5730,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5753,7 +5753,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5776,7 +5776,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5799,7 +5799,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5822,7 +5822,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5845,10 +5845,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5868,10 +5868,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5891,10 +5891,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5916,8 +5916,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Panna Udvardy",
+      "player_b": "Elena Pridankina",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5939,8 +5939,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Sinja Kraus",
+      "player_b": "Darja Semenistaja",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5962,8 +5962,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Yulia Putintseva",
+      "player_b": "Mona Barthel",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -5985,8 +5985,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Veronika Erjavec",
+      "player_b": "Leyre Romero Gormaz",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6008,8 +6008,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Noma Noha Akugue",
+      "player_b": "Valentina Steiner",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6031,8 +6031,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Jule Niemeier",
+      "player_b": "Maria Lourdes Carle",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6054,8 +6054,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Alina Charaeva",
+      "player_b": "Sara Sorribes Tormo",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6077,8 +6077,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Victoria Jimenez Kasintseva",
+      "player_b": "Tamara Korpatsch",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6100,8 +6100,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
+      "player_a": "Elina Avanesyan",
+      "player_b": "Arantxa Rus",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6123,8 +6123,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Nastasja Schunk",
+      "player_b": "Oleksandra Oliynykova",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6146,8 +6146,8 @@
       "tour": "WTA",
       "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Elsa Jacquemot",
+      "player_b": "Tessa Johanna Brockmann",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6190,10 +6190,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Yuan Yue",
-      "player_b": "Nikola Bartunkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6213,10 +6213,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Aliaksandra Sasnovich",
-      "player_b": "Maria Timofeeva",
+      "player_a": "Paula Badosa",
+      "player_b": "Katarzyna Kawa",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6236,10 +6236,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Mai Hontama",
-      "player_b": "Diane Parry",
+      "player_a": "Mayar Sherif",
+      "player_b": "Simona Waltert",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6259,10 +6259,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Maya Joint",
-      "player_b": "Laura Samson",
+      "player_a": "Anhelina Kalinina",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6282,10 +6282,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Tereza Valentova",
-      "player_b": "Priscilla Hon",
+      "player_a": "Julia Stusek",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6305,10 +6305,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Lilli Tagger",
-      "player_b": "Gao Xinyu",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6328,10 +6328,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Sara Bejlek",
-      "player_b": "Anna Blinkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6351,10 +6351,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Lanlana Tararudee",
-      "player_b": "Jana Kovackova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6374,10 +6374,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Barbora Krejcikova",
-      "player_b": "Linda Fruhvirtova",
+      "player_a": "TBD",
+      "player_b": "Anna Bondar",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6397,10 +6397,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Carol Young Suh Lee",
-      "player_b": "Marie Bouzkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6420,10 +6420,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "Lucie Havlickova",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6443,10 +6443,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Oceane Dodin",
-      "player_b": "Dominika Salkova",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6466,10 +6466,10 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
-      "player_a": "Daria Snigur",
-      "player_b": "Ayla Aksu",
+      "player_a": "TBD",
+      "player_b": "TBD",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -6489,7 +6489,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6512,7 +6512,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6535,7 +6535,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6558,7 +6558,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6581,7 +6581,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6604,7 +6604,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6627,7 +6627,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6650,7 +6650,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6673,7 +6673,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6696,7 +6696,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -6711,2306 +6711,6 @@
       },
       "games_total": {
         "average": 24.21,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.252,
-        "player_b_straight_sets_prob": 0.2552
-      },
-      "games_total": {
-        "average": 24.09,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2512,
-        "player_b_straight_sets_prob": 0.2487
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.255,
-        "player_b_straight_sets_prob": 0.2555
-      },
-      "games_total": {
-        "average": 23.94,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2447,
-        "player_b_straight_sets_prob": 0.2482
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2405,
-        "player_b_straight_sets_prob": 0.2452
-      },
-      "games_total": {
-        "average": 24.33,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.252,
-        "player_b_straight_sets_prob": 0.2385
-      },
-      "games_total": {
-        "average": 24.31,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2645,
-        "player_b_straight_sets_prob": 0.2455
-      },
-      "games_total": {
-        "average": 24.09,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2442,
-        "player_b_straight_sets_prob": 0.2567
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2497,
-        "player_b_straight_sets_prob": 0.2425
-      },
-      "games_total": {
-        "average": 24.21,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.253,
-        "player_b_straight_sets_prob": 0.2345
-      },
-      "games_total": {
-        "average": 24.29,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2585,
-        "player_b_straight_sets_prob": 0.244
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2455,
-        "player_b_straight_sets_prob": 0.2412
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2407,
-        "player_b_straight_sets_prob": 0.2607
-      },
-      "games_total": {
-        "average": 24.05,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Lola Radivojevic",
-      "player_b": "Sofya Lansere",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2497,
-        "player_b_straight_sets_prob": 0.25
-      },
-      "games_total": {
-        "average": 24.21,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Jennifer Ruggeri",
-      "player_b": "Amarissa Toth",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2432,
-        "player_b_straight_sets_prob": 0.2507
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Ane Mintegi Del Olmo",
-      "player_b": "Ekaterine Gorgodze",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2652,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 23.94,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Elizara Yaneva",
-      "player_b": "Federica Urgesi",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.246,
-        "player_b_straight_sets_prob": 0.2517
-      },
-      "games_total": {
-        "average": 24.09,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Ren Yufei",
-      "player_b": "Fiona Ferro",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.262,
-        "player_b_straight_sets_prob": 0.2502
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Dalila Spiteri",
-      "player_b": "Alessandra Mazzola",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2417,
-        "player_b_straight_sets_prob": 0.2557
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Lucia Bronzetti",
-      "player_b": "Ilary Pistola",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2537,
-        "player_b_straight_sets_prob": 0.2412
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Caijsa Hennemann",
-      "player_b": "Miriam Bulgaru",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2485,
-        "player_b_straight_sets_prob": 0.2552
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Anastasia Tikhonova",
-      "player_b": "Alice Rame",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2487,
-        "player_b_straight_sets_prob": 0.244
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Tyra Caterina Grant",
-      "player_b": "Noemi Basiletti",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.26,
-        "player_b_straight_sets_prob": 0.232
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Alevtina Ibragimova",
-      "player_b": "Tamara Zidansek",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.246,
-        "player_b_straight_sets_prob": 0.2545
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Mina Hodzic",
-      "player_b": "Caroline Werner",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2497,
-        "player_b_straight_sets_prob": 0.246
-      },
-      "games_total": {
-        "average": 24.19,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Clara Burel",
-      "player_b": "Anastasia Abbagnato",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2505,
-        "player_b_straight_sets_prob": 0.2535
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Darya Astakhova",
-      "player_b": "Francesca Jones",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2557,
-        "player_b_straight_sets_prob": 0.2507
-      },
-      "games_total": {
-        "average": 24.09,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yasmine Kabbaj",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2595,
-        "player_b_straight_sets_prob": 0.239
-      },
-      "games_total": {
-        "average": 24.11,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.251,
-        "player_b_straight_sets_prob": 0.2597
-      },
-      "games_total": {
-        "average": 24.08,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.24,
-        "player_b_straight_sets_prob": 0.2495
-      },
-      "games_total": {
-        "average": 24.28,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.254,
-        "player_b_straight_sets_prob": 0.2452
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Erika Andreeva",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.246
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2562,
-        "player_b_straight_sets_prob": 0.258
-      },
-      "games_total": {
-        "average": 24.01,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2507,
-        "player_b_straight_sets_prob": 0.2497
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2305,
-        "player_b_straight_sets_prob": 0.2535
-      },
-      "games_total": {
-        "average": 24.32,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2515,
-        "player_b_straight_sets_prob": 0.252
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.252,
-        "player_b_straight_sets_prob": 0.2432
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.248,
-        "player_b_straight_sets_prob": 0.2447
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.2482
-      },
-      "games_total": {
-        "average": 24.04,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2522,
-        "player_b_straight_sets_prob": 0.2447
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.246,
-        "player_b_straight_sets_prob": 0.2487
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.257,
-        "player_b_straight_sets_prob": 0.2435
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2502,
-        "player_b_straight_sets_prob": 0.25
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2325,
-        "player_b_straight_sets_prob": 0.249
-      },
-      "games_total": {
-        "average": 24.29,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.243,
-        "player_b_straight_sets_prob": 0.2502
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2397,
-        "player_b_straight_sets_prob": 0.2495
-      },
-      "games_total": {
-        "average": 24.31,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2445,
-        "player_b_straight_sets_prob": 0.2475
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2445,
-        "player_b_straight_sets_prob": 0.2602
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.25,
-        "player_b_straight_sets_prob": 0.2525
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2542,
-        "player_b_straight_sets_prob": 0.2387
-      },
-      "games_total": {
-        "average": 24.23,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.244,
-        "player_b_straight_sets_prob": 0.2505
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2525,
-        "player_b_straight_sets_prob": 0.2432
-      },
-      "games_total": {
-        "average": 24.25,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2512,
-        "player_b_straight_sets_prob": 0.2502
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.242,
-        "player_b_straight_sets_prob": 0.2565
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2445,
-        "player_b_straight_sets_prob": 0.2597
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Moyuka Uchijima",
-      "player_b": "Anna Bondar",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2642,
-        "player_b_straight_sets_prob": 0.2507
-      },
-      "games_total": {
-        "average": 23.98,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Panna Udvardy",
-      "player_b": "Elena Pridankina",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2495,
-        "player_b_straight_sets_prob": 0.253
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Sinja Kraus",
-      "player_b": "Darja Semenistaja",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2557,
-        "player_b_straight_sets_prob": 0.2397
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yulia Putintseva",
-      "player_b": "Mona Barthel",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2507,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 24.32,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Veronika Erjavec",
-      "player_b": "Leyre Romero Gormaz",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2527,
-        "player_b_straight_sets_prob": 0.2525
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Noma Noha Akugue",
-      "player_b": "Valentina Steiner",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2517,
-        "player_b_straight_sets_prob": 0.2442
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Jule Niemeier",
-      "player_b": "Maria Lourdes Carle",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2318,
-        "player_b_straight_sets_prob": 0.263
-      },
-      "games_total": {
-        "average": 24.28,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Alina Charaeva",
-      "player_b": "Sara Sorribes Tormo",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2432,
-        "player_b_straight_sets_prob": 0.2515
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Victoria Jimenez Kasintseva",
-      "player_b": "Tamara Korpatsch",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2627,
-        "player_b_straight_sets_prob": 0.2417
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Elina Avanesyan",
-      "player_b": "Arantxa Rus",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.246,
-        "player_b_straight_sets_prob": 0.2435
-      },
-      "games_total": {
-        "average": 24.23,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Nastasja Schunk",
-      "player_b": "Oleksandra Oliynykova",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2442,
-        "player_b_straight_sets_prob": 0.2557
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Elsa Jacquemot",
-      "player_b": "Tessa Johanna Brockmann",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2427,
-        "player_b_straight_sets_prob": 0.252
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2405,
-        "player_b_straight_sets_prob": 0.2577
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2525,
-        "player_b_straight_sets_prob": 0.2477
-      },
-      "games_total": {
-        "average": 24.06,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Paula Badosa",
-      "player_b": "Katarzyna Kawa",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.248,
-        "player_b_straight_sets_prob": 0.252
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Mayar Sherif",
-      "player_b": "Simona Waltert",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2585,
-        "player_b_straight_sets_prob": 0.263
-      },
-      "games_total": {
-        "average": 23.92,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Anhelina Kalinina",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2582,
-        "player_b_straight_sets_prob": 0.2417
-      },
-      "games_total": {
-        "average": 24.19,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Julia Stusek",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2617,
-        "player_b_straight_sets_prob": 0.2477
-      },
-      "games_total": {
-        "average": 24.08,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2427,
-        "player_b_straight_sets_prob": 0.251
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.256,
-        "player_b_straight_sets_prob": 0.238
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2575,
-        "player_b_straight_sets_prob": 0.242
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2615,
-        "player_b_straight_sets_prob": 0.2432
-      },
-      "games_total": {
-        "average": 24.04,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2487,
-        "player_b_straight_sets_prob": 0.2392
-      },
-      "games_total": {
-        "average": 24.26,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2497,
-        "player_b_straight_sets_prob": 0.2552
-      },
-      "games_total": {
-        "average": 24.05,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2505,
-        "player_b_straight_sets_prob": 0.2385
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2575,
-        "player_b_straight_sets_prob": 0.254
-      },
-      "games_total": {
-        "average": 24.02,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2537,
-        "player_b_straight_sets_prob": 0.2537
-      },
-      "games_total": {
-        "average": 24.05,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2487,
-        "player_b_straight_sets_prob": 0.2585
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2585,
-        "player_b_straight_sets_prob": 0.2545
-      },
-      "games_total": {
-        "average": 24.08,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2602,
-        "player_b_straight_sets_prob": 0.2542
-      },
-      "games_total": {
-        "average": 24.0,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2432,
-        "player_b_straight_sets_prob": 0.2607
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2645,
-        "player_b_straight_sets_prob": 0.2382
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.245,
-        "player_b_straight_sets_prob": 0.2522
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2462,
-        "player_b_straight_sets_prob": 0.2477
-      },
-      "games_total": {
-        "average": 24.23,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2417,
-        "player_b_straight_sets_prob": 0.2472
-      },
-      "games_total": {
-        "average": 24.27,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2585,
-        "player_b_straight_sets_prob": 0.2417
-      },
-      "games_total": {
-        "average": 24.09,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2505,
-        "player_b_straight_sets_prob": 0.2525
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2447,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 24.25,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2517,
-        "player_b_straight_sets_prob": 0.2402
-      },
-      "games_total": {
-        "average": 24.31,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2532,
-        "player_b_straight_sets_prob": 0.2552
-      },
-      "games_total": {
-        "average": 24.01,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": null,
-      "player_b": null,
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.252,
-        "player_b_straight_sets_prob": 0.2537
-      },
-      "games_total": {
-        "average": 24.11,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.241,
-        "player_b_straight_sets_prob": 0.2537
-      },
-      "games_total": {
-        "average": 24.25,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.2522
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2467,
-        "player_b_straight_sets_prob": 0.247
-      },
-      "games_total": {
-        "average": 24.18,
         "median": 24
       },
       "confidence": "low",

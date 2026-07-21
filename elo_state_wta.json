@@ -1,0 +1,581 @@
+{
+  "last_processed_date": "20260721",
+  "players": {
+    "Adolfo Daniel Vallejo": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Alejandro Tabilo": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Aleksandr Shevchenko": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Alex Molcan": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Alexander Blockx": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Alexander Bublik": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Andrey Rublev": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Arthur Rinderknech": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Botic Van De Zandschulp": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Damir Dzumhur": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Daniel Altmaier": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Daniel Merida": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Facundo Diaz Acosta": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Gonzalo Bueno": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Hugo Gaston": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Ignacio Buse": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Jaime Faria": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Jan Choinski": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Jan-Lennard Struff": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Jesper de Jong": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Juan Manuel Cerundolo": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Jurij Rodionov": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Kilian Feldbausch": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Kyrian Jacquet": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Laslo Djere": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Luca Van Assche": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Luciano Darderi": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Marco Trungelliti": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Mariano Navone": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Miomir Kecmanovic": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Nuno Borges": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Orlando Luz": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Pablo Carreno Busta": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Pedro Martinez": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Quentin Halys": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Raphael Collignon": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Roman Andres Burruchaga": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Sebastian Baez": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Sebastian Ofner": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Stan Wawrinka": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "TBD": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Tiago Pereira": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Tiago Torres": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Titouan Droguet": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Tomas Martin Etcheverry": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Valentin Vacherot": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Vilius Gaubas": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Yannick Hanfmann": {
+      "overall_match_count": 0,
+      "overall_rating": 1500,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    }
+  }
+}
