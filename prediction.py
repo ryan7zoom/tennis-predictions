@@ -872,6 +872,12 @@ def _append_match_from_competition(matches, competition, tournament_name, tour):
     if len(competitors) != 2:
         return  # skip walkovers/byes/malformed entries
 
+    # Skip doubles: each side is a 'team' of 2 players (roster.athletes),
+    # not a single 'athlete' -- mixing doubles results into singles Elo
+    # would corrupt individual player ratings.
+    if any(c.get("type") == "team" or c.get("roster") for c in competitors):
+        return
+
     status = competition.get("status", {}).get("type", {}).get("name", "")
     completed = competition.get("status", {}).get("type", {}).get("completed", False)
 
