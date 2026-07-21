@@ -993,7 +993,11 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
     for offset in range(days_back, -1, -1):
         day = today - timedelta(days=offset)
         date_str = day.strftime("%Y%m%d")
-        if since_date is not None and date_str <= since_date:
+        # Skip days strictly BEFORE since_date, but always re-walk
+        # since_date itself (today, most likely) -- matches keep
+        # completing throughout the day, so a prior run having already
+        # processed today doesn't mean today is done.
+        if since_date is not None and date_str < since_date:
             continue
         scoreboard = fetch_scoreboard(tour, date_str=date_str)
         latest_date_str = date_str
@@ -1073,7 +1077,13 @@ def extract_player_names(match):
         names.append(name)
     if len(names) != 2:
         return None
+    if not _NAME_DEBUG_PRINTED["done"] and (names[0] is None or names[1] is None):
+        _NAME_DEBUG_PRINTED["done"] = True
+        print(f"  [DEBUG] name extraction failed -- raw competitors_raw[0]: {match.get('competitors_raw', [{}])[0]}")
     return names[0], names[1]
+
+
+_NAME_DEBUG_PRINTED = {"done": False}
 
 
 # ============================================================
