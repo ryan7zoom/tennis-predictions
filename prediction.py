@@ -1361,6 +1361,10 @@ if __name__ == "__main__":
         run_pipeline()
         generate_html()
     except Exception:
-        print("\n[FATAL] Unhandled exception in pipeline:")
-        traceback.print_exc()
+        print("\n[FATAL] Unhandled exception in pipeline:", flush=True)
+        # Print to stdout explicitly (not just stderr) so it always shows
+        # up in the GitHub Actions log viewer, regardless of stream
+        # buffering/interleaving.
+        traceback.print_exc(file=sys.stdout)
+        sys.stdout.flush()
         sys.exit(1)
