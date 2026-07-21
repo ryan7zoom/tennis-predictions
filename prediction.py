@@ -891,26 +891,29 @@ def fetch_match_summary(tour, match_id):
     return _http_get_json(url, debug_label=f"summary {tour}/{match_id}")
 
 
-def parse_match_result(summary_json):
+def parse_match_result_from_competitors(competitors_raw):
     """
-    Extracts winner/loser names and best-of format from a match summary.
+    Extracts winner/loser names and best-of format directly from the
+    competitors[] list already present on each scoreboard competition
+    entry (competitors_raw, as captured in _append_match_from_competition).
+
+    This replaces the old approach of calling a separate per-match
+    /summary endpoint: that endpoint expects a *tournament-level* event
+    id (e.g. "188-2026"), not the individual competition id ESPN gives
+    each match (e.g. "179877") -- passing the latter always returns
+    HTTP 400. The scoreboard response already contains everything
+    needed (competitor names + winner flag) without a second request
+    per match, so there's no need for the summary call at all.
+
     Returns None if the match isn't in a parseable completed state.
     """
-    if not summary_json:
-        return None
     try:
-        header = summary_json.get("header", {})
-        competitions = header.get("competitions", [])
-        if not competitions:
-            return None
-        comp = competitions[0]
-        competitors = comp.get("competitors", [])
-        if len(competitors) != 2:
+        if len(competitors_raw) != 2:
             return None
 
         winner_name = None
         loser_name = None
-        for c in competitors:
+        for c in competitors_raw:
             athlete = c.get("athlete", {})
             name = athlete.get("displayName") or athlete.get("shortName")
             if c.get("winner") is True:
@@ -921,14 +924,38 @@ def parse_match_result(summary_json):
         if not winner_name or not loser_name:
             return None
 
-        periods = comp.get("format", {}).get("regulation", {}).get("periods")
-        best_of = 5 if periods == 5 else 3
-
         return {
             "winner": winner_name,
             "loser": loser_name,
-            "best_of": best_of,
+            "best_of": None,  # not available from scoreboard data alone;
+                               # callers should not rely on this field.
         }
+    except (KeyError, IndexError, TypeError) as e:
+        print(f"  [WARN] could not parse match competitors: {e}")
+        return None
+
+
+def parse_match_result(summary_json):
+    """
+    DEPRECATED: kept only for reference / callers that still have a real
+    summary JSON blob on hand. The pipeline itself no longer calls the
+    per-match /summary endpoint -- see parse_match_result_from_competitors.
+    """
+    if not summary_json:
+        return None
+    try:
+        header = summary_json.get("header", {})
+        competitions = header.get("competitions", [])
+        if not competitions:
+            return None
+        comp = competitions[0]
+        competitors = comp.get("competitors", [])
+        result = parse_match_result_from_competitors(competitors)
+        if result is None:
+            return None
+        periods = comp.get("format", {}).get("regulation", {}).get("periods")
+        result["best_of"] = 5 if periods == 5 else 3
+        return result
     except (KeyError, IndexError, TypeError) as e:
         print(f"  [WARN] could not parse match summary: {e}")
         return None
@@ -986,22 +1013,18 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
                   f"status={sample['status']!r}")
 
     fed_count = 0
-    fetched_count = 0
+    skipped_count = 0
     for m in all_matches:
         if not m["completed"]:
             continue
-        if fetched_count >= max_matches:
-            if verbose:
-                print(f"  [{tour}] [SAFETY CAP] hit {max_matches} match fetches, stopping early this run")
-            break
-        summary = fetch_match_summary(tour, m["match_id"])
-        fetched_count += 1
-        result = parse_match_result(summary)
+        result = parse_match_result_from_competitors(m["competitors_raw"])
         if result is None:
+            skipped_count += 1
             continue
         if not result.get("winner") or not result.get("loser"):
+            skipped_count += 1
             if verbose:
-                print(f"  [{tour}] [WARN] skipping match {m['match_id']} -- missing winner/loser name in summary")
+                print(f"  [{tour}] [WARN] skipping match {m['match_id']} -- missing winner/loser name")
             continue
 
         surface = get_surface(m["tournament_name"])
@@ -1016,7 +1039,7 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
         fed_count += 1
 
     if verbose:
-        print(f"  [{tour}] fed {fed_count} completed matches into Elo engine ({fetched_count} summary fetches)")
+        print(f"  [{tour}] fed {fed_count} completed matches into Elo engine ({skipped_count} skipped -- missing data)")
 
     return fed_count, latest_date_str
 
