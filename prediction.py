@@ -403,6 +403,53 @@ class EloEngine:
         # else: surface unknown -- deliberately skip surface update to avoid
         # corrupting surface-specific data with an unconfirmed surface.
 
+    def to_dict(self):
+        """Serialize all player state to a plain dict (JSON-safe)."""
+        return {
+            name: {
+                "overall_rating": p.overall_rating,
+                "overall_match_count": p.overall_match_count,
+                "surface_ratings": p.surface_ratings,
+                "surface_match_counts": dict(p.surface_match_counts),
+            }
+            for name, p in self.players.items()
+        }
+
+    def load_dict(self, data):
+        """Rebuild player state from a dict previously produced by to_dict()."""
+        for name, pdata in data.items():
+            player = self.get_player(name)
+            player.overall_rating = pdata.get("overall_rating", STARTING_RATING)
+            player.overall_match_count = pdata.get("overall_match_count", 0)
+            for s in SURFACES:
+                if s in pdata.get("surface_ratings", {}):
+                    player.surface_ratings[s] = pdata["surface_ratings"][s]
+                if s in pdata.get("surface_match_counts", {}):
+                    player.surface_match_counts[s] = pdata["surface_match_counts"][s]
+
+    def save(self, path, last_processed_date=None):
+        """Write engine state to a JSON file on disk."""
+        payload = {
+            "last_processed_date": last_processed_date,
+            "players": self.to_dict(),
+        }
+        with open(path, "w") as f:
+            json.dump(payload, f, indent=2, sort_keys=True)
+
+    def load(self, path):
+        """
+        Load engine state from a JSON file on disk, if it exists.
+        Returns the saved last_processed_date string (YYYYMMDD) or None
+        if there was no file to load / no date recorded yet.
+        """
+        try:
+            with open(path, "r") as f:
+                payload = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            return None
+        self.load_dict(payload.get("players", {}))
+        return payload.get("last_processed_date")
+
 
 # ============================================================
 # match_simulator.py
@@ -882,11 +929,17 @@ def parse_match_result(summary_json):
 
 
 def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, verbose=True,
-                             max_matches: int = 500):
+                             max_matches: int = 500, since_date: str = None):
     """
     Walks back `days_back` days of scoreboard data for a tour, fetching
     each completed match's summary and feeding it into the Elo engine
     chronologically (oldest first, so ratings evolve correctly).
+
+    since_date (YYYYMMDD string), if given, skips any day on or before
+    that date -- used so a run with saved state only pulls NEW days
+    instead of re-fetching everything from scratch. If None, walks the
+    full days_back window (used for the first-ever run with no saved
+    state yet).
 
     max_matches is a hard safety cap on individual summary fetches per
     tour per run -- protects against a run hanging for an unexpectedly
@@ -895,14 +948,22 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
     the run stops early (partial history is still fine -- Elo doesn't
     need every match, just a reasonable recent sample) rather than
     continuing indefinitely.
+
+    Returns (fed_count, latest_date_str) -- latest_date_str is the most
+    recent day actually walked, for the caller to save as the new
+    since_date for next run.
     """
     all_matches = []
     today = datetime.now(timezone.utc)
+    latest_date_str = since_date
 
     for offset in range(days_back, -1, -1):
         day = today - timedelta(days=offset)
         date_str = day.strftime("%Y%m%d")
+        if since_date is not None and date_str <= since_date:
+            continue
         scoreboard = fetch_scoreboard(tour, date_str=date_str)
+        latest_date_str = date_str
         if scoreboard is None:
             continue
         matches = extract_matches_from_scoreboard(scoreboard, tour)
@@ -947,7 +1008,7 @@ def build_elo_from_history(engine: EloEngine, tour: str, days_back: int = 14, ve
     if verbose:
         print(f"  [{tour}] fed {fed_count} completed matches into Elo engine ({fetched_count} summary fetches)")
 
-    return fed_count
+    return fed_count, latest_date_str
 
 
 def fetch_upcoming_matches(tour, days_ahead=1):
@@ -1037,14 +1098,30 @@ def build_combined_prediction(engine: EloEngine, player_a: str, player_b: str,
     }
 
 
+ELO_STATE_PATH_TEMPLATE = "elo_state_{tour}.json"
+
+
 def run_pipeline(verbose=True):
     engine = EloEngine()
     all_predictions = []
 
     for tour in TOURS:
+        state_path = ELO_STATE_PATH_TEMPLATE.format(tour=tour)
+        since_date = engine.load(state_path)
         if verbose:
+            if since_date:
+                print(f"\n=== Loaded saved Elo state for {tour.upper()} (as of {since_date}) ===")
+            else:
+                print(f"\n=== No saved Elo state for {tour.upper()} -- starting fresh ===")
             print(f"\n=== Building Elo history for {tour.upper()} ===")
-        build_elo_from_history(engine, tour, days_back=DAYS_OF_HISTORY, verbose=verbose)
+        fed_count, latest_date = build_elo_from_history(
+            engine, tour, days_back=DAYS_OF_HISTORY, verbose=verbose, since_date=since_date
+        )
+        # Save immediately so this tour's progress isn't lost even if a
+        # later tour or step in this run fails.
+        engine.save(state_path, last_processed_date=latest_date or since_date)
+        if verbose:
+            print(f"  [{tour}] saved Elo state to {state_path} (as of {latest_date or since_date})")
 
         if verbose:
             print(f"\n=== Fetching upcoming {tour.upper()} matches ===")
