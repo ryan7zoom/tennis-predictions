@@ -28,10 +28,10 @@ jobs:
       - name: Run prediction pipeline
         run: python3 prediction.py
 
-      - name: Commit updated predictions
+      - name: Commit updated predictions and Elo state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add predictions.json index.html
+          git add predictions.json index.html elo_state_atp.json elo_state_wta.json
           git diff --staged --quiet || git commit -m "Daily tennis predictions update"
           git push
