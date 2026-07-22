@@ -1111,11 +1111,17 @@ DAYS_OF_HISTORY = 14  # how far back to build Elo from before predicting
 
 
 def build_combined_prediction(engine: EloEngine, player_a: str, player_b: str,
-                                tournament_name: str, tour: str, best_of: int = 3):
+                                tournament_name: str, tour: str, best_of: int = 3,
+                                match_time_utc: str = None):
     """
     THE combined prediction: one call in, one object out, covering
     match winner + set winner + games total, all internally consistent
     because they all derive from the same Elo match-win probability.
+
+    match_time_utc is the raw ISO 8601 UTC timestamp string as given by
+    ESPN's scoreboard (e.g. "2026-07-22T14:00Z"), passed through as-is
+    so the frontend can render it in each viewer's own local timezone
+    via JS rather than baking in a fixed timezone at generation time.
     """
     surface = get_surface(tournament_name)
     elo_pred = engine.predict_match(player_a, player_b, surface=surface)
@@ -1128,6 +1134,7 @@ def build_combined_prediction(engine: EloEngine, player_a: str, player_b: str,
         "surface": surface if surface else "unknown",
         "player_a": player_a,
         "player_b": player_b,
+        "match_time_utc": match_time_utc,
         "match_winner": {
             "player_a_prob": elo_pred["player_a_win_prob"],
             "player_b_prob": elo_pred["player_b_win_prob"],
@@ -1197,6 +1204,7 @@ def run_pipeline(verbose=True):
                     tournament_name=match["tournament_name"],
                     tour=tour,
                     best_of=best_of,
+                    match_time_utc=match.get("date"),
                 )
                 all_predictions.append(pred)
             except Exception as e:
@@ -1204,6 +1212,10 @@ def run_pipeline(verbose=True):
 
     surf_gap_report = surface_coverage_report()
     tier_gap_report = tier_coverage_report()
+
+    # Soonest matches first; anything with no known start time sorts to
+    # the end rather than the (misleading) beginning.
+    all_predictions.sort(key=lambda p: p.get("match_time_utc") or "9999")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -1244,68 +1256,172 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tennis Predictions</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=Roboto+Mono:wght@500;600&display=swap');
+
   :root {{
-    --bg: #0f1115;
-    --card-bg: #1a1d24;
-    --card-border: #2a2e38;
-    --text-primary: #e8e9ec;
-    --text-secondary: #9aa0ac;
-    --accent: #4f9dff;
-    --high: #35c46f;
-    --medium: #e8b93a;
-    --low: #e05a5a;
+    /* Light theme -- warm neutral paper, green as accent only */
+    --bg: #f6f5f1;
+    --bg-line: #ece9e1;
+    --card-bg: #ffffff;
+    --card-border: #e2e0d8;
+    --text-primary: #24261f;
+    --text-secondary: #77786d;
+    --accent: #4a7c59;
+    --high: #3f7a4f;
+    --medium: #b8863f;
+    --low: #c1573f;
+    --bar-track: #eae8e0;
+    --time-bg: #eef0e8;
+    --shadow: 0 1px 2px rgba(20,20,15,0.05), 0 1px 10px rgba(20,20,15,0.03);
+  }}
+  @media (prefers-color-scheme: dark) {{
+    :root {{
+      /* Dark theme -- neutral charcoal, green as accent only */
+      --bg: #17181a;
+      --bg-line: #1e2022;
+      --card-bg: #1f2123;
+      --card-border: #2c2f31;
+      --text-primary: #eceae4;
+      --text-secondary: #93958f;
+      --accent: #7fbb8f;
+      --high: #7fbb8f;
+      --medium: #d6ab68;
+      --low: #d98a72;
+      --bar-track: #2a2d2f;
+      --time-bg: #232826;
+      --shadow: 0 1px 3px rgba(0,0,0,0.35);
+    }}
   }}
   * {{ box-sizing: border-box; }}
   body {{
     background: var(--bg);
+    background-image: repeating-linear-gradient(
+      to bottom, transparent, transparent 79px, var(--bg-line) 79px, var(--bg-line) 80px
+    );
     color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Inter', -apple-system, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 24px 16px 48px;
+    -webkit-font-smoothing: antialiased;
   }}
-  h1 {{ font-size: 1.4rem; margin-bottom: 4px; }}
-  .meta {{ color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 20px; }}
-  .tabs {{ display: flex; gap: 8px; margin-bottom: 20px; }}
+  .masthead {{ margin-bottom: 22px; }}
+  h1 {{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    letter-spacing: 0.01em;
+    margin: 0 0 2px;
+    line-height: 1;
+  }}
+  h1::after {{
+    content: '';
+    display: block;
+    width: 46px;
+    height: 3px;
+    background: var(--accent);
+    margin-top: 10px;
+    border-radius: 2px;
+  }}
+  .meta {{ color: var(--text-secondary); font-size: 0.82rem; margin-top: 12px; }}
+  .tabs {{ display: flex; gap: 8px; margin: 20px 0 18px; }}
   .tab {{
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid var(--card-border);
     color: var(--text-secondary);
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 7px 18px;
+    border-radius: 999px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.15s ease;
   }}
-  .tab.active {{ color: var(--text-primary); border-color: var(--accent); }}
-  .cards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }}
+  .tab.active {{ color: var(--bg); background: var(--accent); border-color: var(--accent); }}
+  .cards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }}
   .card {{
     background: var(--card-bg);
     border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 16px;
+    border-radius: 10px;
+    padding: 14px 18px 18px;
+    box-shadow: var(--shadow);
   }}
-  .card-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }}
-  .tour-badge {{ font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }}
+  .card-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }}
+  .tour-badge {{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }}
   .confidence {{
-    font-size: 0.7rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.65rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 6px;
+    letter-spacing: 0.04em;
+    padding: 3px 9px;
+    border-radius: 999px;
   }}
-  .confidence.high {{ background: rgba(53,196,111,0.15); color: var(--high); }}
-  .confidence.medium {{ background: rgba(232,185,58,0.15); color: var(--medium); }}
-  .confidence.low {{ background: rgba(224,90,90,0.15); color: var(--low); }}
-  .matchup {{ font-size: 1rem; font-weight: 600; margin-bottom: 4px; }}
-  .tournament {{ font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 12px; }}
-  .market-row {{ display: flex; justify-content: space-between; font-size: 0.85rem; padding: 4px 0; border-top: 1px solid var(--card-border); }}
+  .confidence.high {{ background: rgba(74,124,89,0.14); color: var(--high); }}
+  .confidence.medium {{ background: rgba(184,134,63,0.16); color: var(--medium); }}
+  .confidence.low {{ background: rgba(193,87,63,0.14); color: var(--low); }}
+  .matchup {{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.28rem;
+    line-height: 1.15;
+    margin-bottom: 2px;
+  }}
+  .sub-row {{
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 14px; gap: 10px;
+  }}
+  .tournament {{ font-size: 0.78rem; color: var(--text-secondary); }}
+  .match-time {{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--time-bg);
+    padding: 2px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }}
+  .match-time.tbd {{ color: var(--text-secondary); }}
+
+  .winner-bar {{ margin-bottom: 12px; }}
+  .winner-bar-labels {{
+    display: flex; justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem; font-weight: 600;
+    margin-bottom: 5px;
+  }}
+  .winner-bar-track {{
+    display: flex; height: 7px; border-radius: 4px; overflow: hidden;
+    background: var(--bar-track);
+  }}
+  .winner-bar-fill-a {{ background: var(--accent); height: 100%; }}
+  .winner-bar-fill-b {{ background: var(--text-secondary); opacity: 0.35; height: 100%; }}
+  .winner-bar-names {{
+    display: flex; justify-content: space-between;
+    font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px;
+  }}
+
+  .market-row {{
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 0.82rem; padding: 7px 0;
+    border-top: 1px solid var(--card-border);
+  }}
   .market-label {{ color: var(--text-secondary); }}
-  .market-value {{ font-weight: 600; }}
-  .empty {{ color: var(--text-secondary); padding: 40px; text-align: center; }}
+  .market-value {{ font-family: 'Roboto Mono', monospace; font-weight: 500; text-align: right; }}
+  .empty {{ color: var(--text-secondary); padding: 60px 20px; text-align: center; font-size: 0.9rem; }}
 </style>
 </head>
 <body>
-  <h1>Tennis Predictions</h1>
-  <div class="meta">Generated {generated_at} &middot; {n_predictions} matches &middot; {n_gaps} data gap(s) flagged</div>
+  <div class="masthead">
+    <h1>Tennis Predictions</h1>
+    <div class="meta">Generated {generated_at} &middot; {n_predictions} matches &middot; {n_gaps} data gap(s) flagged &middot; times shown in your local timezone</div>
+  </div>
 
   <div class="tabs">
     <div class="tab active" onclick="showTab('all')" id="tab-all">All</div>
@@ -1324,6 +1440,37 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         document.getElementById('tab-' + t).classList.toggle('active', t === tour);
       }});
     }}
+
+    // Convert each card's raw UTC timestamp (in data-utc) into the
+    // viewer's own local time client-side, since this page is static
+    // and generated once but viewed from any timezone.
+    function renderLocalTimes() {{
+      document.querySelectorAll('.match-time[data-utc]').forEach(el => {{
+        const raw = el.getAttribute('data-utc');
+        if (!raw) {{
+          el.textContent = 'Time TBD';
+          el.classList.add('tbd');
+          return;
+        }}
+        const d = new Date(raw);
+        if (isNaN(d.getTime())) {{
+          el.textContent = 'Time TBD';
+          el.classList.add('tbd');
+          return;
+        }}
+        const now = new Date();
+        const isToday = d.toDateString() === now.toDateString();
+        const tomorrow = new Date(now); tomorrow.setDate(now.getDate() + 1);
+        const isTomorrow = d.toDateString() === tomorrow.toDateString();
+        const timeStr = d.toLocaleTimeString(undefined, {{ hour: 'numeric', minute: '2-digit' }});
+        let dayStr;
+        if (isToday) dayStr = 'Today';
+        else if (isTomorrow) dayStr = 'Tomorrow';
+        else dayStr = d.toLocaleDateString(undefined, {{ month: 'short', day: 'numeric' }});
+        el.textContent = dayStr + ' \\u00b7 ' + timeStr;
+      }});
+    }}
+    renderLocalTimes();
   </script>
 </body>
 </html>
@@ -1336,14 +1483,29 @@ CARD_TEMPLATE = """
     <span class="confidence {confidence_class}">{confidence} confidence</span>
   </div>
   <div class="matchup">{player_a} vs {player_b}</div>
-  <div class="tournament">{tournament}</div>
-  <div class="market-row">
-    <span class="market-label">Match winner</span>
-    <span class="market-value">{player_a} {match_a_pct}% / {player_b} {match_b_pct}%</span>
+  <div class="sub-row">
+    <span class="tournament">{tournament}</span>
+    <span class="match-time" data-utc="{match_time_utc}">&nbsp;</span>
   </div>
+
+  <div class="winner-bar">
+    <div class="winner-bar-labels">
+      <span>{match_a_pct}%</span>
+      <span>{match_b_pct}%</span>
+    </div>
+    <div class="winner-bar-track">
+      <div class="winner-bar-fill-a" style="width:{match_a_pct}%"></div>
+      <div class="winner-bar-fill-b" style="width:{match_b_pct}%"></div>
+    </div>
+    <div class="winner-bar-names">
+      <span>{player_a}</span>
+      <span>{player_b}</span>
+    </div>
+  </div>
+
   <div class="market-row">
     <span class="market-label">Straight sets</span>
-    <span class="market-value">{player_a} {straight_a_pct}% / {player_b} {straight_b_pct}%</span>
+    <span class="market-value">{player_a} {straight_a_pct}% &nbsp;/&nbsp; {player_b} {straight_b_pct}%</span>
   </div>
   <div class="market-row">
     <span class="market-label">Games total (avg)</span>
@@ -1362,6 +1524,7 @@ def render_card(pred):
         player_a=pred["player_a"],
         player_b=pred["player_b"],
         tournament=pred["tournament"],
+        match_time_utc=pred.get("match_time_utc") or "",
         match_a_pct=round(pred["match_winner"]["player_a_prob"] * 100, 1),
         match_b_pct=round(pred["match_winner"]["player_b_prob"] * 100, 1),
         straight_a_pct=round(pred["set_winner"]["player_a_straight_sets_prob"] * 100, 1),
