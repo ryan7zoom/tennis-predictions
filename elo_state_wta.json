@@ -1,5 +1,5 @@
 {
-  "last_processed_date": "20260721",
+  "last_processed_date": "20260722",
   "players": {
     "Aaron Gil Garcia": {
       "overall_match_count": 1,
@@ -831,8 +831,8 @@
       }
     },
     "Alessandra Mazzola": {
-      "overall_match_count": 4,
-      "overall_rating": 1452.8789821439223,
+      "overall_match_count": 6,
+      "overall_rating": 1431.5793246620847,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -867,6 +867,18 @@
         "clay": 1463.625843125247,
         "grass": 1500,
         "hard": 1451.2113847050537,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Alevtina Ibragimova": {
+      "overall_match_count": 2,
+      "overall_rating": 1515.4448427932437,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
         "indoor_clay": 1500,
         "indoor_hard": 1500
       }
@@ -1474,8 +1486,8 @@
       }
     },
     "Aliaksandra Sasnovich": {
-      "overall_match_count": 2,
-      "overall_rating": 1476.827614673444,
+      "overall_match_count": 4,
+      "overall_rating": 1456.7101123877185,
       "surface_match_counts": {
         "grass": 18
       },
@@ -1502,8 +1514,8 @@
       }
     },
     "Alice Rame": {
-      "overall_match_count": 6,
-      "overall_rating": 1378.093283303527,
+      "overall_match_count": 8,
+      "overall_rating": 1409.1739068739796,
       "surface_match_counts": {
         "grass": 6
       },
@@ -1544,8 +1556,8 @@
       }
     },
     "Alina Charaeva": {
-      "overall_match_count": 19,
-      "overall_rating": 1608.122676007968,
+      "overall_match_count": 21,
+      "overall_rating": 1625.2759989632557,
       "surface_match_counts": {
         "grass": 18
       },
@@ -1572,8 +1584,8 @@
       }
     },
     "Alisa Oktiabreva": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -1659,8 +1671,8 @@
       }
     },
     "Alycia Parks": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 12
       },
@@ -1687,8 +1699,8 @@
       }
     },
     "Amarissa Toth": {
-      "overall_match_count": 12,
-      "overall_rating": 1538.770020732697,
+      "overall_match_count": 18,
+      "overall_rating": 1553.1430452445934,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -1842,9 +1854,21 @@
         "indoor_hard": 1500
       }
     },
+    "Anastasia Abbagnato": {
+      "overall_match_count": 2,
+      "overall_rating": 1476.827614673444,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
     "Anastasia Bertacchi": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.418385726307,
+      "overall_match_count": 6,
+      "overall_rating": 1433.5828943709962,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -1877,6 +1901,18 @@
       "surface_ratings": {
         "clay": 1500,
         "grass": 1396.4421688544855,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Anastasia Tikhonova": {
+      "overall_match_count": 2,
+      "overall_rating": 1468.9193764295474,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
         "hard": 1500,
         "indoor_clay": 1500,
         "indoor_hard": 1500
@@ -2337,8 +2373,8 @@
       }
     },
     "Ane Mintegi Del Olmo": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -2375,8 +2411,8 @@
       }
     },
     "Anhelina Kalinina": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 6
       },
@@ -2444,8 +2480,8 @@
       }
     },
     "Anna Blinkova": {
-      "overall_match_count": 13,
-      "overall_rating": 1521.9577069815884,
+      "overall_match_count": 15,
+      "overall_rating": 1491.9365157417737,
       "surface_match_counts": {
         "grass": 12
       },
@@ -2458,8 +2494,8 @@
       }
     },
     "Anna Bondar": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 6
       },
@@ -2486,8 +2522,8 @@
       }
     },
     "Anna Petkovic": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1352788213815,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -2658,8 +2694,8 @@
       }
     },
     "Antonia Ruzic": {
-      "overall_match_count": 4,
-      "overall_rating": 1463.2545719117968,
+      "overall_match_count": 6,
+      "overall_rating": 1450.8376936194072,
       "surface_match_counts": {
         "grass": 12
       },
@@ -2701,8 +2737,8 @@
       }
     },
     "Aoi Ito": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.5206224235196,
+      "overall_match_count": 6,
+      "overall_rating": 1434.3164440233993,
       "surface_match_counts": {
         "grass": 6
       },
@@ -2731,8 +2767,8 @@
       }
     },
     "Arantxa Rus": {
-      "overall_match_count": 9,
-      "overall_rating": 1572.6396894344439,
+      "overall_match_count": 15,
+      "overall_rating": 1585.9622505450084,
       "surface_match_counts": {
         "grass": 6
       },
@@ -3099,8 +3135,8 @@
       }
     },
     "Ayla Aksu": {
-      "overall_match_count": 12,
-      "overall_rating": 1545.8812306849507,
+      "overall_match_count": 18,
+      "overall_rating": 1564.2056450878924,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -3170,8 +3206,8 @@
       }
     },
     "Barbora Krejcikova": {
-      "overall_match_count": 24,
-      "overall_rating": 1723.2717770791096,
+      "overall_match_count": 26,
+      "overall_rating": 1733.5549392634596,
       "surface_match_counts": {
         "grass": 24
       },
@@ -3184,8 +3220,8 @@
       }
     },
     "Barbora Palicova": {
-      "overall_match_count": 4,
-      "overall_rating": 1459.8209684390047,
+      "overall_match_count": 6,
+      "overall_rating": 1446.4333641952621,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -3845,8 +3881,8 @@
       }
     },
     "Caijsa Hennemann": {
-      "overall_match_count": 26,
-      "overall_rating": 1482.9341356038306,
+      "overall_match_count": 28,
+      "overall_rating": 1459.4430503356687,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -3946,8 +3982,8 @@
       }
     },
     "Carla Giambelli": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.5182993335031,
+      "overall_match_count": 6,
+      "overall_rating": 1438.6514495741776,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -4032,8 +4068,8 @@
       }
     },
     "Carol Young Suh Lee": {
-      "overall_match_count": 12,
-      "overall_rating": 1624.2424104384856,
+      "overall_match_count": 18,
+      "overall_rating": 1669.7178208198561,
       "surface_match_counts": {
         "grass": 6
       },
@@ -4060,8 +4096,8 @@
       }
     },
     "Carole Monnet": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1352788213815,
       "surface_match_counts": {
         "grass": 6
       },
@@ -4088,8 +4124,8 @@
       }
     },
     "Caroline Werner": {
-      "overall_match_count": 12,
-      "overall_rating": 1497.0259717316064,
+      "overall_match_count": 14,
+      "overall_rating": 1481.0598179863734,
       "surface_match_counts": {
         "grass": 12
       },
@@ -4291,8 +4327,8 @@
       }
     },
     "Chloe Paquet": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1503.2187303444266,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -4548,6 +4584,18 @@
       "surface_ratings": {
         "clay": 1500,
         "grass": 1781.4356643187703,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Clara Burel": {
+      "overall_match_count": 2,
+      "overall_rating": 1523.172385326556,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
         "hard": 1500,
         "indoor_clay": 1500,
         "indoor_hard": 1500
@@ -4915,8 +4963,8 @@
       }
     },
     "Dalila Jakupovic": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1444.9406143168737,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -4927,8 +4975,8 @@
       }
     },
     "Dalila Spiteri": {
-      "overall_match_count": 8,
-      "overall_rating": 1499.1450293238938,
+      "overall_match_count": 12,
+      "overall_rating": 1496.7128734157175,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -5408,8 +5456,8 @@
       }
     },
     "Daria Snigur": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 18
       },
@@ -5437,8 +5485,8 @@
       }
     },
     "Darja Semenistaja": {
-      "overall_match_count": 2,
-      "overall_rating": 1476.827614673444,
+      "overall_match_count": 4,
+      "overall_rating": 1456.7101123877185,
       "surface_match_counts": {
         "grass": 24
       },
@@ -5490,6 +5538,18 @@
         "clay": 1499.126103433118,
         "grass": 1512.3860397745484,
         "hard": 1471.1545467899302,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Darya Astakhova": {
+      "overall_match_count": 2,
+      "overall_rating": 1468.9205418842248,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
         "indoor_clay": 1500,
         "indoor_hard": 1500
       }
@@ -5669,8 +5729,8 @@
       }
     },
     "Deborah Chiesa": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -5758,8 +5818,8 @@
       }
     },
     "Denisa Zoldakova": {
-      "overall_match_count": 4,
-      "overall_rating": 1460.7436553686396,
+      "overall_match_count": 6,
+      "overall_rating": 1447.687720486479,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -5856,8 +5916,8 @@
       }
     },
     "Diana Martynov": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.5160399426136,
+      "overall_match_count": 6,
+      "overall_rating": 1438.6378163868742,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -5882,8 +5942,8 @@
       }
     },
     "Diane Parry": {
-      "overall_match_count": 3,
-      "overall_rating": 1472.540056475389,
+      "overall_match_count": 5,
+      "overall_rating": 1459.2716361986393,
       "surface_match_counts": {
         "grass": 12
       },
@@ -6163,8 +6223,8 @@
       }
     },
     "Dominika Salkova": {
-      "overall_match_count": 12,
-      "overall_rating": 1617.68369061309,
+      "overall_match_count": 18,
+      "overall_rating": 1659.174602970644,
       "surface_match_counts": {
         "grass": 6
       },
@@ -6533,8 +6593,8 @@
       }
     },
     "Ekaterina Kazionova": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1442.9398044324569,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6545,8 +6605,8 @@
       }
     },
     "Ekaterina Yashina": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1443.0727174727162,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6557,8 +6617,8 @@
       }
     },
     "Ekaterine Gorgodze": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 12
       },
@@ -6585,8 +6645,8 @@
       }
     },
     "Elena Malygina": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1503.2187303444266,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6597,8 +6657,8 @@
       }
     },
     "Elena Micic": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1433.92574273487,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6609,8 +6669,8 @@
       }
     },
     "Elena Pridankina": {
-      "overall_match_count": 12,
-      "overall_rating": 1538.770020732697,
+      "overall_match_count": 18,
+      "overall_rating": 1553.4134083773667,
       "surface_match_counts": {
         "grass": 18
       },
@@ -6667,8 +6727,8 @@
       }
     },
     "Elina Avanesyan": {
-      "overall_match_count": 9,
-      "overall_rating": 1596.6396894344439,
+      "overall_match_count": 15,
+      "overall_rating": 1649.363598959128,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6750,8 +6810,8 @@
       }
     },
     "Elizara Yaneva": {
-      "overall_match_count": 4,
-      "overall_rating": 1452.8813889945106,
+      "overall_match_count": 6,
+      "overall_rating": 1431.5943811434086,
       "surface_match_counts": {
         "grass": 12
       },
@@ -6778,8 +6838,8 @@
       }
     },
     "Ella Seidel": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 6
       },
@@ -6941,8 +7001,8 @@
       }
     },
     "Emily Victoria Eigelsbach": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1444.9406143168737,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -6953,8 +7013,8 @@
       }
     },
     "Emily Webley-Smith": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8988206955314,
+      "overall_match_count": 6,
+      "overall_rating": 1444.2151842770495,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -7080,8 +7140,8 @@
       }
     },
     "Erika Andreeva": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 12
       },
@@ -7198,8 +7258,8 @@
       }
     },
     "Eva Vedder": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1503.3565407214137,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -7447,8 +7507,8 @@
       }
     },
     "Federica Urgesi": {
-      "overall_match_count": 8,
-      "overall_rating": 1499.198863568692,
+      "overall_match_count": 12,
+      "overall_rating": 1496.9535976756956,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -7795,8 +7855,8 @@
       }
     },
     "Fiona Ferro": {
-      "overall_match_count": 4,
-      "overall_rating": 1550.6187062023955,
+      "overall_match_count": 6,
+      "overall_rating": 1575.0091206668899,
       "surface_match_counts": {
         "grass": 6
       },
@@ -7885,8 +7945,8 @@
       }
     },
     "Francesca Jones": {
-      "overall_match_count": 6,
-      "overall_rating": 1378.1124004121934,
+      "overall_match_count": 8,
+      "overall_rating": 1409.1918585279686,
       "surface_match_counts": {
         "grass": 6
       },
@@ -8282,8 +8342,8 @@
       }
     },
     "Gabriela Knutson": {
-      "overall_match_count": 8,
-      "overall_rating": 1503.797459682954,
+      "overall_match_count": 12,
+      "overall_rating": 1507.9835389000705,
       "surface_match_counts": {
         "grass": 6
       },
@@ -8312,8 +8372,8 @@
       }
     },
     "Gao Xinyu": {
-      "overall_match_count": 9,
-      "overall_rating": 1566.2427157484578,
+      "overall_match_count": 15,
+      "overall_rating": 1566.986401685306,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -8415,8 +8475,8 @@
       }
     },
     "Georgina Garcia Perez": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1115702978625,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -9865,6 +9925,18 @@
         "indoor_hard": 1500
       }
     },
+    "Ilary Pistola": {
+      "overall_match_count": 2,
+      "overall_rating": 1483.17572968107,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
     "Ilie Cazac": {
       "overall_match_count": 1,
       "overall_rating": 1492.39046381157,
@@ -10055,8 +10127,8 @@
       }
     },
     "Isabella Shinikova": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1504.5524538149034,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -10604,8 +10676,8 @@
       }
     },
     "Jana Kovackova": {
-      "overall_match_count": 1,
-      "overall_rating": 1487.9089147142518,
+      "overall_match_count": 3,
+      "overall_rating": 1466.1657219715419,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -10885,8 +10957,8 @@
       }
     },
     "Jennifer Ruggeri": {
-      "overall_match_count": 4,
-      "overall_rating": 1550.6118918902364,
+      "overall_match_count": 6,
+      "overall_rating": 1574.9710454761173,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -11021,8 +11093,8 @@
       }
     },
     "Jessica Bouzas Maneiro": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 18
       },
@@ -11049,8 +11121,8 @@
       }
     },
     "Jessica Pieri": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1505.3300264057457,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -11874,8 +11946,8 @@
       }
     },
     "Jule Niemeier": {
-      "overall_match_count": 9,
-      "overall_rating": 1572.6396894344439,
+      "overall_match_count": 15,
+      "overall_rating": 1585.9622505450084,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -11886,8 +11958,8 @@
       }
     },
     "Julia Avdeeva": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1442.9398044324569,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -11926,8 +11998,8 @@
       }
     },
     "Julia Stusek": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -12217,8 +12289,8 @@
       }
     },
     "Kaitlin Quevedo": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 12
       },
@@ -12398,8 +12470,8 @@
       }
     },
     "Karman Thandi": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.5249455128958,
+      "overall_match_count": 6,
+      "overall_rating": 1432.7794768543463,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -12508,8 +12580,8 @@
       }
     },
     "Kathinka von Deichmann": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.418385726307,
+      "overall_match_count": 6,
+      "overall_rating": 1433.8723629024717,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -12956,8 +13028,8 @@
       }
     },
     "Kyoka Okamura": {
-      "overall_match_count": 4,
-      "overall_rating": 1460.9714259870234,
+      "overall_match_count": 6,
+      "overall_rating": 1448.3072991188158,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -12999,8 +13071,8 @@
       }
     },
     "Lanlana Tararudee": {
-      "overall_match_count": 13,
-      "overall_rating": 1509.4538455047652,
+      "overall_match_count": 15,
+      "overall_rating": 1531.1970382474751,
       "surface_match_counts": {
         "grass": 12
       },
@@ -13029,8 +13101,8 @@
       }
     },
     "Laura Bohner": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1444.2047085837949,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -13055,8 +13127,8 @@
       }
     },
     "Laura Samson": {
-      "overall_match_count": 7,
-      "overall_rating": 1387.66735586559,
+      "overall_match_count": 9,
+      "overall_rating": 1372.8689423145715,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13246,8 +13318,8 @@
       }
     },
     "Leyre Romero Gormaz": {
-      "overall_match_count": 46,
-      "overall_rating": 1571.7211836765966,
+      "overall_match_count": 48,
+      "overall_rating": 1585.504966417063,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13349,8 +13421,8 @@
       }
     },
     "Lilli Tagger": {
-      "overall_match_count": 7,
-      "overall_rating": 1396.5071730911473,
+      "overall_match_count": 9,
+      "overall_rating": 1431.8772548199709,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13363,8 +13435,8 @@
       }
     },
     "Lina Gjorcheska": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 24
       },
@@ -13377,8 +13449,8 @@
       }
     },
     "Linda Fruhvirtova": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 14,
+      "overall_rating": 1492.6799196593174,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13474,8 +13546,8 @@
       }
     },
     "Lisa Zaar": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1096961749793,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -13588,8 +13660,8 @@
       }
     },
     "Lola Radivojevic": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13814,8 +13886,8 @@
       }
     },
     "Lucia Bronzetti": {
-      "overall_match_count": 18,
-      "overall_rating": 1598.5318565180007,
+      "overall_match_count": 20,
+      "overall_rating": 1615.3561268369308,
       "surface_match_counts": {
         "grass": 18
       },
@@ -13858,8 +13930,8 @@
       }
     },
     "Lucie Havlickova": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 6
       },
@@ -13872,8 +13944,8 @@
       }
     },
     "Lucija Ciric Bagaric": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.5160399426136,
+      "overall_match_count": 6,
+      "overall_rating": 1438.6378163868742,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -14282,8 +14354,8 @@
       }
     },
     "Mai Hontama": {
-      "overall_match_count": 11,
-      "overall_rating": 1610.2414389928613,
+      "overall_match_count": 17,
+      "overall_rating": 1653.2811540099501,
       "surface_match_counts": {
         "grass": 12
       },
@@ -14680,8 +14752,8 @@
       }
     },
     "Maria Lourdes Carle": {
-      "overall_match_count": 9,
-      "overall_rating": 1596.6396894344439,
+      "overall_match_count": 15,
+      "overall_rating": 1649.363598959128,
       "surface_match_counts": {
         "grass": 12
       },
@@ -14708,8 +14780,8 @@
       }
     },
     "Maria Timofeeva": {
-      "overall_match_count": 2,
-      "overall_rating": 1523.172385326556,
+      "overall_match_count": 4,
+      "overall_rating": 1543.2898876122815,
       "surface_match_counts": {
         "grass": 30
       },
@@ -14752,8 +14824,8 @@
       }
     },
     "Marie Bouzkova": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 24
       },
@@ -15853,8 +15925,8 @@
       }
     },
     "Maya Joint": {
-      "overall_match_count": 13,
-      "overall_rating": 1520.4852058893184,
+      "overall_match_count": 15,
+      "overall_rating": 1535.283619440337,
       "surface_match_counts": {
         "grass": 12
       },
@@ -16434,8 +16506,8 @@
       }
     },
     "Mina Hodzic": {
-      "overall_match_count": 8,
-      "overall_rating": 1584.769829825336,
+      "overall_match_count": 14,
+      "overall_rating": 1633.4903574051918,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -16490,8 +16562,8 @@
       }
     },
     "Miriam Bulgaru": {
-      "overall_match_count": 26,
-      "overall_rating": 1478.1462131444184,
+      "overall_match_count": 28,
+      "overall_rating": 1501.6372984125803,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -16502,8 +16574,8 @@
       }
     },
     "Miriana Tona": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9430954174736,
+      "overall_match_count": 12,
+      "overall_rating": 1504.244816351686,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -16664,8 +16736,8 @@
       }
     },
     "Mona Barthel": {
-      "overall_match_count": 9,
-      "overall_rating": 1574.3749309113189,
+      "overall_match_count": 15,
+      "overall_rating": 1588.9625466213022,
       "surface_match_counts": {
         "grass": 6
       },
@@ -16704,8 +16776,8 @@
       }
     },
     "Moyuka Uchijima": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 6
       },
@@ -16867,8 +16939,8 @@
       }
     },
     "Nadia Podoroska": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {
         "grass": 6
       },
@@ -16896,8 +16968,8 @@
       }
     },
     "Nao Hibino": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.5636199039595,
+      "overall_match_count": 6,
+      "overall_rating": 1438.8372873787703,
       "surface_match_counts": {
         "grass": 12
       },
@@ -16931,6 +17003,18 @@
       },
       "surface_ratings": {
         "clay": 1488.0,
+        "grass": 1500,
+        "hard": 1500,
+        "indoor_clay": 1500,
+        "indoor_hard": 1500
+      }
+    },
+    "Nastasja Schunk": {
+      "overall_match_count": 2,
+      "overall_rating": 1462.676578417602,
+      "surface_match_counts": {},
+      "surface_ratings": {
+        "clay": 1500,
         "grass": 1500,
         "hard": 1500,
         "indoor_clay": 1500,
@@ -17377,8 +17461,8 @@
       }
     },
     "Nikola Bartunkova": {
-      "overall_match_count": 19,
-      "overall_rating": 1610.4833947262507,
+      "overall_match_count": 21,
+      "overall_rating": 1620.7946439830562,
       "surface_match_counts": {
         "grass": 18
       },
@@ -17552,8 +17636,8 @@
       }
     },
     "Noemi Basiletti": {
-      "overall_match_count": 8,
-      "overall_rating": 1584.6396894344439,
+      "overall_match_count": 14,
+      "overall_rating": 1633.2557589846658,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -17564,8 +17648,8 @@
       }
     },
     "Noma Noha Akugue": {
-      "overall_match_count": 26,
-      "overall_rating": 1413.4616177816135,
+      "overall_match_count": 28,
+      "overall_rating": 1441.3368652121678,
       "surface_match_counts": {
         "grass": 12
       },
@@ -17654,8 +17738,8 @@
       }
     },
     "Oceane Dodin": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {
         "grass": 18
       },
@@ -17724,8 +17808,8 @@
       }
     },
     "Oleksandra Oliynykova": {
-      "overall_match_count": 19,
-      "overall_rating": 1262.878602297372,
+      "overall_match_count": 21,
+      "overall_rating": 1300.20202387977,
       "surface_match_counts": {
         "grass": 6
       },
@@ -18090,8 +18174,8 @@
       }
     },
     "Panna Udvardy": {
-      "overall_match_count": 4,
-      "overall_rating": 1550.6118918902364,
+      "overall_match_count": 6,
+      "overall_rating": 1574.9807170413285,
       "surface_match_counts": {
         "grass": 6
       },
@@ -18795,8 +18879,8 @@
       }
     },
     "Priscilla Hon": {
-      "overall_match_count": 9,
-      "overall_rating": 1487.8565157163393,
+      "overall_match_count": 15,
+      "overall_rating": 1465.669926913424,
       "surface_match_counts": {
         "grass": 6
       },
@@ -19016,8 +19100,8 @@
       }
     },
     "Raluka Serban": {
-      "overall_match_count": 8,
-      "overall_rating": 1499.683661708146,
+      "overall_match_count": 14,
+      "overall_rating": 1483.5296950441254,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -19072,8 +19156,8 @@
       }
     },
     "Rasheeda McAdoo": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1225820939294,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -19155,8 +19239,8 @@
       }
     },
     "Rebeka Masarova": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4857598146416,
+      "overall_match_count": 6,
+      "overall_rating": 1434.2194635571452,
       "surface_match_counts": {
         "grass": 6
       },
@@ -19229,8 +19313,8 @@
       }
     },
     "Ren Yufei": {
-      "overall_match_count": 12,
-      "overall_rating": 1538.8958875788117,
+      "overall_match_count": 18,
+      "overall_rating": 1553.8024153294443,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -19416,8 +19500,8 @@
       }
     },
     "Rina Saigo": {
-      "overall_match_count": 8,
-      "overall_rating": 1499.9163172814067,
+      "overall_match_count": 12,
+      "overall_rating": 1499.7829337456049,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -20185,8 +20269,8 @@
       }
     },
     "Sara Bejlek": {
-      "overall_match_count": 7,
-      "overall_rating": 1417.204800774622,
+      "overall_match_count": 9,
+      "overall_rating": 1447.2259920144368,
       "surface_match_counts": {
         "grass": 6
       },
@@ -20199,8 +20283,8 @@
       }
     },
     "Sara Sorribes Tormo": {
-      "overall_match_count": 13,
-      "overall_rating": 1514.9718147325466,
+      "overall_match_count": 15,
+      "overall_rating": 1497.818491777259,
       "surface_match_counts": {
         "grass": 12
       },
@@ -20652,8 +20736,8 @@
       }
     },
     "Sinja Kraus": {
-      "overall_match_count": 2,
-      "overall_rating": 1523.172385326556,
+      "overall_match_count": 4,
+      "overall_rating": 1543.2898876122815,
       "surface_match_counts": {
         "grass": 6
       },
@@ -20695,8 +20779,8 @@
       }
     },
     "Sofia Costoulas": {
-      "overall_match_count": 12,
-      "overall_rating": 1540.6987561378935,
+      "overall_match_count": 18,
+      "overall_rating": 1557.492648391448,
       "surface_match_counts": {
         "grass": 6
       },
@@ -20723,8 +20807,8 @@
       }
     },
     "Sofya Lansere": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7101123877185,
+      "overall_match_count": 6,
+      "overall_rating": 1439.1512791883279,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -21107,8 +21191,8 @@
       }
     },
     "Susan Bandecchi": {
-      "overall_match_count": 4,
-      "overall_rating": 1458.8965778353438,
+      "overall_match_count": 6,
+      "overall_rating": 1442.3577183213467,
       "surface_match_counts": {
         "grass": 6
       },
@@ -21263,8 +21347,8 @@
       }
     },
     "Tamara Korpatsch": {
-      "overall_match_count": 33,
-      "overall_rating": 1456.2327021624476,
+      "overall_match_count": 35,
+      "overall_rating": 1473.8808278495821,
       "surface_match_counts": {
         "grass": 6
       },
@@ -21277,8 +21361,8 @@
       }
     },
     "Tamara Zidansek": {
-      "overall_match_count": 6,
-      "overall_rating": 1378.3628539792005,
+      "overall_match_count": 8,
+      "overall_rating": 1362.9180111859569,
       "surface_match_counts": {
         "grass": 6
       },
@@ -21484,8 +21568,8 @@
       }
     },
     "Tereza Krejcova": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.7560869755293,
+      "overall_match_count": 6,
+      "overall_rating": 1439.340928937323,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -21496,8 +21580,8 @@
       }
     },
     "Tereza Valentova": {
-      "overall_match_count": 7,
-      "overall_rating": 1394.2790530606899,
+      "overall_match_count": 9,
+      "overall_rating": 1423.9414398700658,
       "surface_match_counts": {
         "grass": 6
       },
@@ -22515,8 +22599,8 @@
       }
     },
     "Valentina Ryser": {
-      "overall_match_count": 8,
-      "overall_rating": 1502.9117762781034,
+      "overall_match_count": 12,
+      "overall_rating": 1506.7943820390033,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -22527,8 +22611,8 @@
       }
     },
     "Valentina Steiner": {
-      "overall_match_count": 1,
-      "overall_rating": 1484.5760824228596,
+      "overall_match_count": 3,
+      "overall_rating": 1456.7008349923053,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -22539,8 +22623,8 @@
       }
     },
     "Valeriya Strakhova": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4741012836787,
+      "overall_match_count": 6,
+      "overall_rating": 1434.1096961749793,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -22551,8 +22635,8 @@
       }
     },
     "Varvara Lepchenko": {
-      "overall_match_count": 8,
-      "overall_rating": 1501.9896314465336,
+      "overall_match_count": 12,
+      "overall_rating": 1505.3300264057457,
       "surface_match_counts": {
         "grass": 6
       },
@@ -22623,8 +22707,8 @@
       }
     },
     "Veronika Erjavec": {
-      "overall_match_count": 7,
-      "overall_rating": 1420.8065438934111,
+      "overall_match_count": 9,
+      "overall_rating": 1407.0227611529447,
       "surface_match_counts": {
         "grass": 6
       },
@@ -22637,8 +22721,8 @@
       }
     },
     "Veronika Podrez": {
-      "overall_match_count": 12,
-      "overall_rating": 1545.1415314214935,
+      "overall_match_count": 18,
+      "overall_rating": 1564.6727475214673,
       "surface_match_counts": {
         "grass": 12
       },
@@ -22696,8 +22780,8 @@
       }
     },
     "Victoria Bervid": {
-      "overall_match_count": 4,
-      "overall_rating": 1454.4227662150638,
+      "overall_match_count": 6,
+      "overall_rating": 1433.8984788280243,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -22708,8 +22792,8 @@
       }
     },
     "Victoria Brand": {
-      "overall_match_count": 8,
-      "overall_rating": 1499.683661708146,
+      "overall_match_count": 12,
+      "overall_rating": 1499.095695291959,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -22720,8 +22804,8 @@
       }
     },
     "Victoria Jimenez Kasintseva": {
-      "overall_match_count": 7,
-      "overall_rating": 1371.09141425975,
+      "overall_match_count": 9,
+      "overall_rating": 1353.4432885726155,
       "surface_match_counts": {
         "grass": 6
       },
@@ -22808,8 +22892,8 @@
       }
     },
     "Viktoria Morvayova": {
-      "overall_match_count": 4,
-      "overall_rating": 1456.8563932731963,
+      "overall_match_count": 6,
+      "overall_rating": 1439.4644191418893,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -23272,8 +23356,8 @@
       }
     },
     "Yasmine Kabbaj": {
-      "overall_match_count": 4,
-      "overall_rating": 1543.2898876122815,
+      "overall_match_count": 6,
+      "overall_rating": 1560.8487208116721,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -23358,8 +23442,8 @@
       }
     },
     "Yelyzaveta Kotliar": {
-      "overall_match_count": 8,
-      "overall_rating": 1504.2510969159298,
+      "overall_match_count": 12,
+      "overall_rating": 1509.7126332438875,
       "surface_match_counts": {},
       "surface_ratings": {
         "clay": 1500,
@@ -23565,8 +23649,8 @@
       }
     },
     "Yuan Yue": {
-      "overall_match_count": 7,
-      "overall_rating": 1390.5560817791868,
+      "overall_match_count": 9,
+      "overall_rating": 1380.2448325223813,
       "surface_match_counts": {
         "grass": 6
       },
@@ -23611,8 +23695,8 @@
       }
     },
     "Yulia Putintseva": {
-      "overall_match_count": 59,
-      "overall_rating": 1645.499472742942,
+      "overall_match_count": 61,
+      "overall_rating": 1665.7313391065225,
       "surface_match_counts": {
         "grass": 6
       },
