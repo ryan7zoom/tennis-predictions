@@ -1,1277 +1,293 @@
 {
-  "generated_at": "2026-07-22T11:09:29.849536+00:00",
+  "generated_at": "2026-07-23T04:56:51.672909+00:00",
   "predictions": [
     {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Mayar Sherif",
-      "player_b": "Simona Waltert",
-      "match_time_utc": "2026-07-22T09:05Z",
-      "match_winner": {
-        "player_a_prob": 0.1172,
-        "player_b_prob": 0.8828,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0478,
-        "player_b_straight_sets_prob": 0.623
-      },
-      "games_total": {
-        "average": 27.23,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1395.9,
-      "rating_b_used": 1746.7
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Mayar Sherif",
-      "player_b": "Simona Waltert",
-      "match_time_utc": "2026-07-22T09:05Z",
-      "match_winner": {
-        "player_a_prob": 0.1172,
-        "player_b_prob": 0.8828,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0442,
-        "player_b_straight_sets_prob": 0.6215
-      },
-      "games_total": {
-        "average": 27.34,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1395.9,
-      "rating_b_used": 1746.7
-    },
-    {
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "Arthur Rinderknech",
-      "player_b": "Sebastian Baez",
-      "match_time_utc": "2026-07-22T09:10Z",
+      "player_a": "Quentin Halys",
+      "player_b": "Mariano Navone",
+      "match_time_utc": "2026-07-23T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.6262,
-        "player_b_prob": 0.3738,
+        "player_a_prob": 0.8238,
+        "player_b_prob": 0.1762,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3475,
-        "player_b_straight_sets_prob": 0.1775
-      },
-      "games_total": {
-        "average": 25.52,
-        "median": 25
-      },
-      "confidence": "medium",
-      "rating_a_used": 1822.5,
-      "rating_b_used": 1732.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Arthur Rinderknech",
-      "player_b": "Sebastian Baez",
-      "match_time_utc": "2026-07-22T09:10Z",
-      "match_winner": {
-        "player_a_prob": 0.6262,
-        "player_b_prob": 0.3738,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3563,
-        "player_b_straight_sets_prob": 0.166
-      },
-      "games_total": {
-        "average": 25.41,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1822.5,
-      "rating_b_used": 1732.9
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Carol Young Suh Lee",
-      "player_b": "Marie Bouzkova",
-      "match_time_utc": "2026-07-22T10:20Z",
-      "match_winner": {
-        "player_a_prob": 0.667,
-        "player_b_prob": 0.333,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3613,
-        "player_b_straight_sets_prob": 0.155
-      },
-      "games_total": {
-        "average": 26.09,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1689.5,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Carol Young Suh Lee",
-      "player_b": "Marie Bouzkova",
-      "match_time_utc": "2026-07-22T10:20Z",
-      "match_winner": {
-        "player_a_prob": 0.667,
-        "player_b_prob": 0.333,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.378,
-        "player_b_straight_sets_prob": 0.1415
-      },
-      "games_total": {
-        "average": 26.05,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1689.5,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Mariano Navone",
-      "player_b": "Jan-Lennard Struff",
-      "match_time_utc": "2026-07-22T10:45Z",
-      "match_winner": {
-        "player_a_prob": 0.0314,
-        "player_b_prob": 0.9686,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0105,
-        "player_b_straight_sets_prob": 0.7905
-      },
-      "games_total": {
-        "average": 27.15,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1464.0,
-      "rating_b_used": 2059.6
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Yannick Hanfmann",
-      "player_b": "Marco Trungelliti",
-      "match_time_utc": "2026-07-22T10:45Z",
-      "match_winner": {
-        "player_a_prob": 0.5353,
-        "player_b_prob": 0.4647,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.282,
-        "player_b_straight_sets_prob": 0.226
-      },
-      "games_total": {
-        "average": 24.38,
-        "median": 24
-      },
-      "confidence": "medium",
-      "rating_a_used": 1638.3,
-      "rating_b_used": 1613.7
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Mariano Navone",
-      "player_b": "Jan-Lennard Struff",
-      "match_time_utc": "2026-07-22T10:45Z",
-      "match_winner": {
-        "player_a_prob": 0.0314,
-        "player_b_prob": 0.9686,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.01,
-        "player_b_straight_sets_prob": 0.807
+        "player_a_straight_sets_prob": 0.538,
+        "player_b_straight_sets_prob": 0.0747
       },
       "games_total": {
         "average": 27.06,
         "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1464.0,
-      "rating_b_used": 2059.6
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Yannick Hanfmann",
-      "player_b": "Marco Trungelliti",
-      "match_time_utc": "2026-07-22T10:45Z",
-      "match_winner": {
-        "player_a_prob": 0.5353,
-        "player_b_prob": 0.4647,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2662,
-        "player_b_straight_sets_prob": 0.221
-      },
-      "games_total": {
-        "average": 24.45,
-        "median": 25
-      },
-      "confidence": "medium",
-      "rating_a_used": 1638.3,
-      "rating_b_used": 1613.7
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Titouan Droguet",
-      "player_b": "Hugo Gaston",
-      "match_time_utc": "2026-07-22T11:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4686,
-        "player_b_prob": 0.5314,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2218,
-        "player_b_straight_sets_prob": 0.275
-      },
-      "games_total": {
-        "average": 24.41,
-        "median": 24
-      },
-      "confidence": "medium",
-      "rating_a_used": 1629.1,
-      "rating_b_used": 1650.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Titouan Droguet",
-      "player_b": "Hugo Gaston",
-      "match_time_utc": "2026-07-22T11:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4686,
-        "player_b_prob": 0.5314,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.24,
-        "player_b_straight_sets_prob": 0.2695
-      },
-      "games_total": {
-        "average": 24.28,
-        "median": 24
-      },
-      "confidence": "medium",
-      "rating_a_used": 1629.1,
-      "rating_b_used": 1650.9
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Elsa Jacquemot",
-      "player_b": "Tessa Johanna Brockmann",
-      "match_time_utc": "2026-07-22T11:05Z",
-      "match_winner": {
-        "player_a_prob": 0.3939,
-        "player_b_prob": 0.6061,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1855,
-        "player_b_straight_sets_prob": 0.3165
-      },
-      "games_total": {
-        "average": 25.33,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1425.2,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Elsa Jacquemot",
-      "player_b": "Tessa Johanna Brockmann",
-      "match_time_utc": "2026-07-22T11:05Z",
-      "match_winner": {
-        "player_a_prob": 0.3939,
-        "player_b_prob": 0.6061,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1867,
-        "player_b_straight_sets_prob": 0.3195
-      },
-      "games_total": {
-        "average": 25.45,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1425.2,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Paula Badosa",
-      "player_b": "Katarzyna Kawa",
-      "match_time_utc": "2026-07-22T11:20Z",
-      "match_winner": {
-        "player_a_prob": 0.8951,
-        "player_b_prob": 0.1049,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.6295,
-        "player_b_straight_sets_prob": 0.0398
-      },
-      "games_total": {
-        "average": 27.51,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1867.0,
-      "rating_b_used": 1494.5
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Paula Badosa",
-      "player_b": "Katarzyna Kawa",
-      "match_time_utc": "2026-07-22T11:20Z",
-      "match_winner": {
-        "player_a_prob": 0.8951,
-        "player_b_prob": 0.1049,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.642,
-        "player_b_straight_sets_prob": 0.04
-      },
-      "games_total": {
-        "average": 27.34,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1867.0,
-      "rating_b_used": 1494.5
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Ignacio Buse",
-      "player_b": "Kilian Feldbausch",
-      "match_time_utc": "2026-07-22T11:30Z",
-      "match_winner": {
-        "player_a_prob": 0.3665,
-        "player_b_prob": 0.6335,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1603,
-        "player_b_straight_sets_prob": 0.353
-      },
-      "games_total": {
-        "average": 25.7,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1587.2,
-      "rating_b_used": 1682.3
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Ignacio Buse",
-      "player_b": "Kilian Feldbausch",
-      "match_time_utc": "2026-07-22T11:30Z",
-      "match_winner": {
-        "player_a_prob": 0.3665,
-        "player_b_prob": 0.6335,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1718,
-        "player_b_straight_sets_prob": 0.3432
-      },
-      "games_total": {
-        "average": 25.61,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1587.2,
-      "rating_b_used": 1682.3
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Jurij Rodionov",
-      "player_b": "Tomas Martin Etcheverry",
-      "match_time_utc": "2026-07-22T12:00Z",
-      "match_winner": {
-        "player_a_prob": 0.714,
-        "player_b_prob": 0.286,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.4253,
-        "player_b_straight_sets_prob": 0.1245
-      },
-      "games_total": {
-        "average": 26.38,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1626.1,
-      "rating_b_used": 1467.2
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Jurij Rodionov",
-      "player_b": "Tomas Martin Etcheverry",
-      "match_time_utc": "2026-07-22T12:00Z",
-      "match_winner": {
-        "player_a_prob": 0.714,
-        "player_b_prob": 0.286,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.429,
-        "player_b_straight_sets_prob": 0.1258
-      },
-      "games_total": {
-        "average": 26.38,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1626.1,
-      "rating_b_used": 1467.2
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Tereza Valentova",
-      "player_b": "Maya Joint",
-      "match_time_utc": "2026-07-22T12:00Z",
-      "match_winner": {
-        "player_a_prob": 0.354,
-        "player_b_prob": 0.646,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1507,
-        "player_b_straight_sets_prob": 0.3595
-      },
-      "games_total": {
-        "average": 25.99,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1437.5,
-      "rating_b_used": 1542.0
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Tereza Valentova",
-      "player_b": "Maya Joint",
-      "match_time_utc": "2026-07-22T12:00Z",
-      "match_winner": {
-        "player_a_prob": 0.354,
-        "player_b_prob": 0.646,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1573,
-        "player_b_straight_sets_prob": 0.3555
-      },
-      "games_total": {
-        "average": 25.88,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1437.5,
-      "rating_b_used": 1542.0
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Sinja Kraus",
-      "player_b": "Alina Charaeva",
-      "match_time_utc": "2026-07-22T12:05Z",
-      "match_winner": {
-        "player_a_prob": 0.3859,
-        "player_b_prob": 0.6141,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1755,
-        "player_b_straight_sets_prob": 0.3275
-      },
-      "games_total": {
-        "average": 25.57,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1552.4,
-      "rating_b_used": 1633.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Sinja Kraus",
-      "player_b": "Alina Charaeva",
-      "match_time_utc": "2026-07-22T12:05Z",
-      "match_winner": {
-        "player_a_prob": 0.3859,
-        "player_b_prob": 0.6141,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.18,
-        "player_b_straight_sets_prob": 0.321
-      },
-      "games_total": {
-        "average": 25.5,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1552.4,
-      "rating_b_used": 1633.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Julia Stusek",
-      "player_b": "Tamara Korpatsch",
-      "match_time_utc": "2026-07-22T12:20Z",
-      "match_winner": {
-        "player_a_prob": 0.6226,
-        "player_b_prob": 0.3774,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3352,
-        "player_b_straight_sets_prob": 0.1762
-      },
-      "games_total": {
-        "average": 25.52,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1481.9
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Julia Stusek",
-      "player_b": "Tamara Korpatsch",
-      "match_time_utc": "2026-07-22T12:20Z",
-      "match_winner": {
-        "player_a_prob": 0.6226,
-        "player_b_prob": 0.3774,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3395,
-        "player_b_straight_sets_prob": 0.173
-      },
-      "games_total": {
-        "average": 25.39,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1481.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Daniel Altmaier",
-      "player_b": "Alex Molcan",
-      "match_time_utc": "2026-07-22T13:00Z",
-      "match_winner": {
-        "player_a_prob": 0.2766,
-        "player_b_prob": 0.7234,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.119,
-        "player_b_straight_sets_prob": 0.432
-      },
-      "games_total": {
-        "average": 26.46,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1627.4,
-      "rating_b_used": 1794.4
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Daniel Altmaier",
-      "player_b": "Alex Molcan",
-      "match_time_utc": "2026-07-22T13:00Z",
-      "match_winner": {
-        "player_a_prob": 0.2766,
-        "player_b_prob": 0.7234,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1168,
-        "player_b_straight_sets_prob": 0.4417
-      },
-      "games_total": {
-        "average": 26.35,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1627.4,
-      "rating_b_used": 1794.4
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Facundo Diaz Acosta",
-      "player_b": "Alexander Bublik",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.1255,
-        "player_b_prob": 0.8745,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0515,
-        "player_b_straight_sets_prob": 0.597
-      },
-      "games_total": {
-        "average": 27.42,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1441.8,
-      "rating_b_used": 1779.1
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Roman Andres Burruchaga",
-      "player_b": "Nuno Borges",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.3159,
-        "player_b_prob": 0.6841,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1407,
-        "player_b_straight_sets_prob": 0.3932
-      },
-      "games_total": {
-        "average": 26.08,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1700.6,
-      "rating_b_used": 1834.8
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Facundo Diaz Acosta",
-      "player_b": "Alexander Bublik",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.1255,
-        "player_b_prob": 0.8745,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0488,
-        "player_b_straight_sets_prob": 0.5968
-      },
-      "games_total": {
-        "average": 27.45,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1441.8,
-      "rating_b_used": 1779.1
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Roman Andres Burruchaga",
-      "player_b": "Nuno Borges",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.3159,
-        "player_b_prob": 0.6841,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1435,
-        "player_b_straight_sets_prob": 0.399
-      },
-      "games_total": {
-        "average": 26.07,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1700.6,
-      "rating_b_used": 1834.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Oceane Dodin",
-      "player_b": "Dominika Salkova",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.349,
-        "player_b_prob": 0.651,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1675,
-        "player_b_straight_sets_prob": 0.3568
-      },
-      "games_total": {
-        "average": 25.66,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1677.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Oceane Dodin",
-      "player_b": "Dominika Salkova",
-      "match_time_utc": "2026-07-22T13:30Z",
-      "match_winner": {
-        "player_a_prob": 0.349,
-        "player_b_prob": 0.651,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1547,
-        "player_b_straight_sets_prob": 0.3752
-      },
-      "games_total": {
-        "average": 25.69,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1677.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Lola Radivojevic",
-      "player_b": "Jennifer Ruggeri",
-      "match_time_utc": "2026-07-22T15:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4741,
-        "player_b_prob": 0.5259,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2415,
-        "player_b_straight_sets_prob": 0.2652
-      },
-      "games_total": {
-        "average": 24.23,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1586.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Noma Noha Akugue",
-      "player_b": "Anna Bondar",
-      "match_time_utc": "2026-07-22T15:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3404,
-        "player_b_prob": 0.6596,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1578,
-        "player_b_straight_sets_prob": 0.3673
-      },
-      "games_total": {
-        "average": 25.87,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1453.9,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Lola Radivojevic",
-      "player_b": "Jennifer Ruggeri",
-      "match_time_utc": "2026-07-22T15:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4741,
-        "player_b_prob": 0.5259,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2313,
-        "player_b_straight_sets_prob": 0.2647
-      },
-      "games_total": {
-        "average": 24.37,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1586.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Noma Noha Akugue",
-      "player_b": "Anna Bondar",
-      "match_time_utc": "2026-07-22T15:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3404,
-        "player_b_prob": 0.6596,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1598,
-        "player_b_straight_sets_prob": 0.3633
-      },
-      "games_total": {
-        "average": 25.83,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1453.9,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Tiago Torres",
-      "player_b": "Alejandro Tabilo",
-      "match_time_utc": "2026-07-22T16:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3721,
-        "player_b_prob": 0.6279,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1625,
-        "player_b_straight_sets_prob": 0.352
-      },
-      "games_total": {
-        "average": 25.55,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1582.0,
-      "rating_b_used": 1672.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Tiago Torres",
-      "player_b": "Alejandro Tabilo",
-      "match_time_utc": "2026-07-22T16:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3721,
-        "player_b_prob": 0.6279,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1727,
-        "player_b_straight_sets_prob": 0.3407
-      },
-      "games_total": {
-        "average": 25.44,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1582.0,
-      "rating_b_used": 1672.9
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Federica Urgesi",
-      "player_b": "Clara Burel",
-      "match_time_utc": "2026-07-22T16:30Z",
-      "match_winner": {
-        "player_a_prob": 0.4455,
-        "player_b_prob": 0.5545,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2137,
-        "player_b_straight_sets_prob": 0.288
-      },
-      "games_total": {
-        "average": 24.64,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1495.6,
-      "rating_b_used": 1533.6
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yasmine Kabbaj",
-      "player_b": "Ekaterine Gorgodze",
-      "match_time_utc": "2026-07-22T16:30Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2635,
-        "player_b_straight_sets_prob": 0.2547
-      },
-      "games_total": {
-        "average": 23.94,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Federica Urgesi",
-      "player_b": "Clara Burel",
-      "match_time_utc": "2026-07-22T16:30Z",
-      "match_winner": {
-        "player_a_prob": 0.4455,
-        "player_b_prob": 0.5545,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2072,
-        "player_b_straight_sets_prob": 0.2955
-      },
-      "games_total": {
-        "average": 24.65,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1495.6,
-      "rating_b_used": 1533.6
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yasmine Kabbaj",
-      "player_b": "Ekaterine Gorgodze",
-      "match_time_utc": "2026-07-22T16:30Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2497,
-        "player_b_straight_sets_prob": 0.2617
-      },
-      "games_total": {
-        "average": 24.08,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Alexander Blockx",
-      "player_b": "Kyrian Jacquet",
-      "match_time_utc": "2026-07-22T17:30Z",
-      "match_winner": {
-        "player_a_prob": 0.1546,
-        "player_b_prob": 0.8454,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.054,
-        "player_b_straight_sets_prob": 0.57
-      },
-      "games_total": {
-        "average": 27.28,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1410.2,
-      "rating_b_used": 1705.4
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Alexander Blockx",
-      "player_b": "Kyrian Jacquet",
-      "match_time_utc": "2026-07-22T17:30Z",
-      "match_winner": {
-        "player_a_prob": 0.1546,
-        "player_b_prob": 0.8454,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.067,
-        "player_b_straight_sets_prob": 0.5573
-      },
-      "games_total": {
-        "average": 27.31,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1410.2,
-      "rating_b_used": 1705.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Erika Andreeva",
-      "player_b": "Fiona Ferro",
-      "match_time_utc": "2026-07-22T18:00Z",
-      "match_winner": {
-        "player_a_prob": 0.474,
-        "player_b_prob": 0.526,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.242,
-        "player_b_straight_sets_prob": 0.2717
-      },
-      "games_total": {
-        "average": 24.26,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1586.9
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Erika Andreeva",
-      "player_b": "Fiona Ferro",
-      "match_time_utc": "2026-07-22T18:00Z",
-      "match_winner": {
-        "player_a_prob": 0.474,
-        "player_b_prob": 0.526,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2422,
-        "player_b_straight_sets_prob": 0.2555
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1568.8,
-      "rating_b_used": 1586.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.248,
-        "player_b_straight_sets_prob": 0.25
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.245
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
+      "rating_a_used": 1794.9,
+      "rating_b_used": 1526.9
     },
     {
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
       "player_a": "Quentin Halys",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_b": "Mariano Navone",
+      "match_time_utc": "2026-07-23T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.8205,
-        "player_b_prob": 0.1795,
+        "player_a_prob": 0.8238,
+        "player_b_prob": 0.1762,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.5383,
+        "player_b_straight_sets_prob": 0.0735
+      },
+      "games_total": {
+        "average": 27.17,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1794.9,
+      "rating_b_used": 1526.9
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Lanlana Tararudee",
+      "player_b": "Nikola Bartunkova",
+      "match_time_utc": "2026-07-23T09:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3924,
+        "player_b_prob": 0.6076,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.5315,
-        "player_b_straight_sets_prob": 0.076
+        "player_a_straight_sets_prob": 0.1792,
+        "player_b_straight_sets_prob": 0.333
       },
       "games_total": {
-        "average": 27.1,
-        "median": 26
+        "average": 25.25,
+        "median": 25
       },
       "confidence": "low",
-      "rating_a_used": 1764.0,
-      "rating_b_used": 1500
+      "rating_a_used": 1558.7,
+      "rating_b_used": 1634.6
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Elsa Jacquemot",
+      "player_b": "Mayar Sherif",
+      "match_time_utc": "2026-07-23T09:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5225,
+        "player_b_prob": 0.4775,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.261,
+        "player_b_straight_sets_prob": 0.2405
+      },
+      "games_total": {
+        "average": 24.17,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1453.3,
+      "rating_b_used": 1437.6
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Lanlana Tararudee",
+      "player_b": "Nikola Bartunkova",
+      "match_time_utc": "2026-07-23T09:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3924,
+        "player_b_prob": 0.6076,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1905,
+        "player_b_straight_sets_prob": 0.33
+      },
+      "games_total": {
+        "average": 25.18,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1558.7,
+      "rating_b_used": 1634.6
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Elsa Jacquemot",
+      "player_b": "Mayar Sherif",
+      "match_time_utc": "2026-07-23T09:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5225,
+        "player_b_prob": 0.4775,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2665,
+        "player_b_straight_sets_prob": 0.2395
+      },
+      "games_total": {
+        "average": 24.09,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1453.3,
+      "rating_b_used": 1437.6
     },
     {
       "tour": "ATP",
       "tournament": "Generali Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_a": "Sebastian Baez",
+      "player_b": "Yannick Hanfmann",
+      "match_time_utc": "2026-07-23T10:30Z",
       "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2382,
-        "player_b_straight_sets_prob": 0.259
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Gonzalo Bueno",
-      "player_b": "Jaime Faria",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4062,
-        "player_b_prob": 0.5938,
+        "player_a_prob": 0.646,
+        "player_b_prob": 0.354,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.1938,
-        "player_b_straight_sets_prob": 0.313
+        "player_a_straight_sets_prob": 0.374,
+        "player_b_straight_sets_prob": 0.1625
       },
       "games_total": {
-        "average": 25.15,
-        "median": 25
+        "average": 25.65,
+        "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1598.3,
-      "rating_b_used": 1664.3
+      "rating_a_used": 1771.6,
+      "rating_b_used": 1667.1
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "Sebastian Baez",
+      "player_b": "Yannick Hanfmann",
+      "match_time_utc": "2026-07-23T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.646,
+        "player_b_prob": 0.354,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3493,
+        "player_b_straight_sets_prob": 0.1608
+      },
+      "games_total": {
+        "average": 25.92,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1771.6,
+      "rating_b_used": 1667.1
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Lilli Tagger",
+      "player_b": "Mai Hontama",
+      "match_time_utc": "2026-07-23T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.2169,
+        "player_b_prob": 0.7831,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0875,
+        "player_b_straight_sets_prob": 0.4883
+      },
+      "games_total": {
+        "average": 26.99,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1481.3,
+      "rating_b_used": 1704.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Leyre Romero Gormaz",
+      "player_b": "Oleksandra Oliynykova",
+      "match_time_utc": "2026-07-23T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.8124,
+        "player_b_prob": 0.1876,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.515,
+        "player_b_straight_sets_prob": 0.0775
+      },
+      "games_total": {
+        "average": 27.18,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1603.5,
+      "rating_b_used": 1348.9
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Lilli Tagger",
+      "player_b": "Mai Hontama",
+      "match_time_utc": "2026-07-23T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.2169,
+        "player_b_prob": 0.7831,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0818,
+        "player_b_straight_sets_prob": 0.487
+      },
+      "games_total": {
+        "average": 27.08,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1481.3,
+      "rating_b_used": 1704.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Leyre Romero Gormaz",
+      "player_b": "Oleksandra Oliynykova",
+      "match_time_utc": "2026-07-23T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.8124,
+        "player_b_prob": 0.1876,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.529,
+        "player_b_straight_sets_prob": 0.0755
+      },
+      "games_total": {
+        "average": 27.08,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1603.5,
+      "rating_b_used": 1348.9
     },
     {
       "tour": "ATP",
@@ -1279,47 +295,431 @@
       "surface": "unknown",
       "player_a": "Pablo Carreno Busta",
       "player_b": "Luca Van Assche",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "match_time_utc": "2026-07-23T11:00Z",
       "match_winner": {
-        "player_a_prob": 0.6494,
-        "player_b_prob": 0.3506,
+        "player_a_prob": 0.6594,
+        "player_b_prob": 0.3406,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3543,
-        "player_b_straight_sets_prob": 0.1555
+        "player_a_straight_sets_prob": 0.3635,
+        "player_b_straight_sets_prob": 0.1517
       },
       "games_total": {
-        "average": 25.89,
+        "average": 25.96,
         "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1607.7,
-      "rating_b_used": 1500.6
+      "rating_a_used": 1623.8,
+      "rating_b_used": 1509.1
     },
     {
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Luciano Darderi",
-      "player_b": "Pedro Martinez",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_a": "Pablo Carreno Busta",
+      "player_b": "Luca Van Assche",
+      "match_time_utc": "2026-07-23T11:00Z",
       "match_winner": {
-        "player_a_prob": 0.7286,
-        "player_b_prob": 0.2714,
+        "player_a_prob": 0.6594,
+        "player_b_prob": 0.3406,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.4295,
-        "player_b_straight_sets_prob": 0.1217
+        "player_a_straight_sets_prob": 0.3772,
+        "player_b_straight_sets_prob": 0.1482
       },
       "games_total": {
-        "average": 26.56,
+        "average": 25.91,
         "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1790.5,
-      "rating_b_used": 1618.9
+      "rating_a_used": 1623.8,
+      "rating_b_used": 1509.1
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "Ignacio Buse",
+      "player_b": "Tomas Martin Etcheverry",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6702,
+        "player_b_prob": 0.3298,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3855,
+        "player_b_straight_sets_prob": 0.1502
+      },
+      "games_total": {
+        "average": 26.06,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1624.9,
+      "rating_b_used": 1501.8
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "Ignacio Buse",
+      "player_b": "Tomas Martin Etcheverry",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6702,
+        "player_b_prob": 0.3298,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3713,
+        "player_b_straight_sets_prob": 0.1393
+      },
+      "games_total": {
+        "average": 26.16,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1624.9,
+      "rating_b_used": 1501.8
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Sara Bejlek",
+      "player_b": "Maria Timofeeva",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3818,
+        "player_b_prob": 0.6182,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1618,
+        "player_b_straight_sets_prob": 0.327
+      },
+      "games_total": {
+        "average": 25.67,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1485.1,
+      "rating_b_used": 1568.8
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Panna Udvardy",
+      "player_b": "Paula Badosa",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.1812,
+        "player_b_prob": 0.8188,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.075,
+        "player_b_straight_sets_prob": 0.5262
+      },
+      "games_total": {
+        "average": 27.17,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1610.0,
+      "rating_b_used": 1872.0
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Sara Bejlek",
+      "player_b": "Maria Timofeeva",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3818,
+        "player_b_prob": 0.6182,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1815,
+        "player_b_straight_sets_prob": 0.3317
+      },
+      "games_total": {
+        "average": 25.46,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1485.1,
+      "rating_b_used": 1568.8
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Panna Udvardy",
+      "player_b": "Paula Badosa",
+      "match_time_utc": "2026-07-23T12:00Z",
+      "match_winner": {
+        "player_a_prob": 0.1812,
+        "player_b_prob": 0.8188,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.069,
+        "player_b_straight_sets_prob": 0.5323
+      },
+      "games_total": {
+        "average": 27.19,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1610.0,
+      "rating_b_used": 1872.0
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Gonzalo Bueno",
+      "player_b": "Jaime Faria",
+      "match_time_utc": "2026-07-23T13:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4427,
+        "player_b_prob": 0.5573,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2228,
+        "player_b_straight_sets_prob": 0.2845
+      },
+      "games_total": {
+        "average": 24.62,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1639.5,
+      "rating_b_used": 1679.5
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Gonzalo Bueno",
+      "player_b": "Jaime Faria",
+      "match_time_utc": "2026-07-23T13:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4427,
+        "player_b_prob": 0.5573,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.221,
+        "player_b_straight_sets_prob": 0.2865
+      },
+      "games_total": {
+        "average": 24.6,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1639.5,
+      "rating_b_used": 1679.5
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "Alex Molcan",
+      "player_b": "Alexander Bublik",
+      "match_time_utc": "2026-07-23T13:30Z",
+      "match_winner": {
+        "player_a_prob": 0.5406,
+        "player_b_prob": 0.4594,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2737,
+        "player_b_straight_sets_prob": 0.2273
+      },
+      "games_total": {
+        "average": 24.42,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1814.1,
+      "rating_b_used": 1785.8
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "Alex Molcan",
+      "player_b": "Alexander Bublik",
+      "match_time_utc": "2026-07-23T13:30Z",
+      "match_winner": {
+        "player_a_prob": 0.5406,
+        "player_b_prob": 0.4594,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2802,
+        "player_b_straight_sets_prob": 0.2313
+      },
+      "games_total": {
+        "average": 24.3,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1814.1,
+      "rating_b_used": 1785.8
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Barbora Krejcikova",
+      "player_b": "Lucie Havlickova",
+      "match_time_utc": "2026-07-23T13:30Z",
+      "match_winner": {
+        "player_a_prob": 0.72,
+        "player_b_prob": 0.28,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.4145,
+        "player_b_straight_sets_prob": 0.1215
+      },
+      "games_total": {
+        "average": 26.58,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1747.4,
+      "rating_b_used": 1583.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Barbora Krejcikova",
+      "player_b": "Lucie Havlickova",
+      "match_time_utc": "2026-07-23T13:30Z",
+      "match_winner": {
+        "player_a_prob": 0.72,
+        "player_b_prob": 0.28,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.4195,
+        "player_b_straight_sets_prob": 0.121
+      },
+      "games_total": {
+        "average": 26.51,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1747.4,
+      "rating_b_used": 1583.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Noemi Basiletti",
+      "player_b": "Mina Hodzic",
+      "match_time_utc": "2026-07-23T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4991,
+        "player_b_prob": 0.5009,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.249,
+        "player_b_straight_sets_prob": 0.2602
+      },
+      "games_total": {
+        "average": 24.09,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1689.8,
+      "rating_b_used": 1690.4
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Yulia Putintseva",
+      "player_b": "Elina Avanesyan",
+      "match_time_utc": "2026-07-23T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4739,
+        "player_b_prob": 0.5261,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2283,
+        "player_b_straight_sets_prob": 0.2755
+      },
+      "games_total": {
+        "average": 24.29,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1695.1,
+      "rating_b_used": 1713.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Noemi Basiletti",
+      "player_b": "Mina Hodzic",
+      "match_time_utc": "2026-07-23T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4991,
+        "player_b_prob": 0.5009,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.249,
+        "player_b_straight_sets_prob": 0.2475
+      },
+      "games_total": {
+        "average": 24.11,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1689.8,
+      "rating_b_used": 1690.4
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Yulia Putintseva",
+      "player_b": "Elina Avanesyan",
+      "match_time_utc": "2026-07-23T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4739,
+        "player_b_prob": 0.5261,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.225,
+        "player_b_straight_sets_prob": 0.2677
+      },
+      "games_total": {
+        "average": 24.45,
+        "median": 24
+      },
+      "confidence": "medium",
+      "rating_a_used": 1695.1,
+      "rating_b_used": 1713.3
     },
     {
       "tour": "ATP",
@@ -1327,215 +727,143 @@
       "surface": "unknown",
       "player_a": "Timofey Skatov",
       "player_b": "Andrey Rublev",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "match_time_utc": "2026-07-23T16:00Z",
       "match_winner": {
-        "player_a_prob": 0.1593,
-        "player_b_prob": 0.8407,
+        "player_a_prob": 0.1616,
+        "player_b_prob": 0.8384,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.0693,
-        "player_b_straight_sets_prob": 0.5623
+        "player_a_straight_sets_prob": 0.058,
+        "player_b_straight_sets_prob": 0.5523
+      },
+      "games_total": {
+        "average": 27.29,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1653.9,
+      "rating_b_used": 1939.9
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Timofey Skatov",
+      "player_b": "Andrey Rublev",
+      "match_time_utc": "2026-07-23T16:00Z",
+      "match_winner": {
+        "player_a_prob": 0.1616,
+        "player_b_prob": 0.8384,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.069,
+        "player_b_straight_sets_prob": 0.5693
       },
       "games_total": {
         "average": 27.11,
         "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1651.0,
+      "rating_a_used": 1653.9,
       "rating_b_used": 1939.9
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_a": "Alice Rame",
+      "player_b": "Alevtina Ibragimova",
+      "match_time_utc": "2026-07-23T16:30Z",
       "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
+        "player_a_prob": 0.3774,
+        "player_b_prob": 0.6226,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.247
+        "player_a_straight_sets_prob": 0.1777,
+        "player_b_straight_sets_prob": 0.348
       },
       "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.246,
-        "player_b_straight_sets_prob": 0.2532
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2552,
-        "player_b_straight_sets_prob": 0.257
-      },
-      "games_total": {
-        "average": 24.05,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.2512
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Quentin Halys",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.8205,
-        "player_b_prob": 0.1795,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.5172,
-        "player_b_straight_sets_prob": 0.0742
-      },
-      "games_total": {
-        "average": 27.33,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1764.0,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2447,
-        "player_b_straight_sets_prob": 0.2547
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "Gonzalo Bueno",
-      "player_b": "Jaime Faria",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4062,
-        "player_b_prob": 0.5938,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1983,
-        "player_b_straight_sets_prob": 0.3247
-      },
-      "games_total": {
-        "average": 25.0,
+        "average": 25.35,
         "median": 25
       },
-      "confidence": "medium",
-      "rating_a_used": 1598.3,
-      "rating_b_used": 1664.3
+      "confidence": "low",
+      "rating_a_used": 1448.5,
+      "rating_b_used": 1535.4
     },
     {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Pablo Carreno Busta",
-      "player_b": "Luca Van Assche",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_a": "Miriam Bulgaru",
+      "player_b": "Francesca Jones",
+      "match_time_utc": "2026-07-23T16:30Z",
       "match_winner": {
-        "player_a_prob": 0.6494,
-        "player_b_prob": 0.3506,
-        "confidence": "medium"
+        "player_a_prob": 0.6168,
+        "player_b_prob": 0.3832,
+        "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.372,
-        "player_b_straight_sets_prob": 0.159
+        "player_a_straight_sets_prob": 0.3327,
+        "player_b_straight_sets_prob": 0.1715
       },
       "games_total": {
-        "average": 25.71,
+        "average": 25.54,
         "median": 26
       },
-      "confidence": "medium",
-      "rating_a_used": 1607.7,
-      "rating_b_used": 1500.6
+      "confidence": "low",
+      "rating_a_used": 1531.2,
+      "rating_b_used": 1448.5
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Alice Rame",
+      "player_b": "Alevtina Ibragimova",
+      "match_time_utc": "2026-07-23T16:30Z",
+      "match_winner": {
+        "player_a_prob": 0.3774,
+        "player_b_prob": 0.6226,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1715,
+        "player_b_straight_sets_prob": 0.3395
+      },
+      "games_total": {
+        "average": 25.47,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1448.5,
+      "rating_b_used": 1535.4
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Miriam Bulgaru",
+      "player_b": "Francesca Jones",
+      "match_time_utc": "2026-07-23T16:30Z",
+      "match_winner": {
+        "player_a_prob": 0.6168,
+        "player_b_prob": 0.3832,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3352,
+        "player_b_straight_sets_prob": 0.1775
+      },
+      "games_total": {
+        "average": 25.46,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1531.2,
+      "rating_b_used": 1448.5
     },
     {
       "tour": "ATP",
@@ -1543,191 +871,47 @@
       "surface": "unknown",
       "player_a": "Luciano Darderi",
       "player_b": "Pedro Martinez",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "match_time_utc": "2026-07-23T17:30Z",
       "match_winner": {
-        "player_a_prob": 0.7286,
-        "player_b_prob": 0.2714,
+        "player_a_prob": 0.6777,
+        "player_b_prob": 0.3223,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.439,
-        "player_b_straight_sets_prob": 0.1143
+        "player_a_straight_sets_prob": 0.3842,
+        "player_b_straight_sets_prob": 0.1485
       },
       "games_total": {
-        "average": 26.56,
+        "average": 26.05,
         "median": 26
       },
       "confidence": "medium",
       "rating_a_used": 1790.5,
-      "rating_b_used": 1618.9
+      "rating_b_used": 1661.4
     },
     {
       "tour": "ATP",
       "tournament": "Millennium Estoril Open",
       "surface": "unknown",
-      "player_a": "Timofey Skatov",
-      "player_b": "Andrey Rublev",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "player_a": "Luciano Darderi",
+      "player_b": "Pedro Martinez",
+      "match_time_utc": "2026-07-23T17:30Z",
       "match_winner": {
-        "player_a_prob": 0.1593,
-        "player_b_prob": 0.8407,
+        "player_a_prob": 0.6777,
+        "player_b_prob": 0.3223,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.0605,
-        "player_b_straight_sets_prob": 0.5555
+        "player_a_straight_sets_prob": 0.3847,
+        "player_b_straight_sets_prob": 0.1383
       },
       "games_total": {
-        "average": 27.36,
+        "average": 26.13,
         "median": 26
       },
       "confidence": "medium",
-      "rating_a_used": 1651.0,
-      "rating_b_used": 1939.9
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2405,
-        "player_b_straight_sets_prob": 0.2587
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.26,
-        "player_b_straight_sets_prob": 0.246
-      },
-      "games_total": {
-        "average": 24.04,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Lanlana Tararudee",
-      "player_b": "Nikola Bartunkova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3806,
-        "player_b_prob": 0.6194,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.169,
-        "player_b_straight_sets_prob": 0.3397
-      },
-      "games_total": {
-        "average": 25.5,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1541.0,
-      "rating_b_used": 1625.6
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Barbora Krejcikova",
-      "player_b": "Lucie Havlickova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.7263,
-        "player_b_prob": 0.2737,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.4253,
-        "player_b_straight_sets_prob": 0.1215
-      },
-      "games_total": {
-        "average": 26.5,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1738.4,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Sara Bejlek",
-      "player_b": "Maria Timofeeva",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3712,
-        "player_b_prob": 0.6288,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1762,
-        "player_b_straight_sets_prob": 0.3315
-      },
-      "games_total": {
-        "average": 25.63,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1460.8,
-      "rating_b_used": 1552.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Lilli Tagger",
-      "player_b": "Mai Hontama",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.2169,
-        "player_b_prob": 0.7831,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.0828,
-        "player_b_straight_sets_prob": 0.492
-      },
-      "games_total": {
-        "average": 26.99,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1448.8,
-      "rating_b_used": 1671.8
+      "rating_a_used": 1790.5,
+      "rating_b_used": 1661.4
     },
     {
       "tour": "WTA",
@@ -1735,311 +919,23 @@
       "surface": "unknown",
       "player_a": "Lucia Bronzetti",
       "player_b": "Dalila Spiteri",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "match_time_utc": "2026-07-23T18:00Z",
       "match_winner": {
-        "player_a_prob": 0.6761,
-        "player_b_prob": 0.3239,
+        "player_a_prob": 0.698,
+        "player_b_prob": 0.302,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3817,
-        "player_b_straight_sets_prob": 0.1485
+        "player_a_straight_sets_prob": 0.4123,
+        "player_b_straight_sets_prob": 0.1295
       },
       "games_total": {
         "average": 26.13,
         "median": 26
       },
       "confidence": "low",
-      "rating_a_used": 1623.0,
-      "rating_b_used": 1495.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Noemi Basiletti",
-      "player_b": "Mina Hodzic",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4995,
-        "player_b_prob": 0.5005,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2465,
-        "player_b_straight_sets_prob": 0.2375
-      },
-      "games_total": {
-        "average": 24.26,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1653.9,
-      "rating_b_used": 1654.2
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Alice Rame",
-      "player_b": "Alevtina Ibragimova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3609,
-        "player_b_prob": 0.6391,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1663,
-        "player_b_straight_sets_prob": 0.3605
-      },
-      "games_total": {
-        "average": 25.58,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1423.2,
-      "rating_b_used": 1522.5
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Miriam Bulgaru",
-      "player_b": "Francesca Jones",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.6253,
-        "player_b_prob": 0.3747,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3528,
-        "player_b_straight_sets_prob": 0.1648
-      },
-      "games_total": {
-        "average": 25.47,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1512.2,
-      "rating_b_used": 1423.2
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Leyre Romero Gormaz",
-      "player_b": "Oleksandra Oliynykova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.8291,
-        "player_b_prob": 0.1709,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.5367,
-        "player_b_straight_sets_prob": 0.0717
-      },
-      "games_total": {
-        "average": 27.27,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1591.8,
-      "rating_b_used": 1317.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Panna Udvardy",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.6225,
-        "player_b_prob": 0.3775,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3407,
-        "player_b_straight_sets_prob": 0.1752
-      },
-      "games_total": {
-        "average": 25.47,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1586.9,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2485,
-        "player_b_straight_sets_prob": 0.253
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yulia Putintseva",
-      "player_b": "Elina Avanesyan",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5047,
-        "player_b_prob": 0.4953,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.262,
-        "player_b_straight_sets_prob": 0.2318
-      },
-      "games_total": {
-        "average": 24.19,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1675.7,
-      "rating_b_used": 1672.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2323,
-        "player_b_straight_sets_prob": 0.244
-      },
-      "games_total": {
-        "average": 24.35,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Lanlana Tararudee",
-      "player_b": "Nikola Bartunkova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3806,
-        "player_b_prob": 0.6194,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1787,
-        "player_b_straight_sets_prob": 0.3387
-      },
-      "games_total": {
-        "average": 25.52,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1541.0,
-      "rating_b_used": 1625.6
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Barbora Krejcikova",
-      "player_b": "Lucie Havlickova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.7263,
-        "player_b_prob": 0.2737,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.431,
-        "player_b_straight_sets_prob": 0.1288
-      },
-      "games_total": {
-        "average": 26.53,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1738.4,
-      "rating_b_used": 1568.8
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Sara Bejlek",
-      "player_b": "Maria Timofeeva",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3712,
-        "player_b_prob": 0.6288,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.1658,
-        "player_b_straight_sets_prob": 0.3345
-      },
-      "games_total": {
-        "average": 25.73,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1460.8,
-      "rating_b_used": 1552.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "Lilli Tagger",
-      "player_b": "Mai Hontama",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.2169,
-        "player_b_prob": 0.7831,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.085,
-        "player_b_straight_sets_prob": 0.4985
-      },
-      "games_total": {
-        "average": 26.99,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1448.8,
-      "rating_b_used": 1671.8
+      "rating_a_used": 1637.0,
+      "rating_b_used": 1491.5
     },
     {
       "tour": "WTA",
@@ -2047,215 +943,23 @@
       "surface": "unknown",
       "player_a": "Lucia Bronzetti",
       "player_b": "Dalila Spiteri",
-      "match_time_utc": "2026-07-23T04:00Z",
+      "match_time_utc": "2026-07-23T18:00Z",
       "match_winner": {
-        "player_a_prob": 0.6761,
-        "player_b_prob": 0.3239,
+        "player_a_prob": 0.698,
+        "player_b_prob": 0.302,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3942,
-        "player_b_straight_sets_prob": 0.1442
+        "player_a_straight_sets_prob": 0.3967,
+        "player_b_straight_sets_prob": 0.1353
       },
       "games_total": {
-        "average": 25.97,
+        "average": 26.36,
         "median": 26
       },
       "confidence": "low",
-      "rating_a_used": 1623.0,
-      "rating_b_used": 1495.1
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Noemi Basiletti",
-      "player_b": "Mina Hodzic",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4995,
-        "player_b_prob": 0.5005,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2412,
-        "player_b_straight_sets_prob": 0.2552
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1653.9,
-      "rating_b_used": 1654.2
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Alice Rame",
-      "player_b": "Alevtina Ibragimova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.3609,
-        "player_b_prob": 0.6391,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.167,
-        "player_b_straight_sets_prob": 0.3708
-      },
-      "games_total": {
-        "average": 25.48,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1423.2,
-      "rating_b_used": 1522.5
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Miriam Bulgaru",
-      "player_b": "Francesca Jones",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.6253,
-        "player_b_prob": 0.3747,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3362,
-        "player_b_straight_sets_prob": 0.1735
-      },
-      "games_total": {
-        "average": 25.61,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1512.2,
-      "rating_b_used": 1423.2
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Leyre Romero Gormaz",
-      "player_b": "Oleksandra Oliynykova",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.8291,
-        "player_b_prob": 0.1709,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.5645,
-        "player_b_straight_sets_prob": 0.0645
-      },
-      "games_total": {
-        "average": 27.03,
-        "median": 26
-      },
-      "confidence": "medium",
-      "rating_a_used": 1591.8,
-      "rating_b_used": 1317.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Panna Udvardy",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.6225,
-        "player_b_prob": 0.3775,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3357,
-        "player_b_straight_sets_prob": 0.169
-      },
-      "games_total": {
-        "average": 25.66,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1586.9,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.257,
-        "player_b_straight_sets_prob": 0.2417
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Yulia Putintseva",
-      "player_b": "Elina Avanesyan",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5047,
-        "player_b_prob": 0.4953,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2627,
-        "player_b_straight_sets_prob": 0.251
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1675.7,
-      "rating_b_used": 1672.4
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-23T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2527,
-        "player_b_straight_sets_prob": 0.2542
-      },
-      "games_total": {
-        "average": 24.03,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
+      "rating_a_used": 1637.0,
+      "rating_b_used": 1491.5
     },
     {
       "tour": "ATP",
@@ -2270,11 +974,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2537,
-        "player_b_straight_sets_prob": 0.2515
+        "player_a_straight_sets_prob": 0.2415,
+        "player_b_straight_sets_prob": 0.2545
       },
       "games_total": {
-        "average": 24.11,
+        "average": 24.19,
         "median": 24
       },
       "confidence": "low",
@@ -2284,342 +988,6 @@
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2582,
-        "player_b_straight_sets_prob": 0.2407
-      },
-      "games_total": {
-        "average": 24.28,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.253,
-        "player_b_straight_sets_prob": 0.2527
-      },
-      "games_total": {
-        "average": 24.06,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.256,
-        "player_b_straight_sets_prob": 0.2397
-      },
-      "games_total": {
-        "average": 24.11,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2517,
-        "player_b_straight_sets_prob": 0.2397
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2452,
-        "player_b_straight_sets_prob": 0.2592
-      },
-      "games_total": {
-        "average": 24.21,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2595,
-        "player_b_straight_sets_prob": 0.2487
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2437,
-        "player_b_straight_sets_prob": 0.2507
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2577,
-        "player_b_straight_sets_prob": 0.255
-      },
-      "games_total": {
-        "average": 24.07,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2465,
-        "player_b_straight_sets_prob": 0.25
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2525,
-        "player_b_straight_sets_prob": 0.2485
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2537,
-        "player_b_straight_sets_prob": 0.2442
-      },
-      "games_total": {
-        "average": 24.11,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2552,
-        "player_b_straight_sets_prob": 0.243
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2567,
-        "player_b_straight_sets_prob": 0.2347
-      },
-      "games_total": {
-        "average": 24.29,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2525,
-        "player_b_straight_sets_prob": 0.2492
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2631,10 +999,10 @@
       },
       "set_winner": {
         "player_a_straight_sets_prob": 0.2505,
-        "player_b_straight_sets_prob": 0.2477
+        "player_b_straight_sets_prob": 0.2472
       },
       "games_total": {
-        "average": 24.2,
+        "average": 24.15,
         "median": 24
       },
       "confidence": "low",
@@ -2654,8 +1022,176 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2512,
-        "player_b_straight_sets_prob": 0.2522
+        "player_a_straight_sets_prob": 0.2502,
+        "player_b_straight_sets_prob": 0.258
+      },
+      "games_total": {
+        "average": 23.99,
+        "median": 23
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Hugo Gaston",
+      "player_b": "Tiago Torres",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6009,
+        "player_b_prob": 0.3991,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3202,
+        "player_b_straight_sets_prob": 0.1752
+      },
+      "games_total": {
+        "average": 25.39,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1692.2,
+      "rating_b_used": 1621.1
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Alexander Blockx",
+      "player_b": "Roman Andres Burruchaga",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.1593,
+        "player_b_prob": 0.8407,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0605,
+        "player_b_straight_sets_prob": 0.552
+      },
+      "games_total": {
+        "average": 27.31,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1450.4,
+      "rating_b_used": 1739.3
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2545,
+        "player_b_straight_sets_prob": 0.2405
+      },
+      "games_total": {
+        "average": 24.15,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.246,
+        "player_b_straight_sets_prob": 0.242
+      },
+      "games_total": {
+        "average": 24.22,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.245,
+        "player_b_straight_sets_prob": 0.2487
+      },
+      "games_total": {
+        "average": 24.22,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2387,
+        "player_b_straight_sets_prob": 0.251
+      },
+      "games_total": {
+        "average": 24.27,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2492,
+        "player_b_straight_sets_prob": 0.246
       },
       "games_total": {
         "average": 24.17,
@@ -2678,11 +1214,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.254,
-        "player_b_straight_sets_prob": 0.2445
+        "player_a_straight_sets_prob": 0.2477,
+        "player_b_straight_sets_prob": 0.2602
       },
       "games_total": {
-        "average": 24.21,
+        "average": 24.08,
         "median": 24
       },
       "confidence": "low",
@@ -2690,8 +1226,56 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Hugo Gaston",
+      "player_b": "Tiago Torres",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6009,
+        "player_b_prob": 0.3991,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3242,
+        "player_b_straight_sets_prob": 0.1925
+      },
+      "games_total": {
+        "average": 25.19,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1692.2,
+      "rating_b_used": 1621.1
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "Alexander Blockx",
+      "player_b": "Roman Andres Burruchaga",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.1593,
+        "player_b_prob": 0.8407,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0625,
+        "player_b_straight_sets_prob": 0.5495
+      },
+      "games_total": {
+        "average": 27.35,
+        "median": 26
+      },
+      "confidence": "medium",
+      "rating_a_used": 1450.4,
+      "rating_b_used": 1739.3
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -2702,16 +1286,88 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2627,
-        "player_b_straight_sets_prob": 0.235
+        "player_a_straight_sets_prob": 0.2562,
+        "player_b_straight_sets_prob": 0.2557
       },
       "games_total": {
-        "average": 24.16,
+        "average": 24.2,
+        "median": 23
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2552,
+        "player_b_straight_sets_prob": 0.2457
+      },
+      "games_total": {
+        "average": 24.02,
         "median": 24
       },
       "confidence": "low",
       "rating_a_used": 1500,
       "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.248,
+        "player_b_straight_sets_prob": 0.2515
+      },
+      "games_total": {
+        "average": 24.13,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "Tereza Valentova",
+      "player_b": "Marie Bouzkova",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3295,
+        "player_b_prob": 0.6705,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.148,
+        "player_b_straight_sets_prob": 0.3855
+      },
+      "games_total": {
+        "average": 25.93,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1491.5,
+      "rating_b_used": 1614.9
     },
     {
       "tour": "WTA",
@@ -2721,20 +1377,20 @@
       "player_b": "TBD",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
-        "player_a_prob": 0.6144,
-        "player_b_prob": 0.3856,
+        "player_a_prob": 0.6616,
+        "player_b_prob": 0.3384,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3222,
-        "player_b_straight_sets_prob": 0.1802
+        "player_a_straight_sets_prob": 0.3832,
+        "player_b_straight_sets_prob": 0.1522
       },
       "games_total": {
-        "average": 25.48,
+        "average": 25.91,
         "median": 26
       },
       "confidence": "low",
-      "rating_a_used": 1580.9,
+      "rating_a_used": 1616.5,
       "rating_b_used": 1500
     },
     {
@@ -2750,16 +1406,40 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2547,
-        "player_b_straight_sets_prob": 0.2515
+        "player_a_straight_sets_prob": 0.2485,
+        "player_b_straight_sets_prob": 0.2567
       },
       "games_total": {
-        "average": 24.16,
-        "median": 24
+        "average": 24.06,
+        "median": 23
       },
       "confidence": "low",
       "rating_a_used": 1500,
       "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "Dominika Salkova",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.2163,
+        "player_b_prob": 0.7837,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0845,
+        "player_b_straight_sets_prob": 0.4905
+      },
+      "games_total": {
+        "average": 27.05,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1723.7
     },
     {
       "tour": "WTA",
@@ -2774,80 +1454,8 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.247,
-        "player_b_straight_sets_prob": 0.2457
-      },
-      "games_total": {
-        "average": 24.29,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2522,
-        "player_b_straight_sets_prob": 0.2432
-      },
-      "games_total": {
-        "average": 24.21,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2452,
-        "player_b_straight_sets_prob": 0.252
-      },
-      "games_total": {
-        "average": 24.19,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2487,
-        "player_b_straight_sets_prob": 0.249
+        "player_a_straight_sets_prob": 0.2477,
+        "player_b_straight_sets_prob": 0.2565
       },
       "games_total": {
         "average": 24.11,
@@ -2862,6 +1470,102 @@
       "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
+      "player_b": "Fiona Ferro",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3196,
+        "player_b_prob": 0.6804,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1505,
+        "player_b_straight_sets_prob": 0.3728
+      },
+      "games_total": {
+        "average": 26.22,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1631.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Jennifer Ruggeri",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6801,
+        "player_b_prob": 0.3199,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3817,
+        "player_b_straight_sets_prob": 0.1405
+      },
+      "games_total": {
+        "average": 26.21,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1631.1,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Clara Burel",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6017,
+        "player_b_prob": 0.3983,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3242,
+        "player_b_straight_sets_prob": 0.186
+      },
+      "games_total": {
+        "average": 25.22,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1571.6,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "Yasmine Kabbaj",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.3518,
+        "player_b_prob": 0.6482,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.1537,
+        "player_b_straight_sets_prob": 0.3633
+      },
+      "games_total": {
+        "average": 25.8,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1606.2
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
       "player_b": "TBD",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
@@ -2870,11 +1574,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.258,
-        "player_b_straight_sets_prob": 0.249
+        "player_a_straight_sets_prob": 0.2497,
+        "player_b_straight_sets_prob": 0.252
       },
       "games_total": {
-        "average": 24.13,
+        "average": 24.23,
         "median": 24
       },
       "confidence": "low",
@@ -2894,83 +1598,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2487,
-        "player_b_straight_sets_prob": 0.2627
-      },
-      "games_total": {
-        "average": 24.08,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2357,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 24.29,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2477,
+        "player_a_straight_sets_prob": 0.2645,
         "player_b_straight_sets_prob": 0.2552
       },
       "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2477,
-        "player_b_straight_sets_prob": 0.257
-      },
-      "games_total": {
-        "average": 24.03,
+        "average": 23.87,
         "median": 23
       },
       "confidence": "low",
@@ -2990,16 +1622,40 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.248,
-        "player_b_straight_sets_prob": 0.2452
+        "player_a_straight_sets_prob": 0.2577,
+        "player_b_straight_sets_prob": 0.2412
       },
       "games_total": {
-        "average": 24.25,
+        "average": 24.19,
         "median": 24
       },
       "confidence": "low",
       "rating_a_used": 1500,
       "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Alina Charaeva",
+      "player_b": "Anna Bondar",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5935,
+        "player_b_prob": 0.4065,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3157,
+        "player_b_straight_sets_prob": 0.2028
+      },
+      "games_total": {
+        "average": 25.01,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1665.1,
+      "rating_b_used": 1599.3
     },
     {
       "tour": "WTA",
@@ -3014,8 +1670,56 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.268,
-        "player_b_straight_sets_prob": 0.2552
+        "player_a_straight_sets_prob": 0.2475,
+        "player_b_straight_sets_prob": 0.2437
+      },
+      "games_total": {
+        "average": 24.24,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Anhelina Kalinina",
+      "player_b": "Tamara Korpatsch",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6428,
+        "player_b_prob": 0.3572,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3608,
+        "player_b_straight_sets_prob": 0.1618
+      },
+      "games_total": {
+        "average": 25.71,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1627.0,
+      "rating_b_used": 1525.0
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2717,
+        "player_b_straight_sets_prob": 0.2485
       },
       "games_total": {
         "average": 24.0,
@@ -3038,84 +1742,12 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.24,
-        "player_b_straight_sets_prob": 0.2625
-      },
-      "games_total": {
-        "average": 24.04,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Anhelina Kalinina",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.619,
-        "player_b_prob": 0.381,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.3302,
-        "player_b_straight_sets_prob": 0.1837
-      },
-      "games_total": {
-        "average": 25.36,
-        "median": 25
-      },
-      "confidence": "low",
-      "rating_a_used": 1584.3,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
         "player_a_straight_sets_prob": 0.2437,
-        "player_b_straight_sets_prob": 0.2587
+        "player_b_straight_sets_prob": 0.26
       },
       "games_total": {
-        "average": 24.08,
+        "average": 24.07,
         "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2552,
-        "player_b_straight_sets_prob": 0.2517
-      },
-      "games_total": {
-        "average": 24.11,
-        "median": 23
       },
       "confidence": "low",
       "rating_a_used": 1500,
@@ -3125,25 +1757,25 @@
       "tour": "WTA",
       "tournament": "Livesport Prague Open",
       "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
+      "player_a": "Tereza Valentova",
+      "player_b": "Marie Bouzkova",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
+        "player_a_prob": 0.3295,
+        "player_b_prob": 0.6705,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2495,
-        "player_b_straight_sets_prob": 0.262
+        "player_a_straight_sets_prob": 0.1487,
+        "player_b_straight_sets_prob": 0.3765
       },
       "games_total": {
-        "average": 24.05,
-        "median": 23
+        "average": 25.98,
+        "median": 26
       },
       "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
+      "rating_a_used": 1491.5,
+      "rating_b_used": 1614.9
     },
     {
       "tour": "WTA",
@@ -3153,20 +1785,20 @@
       "player_b": "TBD",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
-        "player_a_prob": 0.6144,
-        "player_b_prob": 0.3856,
+        "player_a_prob": 0.6616,
+        "player_b_prob": 0.3384,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3365,
-        "player_b_straight_sets_prob": 0.175
+        "player_a_straight_sets_prob": 0.3705,
+        "player_b_straight_sets_prob": 0.1628
       },
       "games_total": {
-        "average": 25.41,
-        "median": 25
+        "average": 25.87,
+        "median": 26
       },
       "confidence": "low",
-      "rating_a_used": 1580.9,
+      "rating_a_used": 1616.5,
       "rating_b_used": 1500
     },
     {
@@ -3182,16 +1814,40 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2555,
-        "player_b_straight_sets_prob": 0.2417
+        "player_a_straight_sets_prob": 0.2362,
+        "player_b_straight_sets_prob": 0.2552
       },
       "games_total": {
-        "average": 24.21,
+        "average": 24.25,
         "median": 24
       },
       "confidence": "low",
       "rating_a_used": 1500,
       "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "Dominika Salkova",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.2163,
+        "player_b_prob": 0.7837,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.0915,
+        "player_b_straight_sets_prob": 0.486
+      },
+      "games_total": {
+        "average": 27.0,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1723.7
     },
     {
       "tour": "WTA",
@@ -3206,131 +1862,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2537,
-        "player_b_straight_sets_prob": 0.2427
+        "player_a_straight_sets_prob": 0.2692,
+        "player_b_straight_sets_prob": 0.2497
       },
       "games_total": {
-        "average": 24.23,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.253,
-        "player_b_straight_sets_prob": 0.2417
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.248,
-        "player_b_straight_sets_prob": 0.2318
-      },
-      "games_total": {
-        "average": 24.44,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2565,
-        "player_b_straight_sets_prob": 0.248
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2582,
-        "player_b_straight_sets_prob": 0.2372
-      },
-      "games_total": {
-        "average": 24.19,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2662,
-        "player_b_straight_sets_prob": 0.2522
-      },
-      "games_total": {
-        "average": 23.96,
+        "average": 24.02,
         "median": 23
       },
       "confidence": "low",
@@ -3342,23 +1878,71 @@
       "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Fiona Ferro",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
+        "player_a_prob": 0.3196,
+        "player_b_prob": 0.6804,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2485,
-        "player_b_straight_sets_prob": 0.2577
+        "player_a_straight_sets_prob": 0.1425,
+        "player_b_straight_sets_prob": 0.3852
       },
       "games_total": {
-        "average": 24.09,
-        "median": 24
+        "average": 26.07,
+        "median": 26
       },
       "confidence": "low",
       "rating_a_used": 1500,
+      "rating_b_used": 1631.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Jennifer Ruggeri",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6801,
+        "player_b_prob": 0.3199,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3947,
+        "player_b_straight_sets_prob": 0.1398
+      },
+      "games_total": {
+        "average": 26.07,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1631.1,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Clara Burel",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6017,
+        "player_b_prob": 0.3983,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.318,
+        "player_b_straight_sets_prob": 0.1888
+      },
+      "games_total": {
+        "average": 25.23,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1571.6,
       "rating_b_used": 1500
     },
     {
@@ -3366,24 +1950,24 @@
       "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
-      "player_b": "TBD",
+      "player_b": "Yasmine Kabbaj",
       "match_time_utc": "2026-07-24T04:00Z",
       "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
+        "player_a_prob": 0.3518,
+        "player_b_prob": 0.6482,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2515,
-        "player_b_straight_sets_prob": 0.2487
+        "player_a_straight_sets_prob": 0.1573,
+        "player_b_straight_sets_prob": 0.383
       },
       "games_total": {
-        "average": 24.16,
-        "median": 24
+        "average": 25.72,
+        "median": 26
       },
       "confidence": "low",
       "rating_a_used": 1500,
-      "rating_b_used": 1500
+      "rating_b_used": 1606.2
     },
     {
       "tour": "WTA",
@@ -3399,7 +1983,463 @@
       },
       "set_winner": {
         "player_a_straight_sets_prob": 0.238,
-        "player_b_straight_sets_prob": 0.2475
+        "player_b_straight_sets_prob": 0.252
+      },
+      "games_total": {
+        "average": 24.22,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2457,
+        "player_b_straight_sets_prob": 0.2525
+      },
+      "games_total": {
+        "average": 24.23,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2577,
+        "player_b_straight_sets_prob": 0.25
+      },
+      "games_total": {
+        "average": 24.1,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Alina Charaeva",
+      "player_b": "Anna Bondar",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5935,
+        "player_b_prob": 0.4065,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.305,
+        "player_b_straight_sets_prob": 0.2047
+      },
+      "games_total": {
+        "average": 25.11,
+        "median": 25
+      },
+      "confidence": "low",
+      "rating_a_used": 1665.1,
+      "rating_b_used": 1599.3
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2505,
+        "player_b_straight_sets_prob": 0.2517
+      },
+      "games_total": {
+        "average": 24.13,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "Anhelina Kalinina",
+      "player_b": "Tamara Korpatsch",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.6428,
+        "player_b_prob": 0.3572,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.354,
+        "player_b_straight_sets_prob": 0.1588
+      },
+      "games_total": {
+        "average": 25.75,
+        "median": 26
+      },
+      "confidence": "low",
+      "rating_a_used": 1627.0,
+      "rating_b_used": 1525.0
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.254,
+        "player_b_straight_sets_prob": 0.2497
+      },
+      "games_total": {
+        "average": 24.12,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-24T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2457,
+        "player_b_straight_sets_prob": 0.2582
+      },
+      "games_total": {
+        "average": 24.1,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2525,
+        "player_b_straight_sets_prob": 0.2482
+      },
+      "games_total": {
+        "average": 24.1,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.256,
+        "player_b_straight_sets_prob": 0.249
+      },
+      "games_total": {
+        "average": 24.13,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2517,
+        "player_b_straight_sets_prob": 0.2562
+      },
+      "games_total": {
+        "average": 24.03,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.241,
+        "player_b_straight_sets_prob": 0.251
+      },
+      "games_total": {
+        "average": 24.2,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2652,
+        "player_b_straight_sets_prob": 0.2402
+      },
+      "games_total": {
+        "average": 24.03,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2392,
+        "player_b_straight_sets_prob": 0.2492
+      },
+      "games_total": {
+        "average": 24.24,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2487,
+        "player_b_straight_sets_prob": 0.257
+      },
+      "games_total": {
+        "average": 24.14,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2552,
+        "player_b_straight_sets_prob": 0.242
+      },
+      "games_total": {
+        "average": 24.09,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2635,
+        "player_b_straight_sets_prob": 0.2495
+      },
+      "games_total": {
+        "average": 24.05,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.253,
+        "player_b_straight_sets_prob": 0.2497
+      },
+      "games_total": {
+        "average": 24.18,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2542,
+        "player_b_straight_sets_prob": 0.2505
+      },
+      "games_total": {
+        "average": 24.17,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2447,
+        "player_b_straight_sets_prob": 0.2462
       },
       "games_total": {
         "average": 24.29,
@@ -3415,18 +2455,18 @@
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
+      "match_time_utc": "2026-07-25T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2455,
-        "player_b_straight_sets_prob": 0.2645
+        "player_a_straight_sets_prob": 0.2472,
+        "player_b_straight_sets_prob": 0.2557
       },
       "games_total": {
-        "average": 24.06,
+        "average": 24.12,
         "median": 24
       },
       "confidence": "low",
@@ -3439,18 +2479,18 @@
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
+      "match_time_utc": "2026-07-25T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2627,
-        "player_b_straight_sets_prob": 0.2457
+        "player_a_straight_sets_prob": 0.2582,
+        "player_b_straight_sets_prob": 0.2585
       },
       "games_total": {
-        "average": 24.03,
+        "average": 23.99,
         "median": 23
       },
       "confidence": "low",
@@ -3459,22 +2499,46 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Livesport Prague Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
+      "match_time_utc": "2026-07-25T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2517,
-        "player_b_straight_sets_prob": 0.2412
+        "player_a_straight_sets_prob": 0.2552,
+        "player_b_straight_sets_prob": 0.251
       },
       "games_total": {
-        "average": 24.17,
+        "average": 24.0,
+        "median": 23
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2467,
+        "player_b_straight_sets_prob": 0.2377
+      },
+      "games_total": {
+        "average": 24.26,
         "median": 24
       },
       "confidence": "low",
@@ -3483,35 +2547,11 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "Anhelina Kalinina",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.619,
-        "player_b_prob": 0.381,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.323,
-        "player_b_straight_sets_prob": 0.1815
-      },
-      "games_total": {
-        "average": 25.56,
-        "median": 26
-      },
-      "confidence": "low",
-      "rating_a_used": 1584.3,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
+      "match_time_utc": "2026-07-25T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
@@ -3519,127 +2559,7 @@
       },
       "set_winner": {
         "player_a_straight_sets_prob": 0.2535,
-        "player_b_straight_sets_prob": 0.2522
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-24T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2447,
-        "player_b_straight_sets_prob": 0.2517
-      },
-      "games_total": {
-        "average": 24.13,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2435,
-        "player_b_straight_sets_prob": 0.243
-      },
-      "games_total": {
-        "average": 24.3,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2475,
-        "player_b_straight_sets_prob": 0.2502
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2325,
-        "player_b_straight_sets_prob": 0.2477
-      },
-      "games_total": {
-        "average": 24.32,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2447,
-        "player_b_straight_sets_prob": 0.249
+        "player_b_straight_sets_prob": 0.238
       },
       "games_total": {
         "average": 24.21,
@@ -3650,150 +2570,6 @@
       "rating_b_used": 1500
     },
     {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2475,
-        "player_b_straight_sets_prob": 0.2452
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2517,
-        "player_b_straight_sets_prob": 0.2502
-      },
-      "games_total": {
-        "average": 24.22,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2452,
-        "player_b_straight_sets_prob": 0.2465
-      },
-      "games_total": {
-        "average": 24.26,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2495,
-        "player_b_straight_sets_prob": 0.2467
-      },
-      "games_total": {
-        "average": 24.2,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2527,
-        "player_b_straight_sets_prob": 0.2522
-      },
-      "games_total": {
-        "average": 24.16,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.245,
-        "player_b_straight_sets_prob": 0.252
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
       "tour": "WTA",
       "tournament": "Palermo Ladies Open",
       "surface": "unknown",
@@ -3806,11 +2582,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2482,
-        "player_b_straight_sets_prob": 0.2517
+        "player_a_straight_sets_prob": 0.2427,
+        "player_b_straight_sets_prob": 0.2462
       },
       "games_total": {
-        "average": 24.26,
+        "average": 24.22,
         "median": 24
       },
       "confidence": "low",
@@ -3819,7 +2595,7 @@
     },
     {
       "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
+      "tournament": "MSC Hamburg Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -3830,8 +2606,8 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2472,
-        "player_b_straight_sets_prob": 0.2507
+        "player_a_straight_sets_prob": 0.2485,
+        "player_b_straight_sets_prob": 0.244
       },
       "games_total": {
         "average": 24.24,
@@ -3854,8 +2630,296 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.253,
-        "player_b_straight_sets_prob": 0.2505
+        "player_a_straight_sets_prob": 0.2632,
+        "player_b_straight_sets_prob": 0.242
+      },
+      "games_total": {
+        "average": 24.04,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.245,
+        "player_b_straight_sets_prob": 0.2517
+      },
+      "games_total": {
+        "average": 24.14,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2472,
+        "player_b_straight_sets_prob": 0.2475
+      },
+      "games_total": {
+        "average": 24.27,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.255,
+        "player_b_straight_sets_prob": 0.257
+      },
+      "games_total": {
+        "average": 24.08,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.24,
+        "player_b_straight_sets_prob": 0.254
+      },
+      "games_total": {
+        "average": 24.32,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2492,
+        "player_b_straight_sets_prob": 0.2522
+      },
+      "games_total": {
+        "average": 24.14,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2515,
+        "player_b_straight_sets_prob": 0.2502
+      },
+      "games_total": {
+        "average": 24.13,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2477,
+        "player_b_straight_sets_prob": 0.2467
+      },
+      "games_total": {
+        "average": 24.24,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.26,
+        "player_b_straight_sets_prob": 0.2442
+      },
+      "games_total": {
+        "average": 24.08,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2385,
+        "player_b_straight_sets_prob": 0.243
+      },
+      "games_total": {
+        "average": 24.33,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2612,
+        "player_b_straight_sets_prob": 0.2417
+      },
+      "games_total": {
+        "average": 24.16,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2557,
+        "player_b_straight_sets_prob": 0.2485
+      },
+      "games_total": {
+        "average": 24.07,
+        "median": 24
+      },
+      "confidence": "low",
+      "rating_a_used": 1500,
+      "rating_b_used": 1500
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "unknown",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-26T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.5,
+        "player_b_prob": 0.5,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2515,
+        "player_b_straight_sets_prob": 0.2487
       },
       "games_total": {
         "average": 24.09,
@@ -3867,67 +2931,19 @@
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
+      "tournament": "Palermo Ladies Open",
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
+      "match_time_utc": "2026-07-26T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
         "player_b_prob": 0.5,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2507,
-        "player_b_straight_sets_prob": 0.2525
-      },
-      "games_total": {
-        "average": 24.06,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2407,
-        "player_b_straight_sets_prob": 0.2492
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2495,
-        "player_b_straight_sets_prob": 0.2522
+        "player_a_straight_sets_prob": 0.2457,
+        "player_b_straight_sets_prob": 0.2547
       },
       "games_total": {
         "average": 24.08,
@@ -3943,102 +2959,6 @@
       "surface": "unknown",
       "player_a": "TBD",
       "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.2527
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2495,
-        "player_b_straight_sets_prob": 0.2465
-      },
-      "games_total": {
-        "average": 24.17,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2522,
-        "player_b_straight_sets_prob": 0.246
-      },
-      "games_total": {
-        "average": 24.18,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2482,
-        "player_b_straight_sets_prob": 0.251
-      },
-      "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
       "match_time_utc": "2026-07-26T04:00Z",
       "match_winner": {
         "player_a_prob": 0.5,
@@ -4046,179 +2966,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2505,
-        "player_b_straight_sets_prob": 0.2457
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.258,
-        "player_b_straight_sets_prob": 0.231
-      },
-      "games_total": {
-        "average": 24.31,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2492,
-        "player_b_straight_sets_prob": 0.2615
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2555,
+        "player_a_straight_sets_prob": 0.259,
         "player_b_straight_sets_prob": 0.2427
       },
       "games_total": {
-        "average": 24.15,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.25,
-        "player_b_straight_sets_prob": 0.2537
-      },
-      "games_total": {
-        "average": 24.12,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.258,
-        "player_b_straight_sets_prob": 0.2462
-      },
-      "games_total": {
-        "average": 23.99,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.266,
-        "player_b_straight_sets_prob": 0.241
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2415,
-        "player_b_straight_sets_prob": 0.2437
-      },
-      "games_total": {
-        "average": 24.25,
+        "average": 24.05,
         "median": 24
       },
       "confidence": "low",
@@ -4238,11 +2990,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2525,
-        "player_b_straight_sets_prob": 0.2442
+        "player_a_straight_sets_prob": 0.2412,
+        "player_b_straight_sets_prob": 0.2567
       },
       "games_total": {
-        "average": 24.2,
+        "average": 24.16,
         "median": 24
       },
       "confidence": "low",
@@ -4262,155 +3014,11 @@
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2552,
-        "player_b_straight_sets_prob": 0.2535
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.2477
-      },
-      "games_total": {
-        "average": 24.14,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2585,
-        "player_b_straight_sets_prob": 0.2465
+        "player_a_straight_sets_prob": 0.2515,
+        "player_b_straight_sets_prob": 0.2517
       },
       "games_total": {
         "average": 24.09,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2562,
-        "player_b_straight_sets_prob": 0.2495
-      },
-      "games_total": {
-        "average": 24.1,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.249,
-        "player_b_straight_sets_prob": 0.2452
-      },
-      "games_total": {
-        "average": 24.24,
-        "median": 24
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2485,
-        "player_b_straight_sets_prob": 0.2687
-      },
-      "games_total": {
-        "average": 23.95,
-        "median": 23
-      },
-      "confidence": "low",
-      "rating_a_used": 1500,
-      "rating_b_used": 1500
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-26T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5,
-        "player_b_prob": 0.5,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2452,
-        "player_b_straight_sets_prob": 0.247
-      },
-      "games_total": {
-        "average": 24.24,
         "median": 24
       },
       "confidence": "low",
