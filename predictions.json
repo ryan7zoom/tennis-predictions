@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T06:11:20.746137+00:00",
+  "generated_at": "2026-07-24T07:07:10.806501+00:00",
   "predictions": [
     {
       "tour": "WTA",
@@ -9,31 +9,31 @@
       "player_b": "Lanlana Tararudee",
       "match_time_utc": "2026-07-24T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.4989,
-        "player_b_prob": 0.5011,
-        "confidence": "low"
+        "player_a_prob": 0.4987,
+        "player_b_prob": 0.5013,
+        "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3293,
-        "player_b_straight_sets_prob": 0.1878
+        "player_a_straight_sets_prob": 0.3517,
+        "player_b_straight_sets_prob": 0.1588
       },
       "games_total": {
-        "average": 24.64,
+        "average": 24.63,
         "median": 24,
         "p10": 17,
-        "p25": 20,
+        "p25": 19,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3675,
+      "tiebreak_probability": 0.3608,
       "fair_odds": {
-        "player_a": 2.004,
-        "player_b": 1.996
+        "player_a": 2.005,
+        "player_b": 1.995
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3553,
-          "player_b": 0.6447,
+          "player_a": 0.3003,
+          "player_b": 0.6997,
           "weight": 0.4,
           "has_data": true
         },
@@ -63,21 +63,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.571,
+      "uncertainty": 0.453,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 14,
-        "career_matches_b": 29,
+        "career_matches_a": 28,
+        "career_matches_b": 58,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 14,
-        "form_recent_matches_b": 29,
+        "form_recent_matches_a": 28,
+        "form_recent_matches_b": 58,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6084,
-        "serve_point_b": 0.5876
+        "serve_point_a": 0.6124,
+        "serve_point_b": 0.5836
       },
       "score_distribution": [
         {
@@ -86,7 +86,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0377
+          "probability": 0.0402
         },
         {
           "winner": "Lanlana Tararudee",
@@ -94,21 +94,29 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0272
+          "probability": 0.0231
         },
         {
           "winner": "Daria Snigur",
           "sets": [
-            "7-6",
-            "6-3"
+            "6-3",
+            "6-4"
           ],
-          "probability": 0.018
+          "probability": 0.0199
         },
         {
           "winner": "Daria Snigur",
           "sets": [
             "6-3",
             "7-6"
+          ],
+          "probability": 0.0184
+        },
+        {
+          "winner": "Daria Snigur",
+          "sets": [
+            "7-6",
+            "6-3"
           ],
           "probability": 0.0179
         },
@@ -118,23 +126,15 @@
             "6-4",
             "6-3"
           ],
-          "probability": 0.017
+          "probability": 0.0168
         },
         {
           "winner": "Daria Snigur",
           "sets": [
-            "6-3",
-            "6-4"
+            "6-1",
+            "6-3"
           ],
-          "probability": 0.0169
-        },
-        {
-          "winner": "Lanlana Tararudee",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0146
+          "probability": 0.0147
         },
         {
           "winner": "Daria Snigur",
@@ -145,7 +145,7 @@
           "probability": 0.0143
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "tour": "WTA",
@@ -155,31 +155,31 @@
       "player_b": "Anna Bondar",
       "match_time_utc": "2026-07-24T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.5023,
-        "player_b_prob": 0.4977,
-        "confidence": "medium"
+        "player_a_prob": 0.5022,
+        "player_b_prob": 0.4978,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2362,
-        "player_b_straight_sets_prob": 0.2651
+        "player_a_straight_sets_prob": 0.2252,
+        "player_b_straight_sets_prob": 0.2812
       },
       "games_total": {
-        "average": 24.91,
+        "average": 24.82,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3727,
+      "tiebreak_probability": 0.3679,
       "fair_odds": {
         "player_a": 1.991,
         "player_b": 2.009
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5295,
-          "player_b": 0.4705,
+          "player_a": 0.5597,
+          "player_b": 0.4403,
           "weight": 0.4,
           "has_data": true
         },
@@ -209,21 +209,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.493,
+      "uncertainty": 0.315,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 20,
-        "career_matches_b": 20,
+        "career_matches_a": 40,
+        "career_matches_b": 40,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 20,
-        "form_recent_matches_b": 20,
+        "form_recent_matches_a": 40,
+        "form_recent_matches_b": 40,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5959,
-        "serve_point_b": 0.6001
+        "serve_point_a": 0.5937,
+        "serve_point_b": 0.6023
       },
       "score_distribution": [
         {
@@ -232,7 +232,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0346
+          "probability": 0.0354
         },
         {
           "winner": "Alina Charaeva",
@@ -240,7 +240,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.027
+          "probability": 0.0256
         },
         {
           "winner": "Anna Bondar",
@@ -248,7 +248,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0182
+          "probability": 0.0184
         },
         {
           "winner": "Anna Bondar",
@@ -256,7 +256,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0179
+          "probability": 0.0183
         },
         {
           "winner": "Anna Bondar",
@@ -264,7 +264,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0167
+          "probability": 0.0174
         },
         {
           "winner": "Anna Bondar",
@@ -272,26 +272,26 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.016
+          "probability": 0.0161
+        },
+        {
+          "winner": "Anna Bondar",
+          "sets": [
+            "3-6",
+            "4-6"
+          ],
+          "probability": 0.0148
         },
         {
           "winner": "Alina Charaeva",
           "sets": [
-            "6-3",
-            "7-6"
+            "7-6",
+            "6-3"
           ],
-          "probability": 0.0158
-        },
-        {
-          "winner": "Alina Charaeva",
-          "sets": [
-            "6-3",
-            "6-4"
-          ],
-          "probability": 0.014
+          "probability": 0.0139
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -301,31 +301,31 @@
       "player_b": "Lanlana Tararudee",
       "match_time_utc": "2026-07-24T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.4989,
-        "player_b_prob": 0.5011,
-        "confidence": "low"
+        "player_a_prob": 0.4987,
+        "player_b_prob": 0.5013,
+        "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3293,
-        "player_b_straight_sets_prob": 0.1878
+        "player_a_straight_sets_prob": 0.3517,
+        "player_b_straight_sets_prob": 0.1588
       },
       "games_total": {
-        "average": 24.64,
+        "average": 24.63,
         "median": 24,
         "p10": 17,
-        "p25": 20,
+        "p25": 19,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3675,
+      "tiebreak_probability": 0.3608,
       "fair_odds": {
-        "player_a": 2.004,
-        "player_b": 1.996
+        "player_a": 2.005,
+        "player_b": 1.995
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3553,
-          "player_b": 0.6447,
+          "player_a": 0.3003,
+          "player_b": 0.6997,
           "weight": 0.4,
           "has_data": true
         },
@@ -355,21 +355,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.571,
+      "uncertainty": 0.453,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 14,
-        "career_matches_b": 29,
+        "career_matches_a": 28,
+        "career_matches_b": 58,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 14,
-        "form_recent_matches_b": 29,
+        "form_recent_matches_a": 28,
+        "form_recent_matches_b": 58,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6084,
-        "serve_point_b": 0.5876
+        "serve_point_a": 0.6124,
+        "serve_point_b": 0.5836
       },
       "score_distribution": [
         {
@@ -378,7 +378,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0377
+          "probability": 0.0402
         },
         {
           "winner": "Lanlana Tararudee",
@@ -386,21 +386,29 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0272
+          "probability": 0.0231
         },
         {
           "winner": "Daria Snigur",
           "sets": [
-            "7-6",
-            "6-3"
+            "6-3",
+            "6-4"
           ],
-          "probability": 0.018
+          "probability": 0.0199
         },
         {
           "winner": "Daria Snigur",
           "sets": [
             "6-3",
             "7-6"
+          ],
+          "probability": 0.0184
+        },
+        {
+          "winner": "Daria Snigur",
+          "sets": [
+            "7-6",
+            "6-3"
           ],
           "probability": 0.0179
         },
@@ -410,23 +418,15 @@
             "6-4",
             "6-3"
           ],
-          "probability": 0.017
+          "probability": 0.0168
         },
         {
           "winner": "Daria Snigur",
           "sets": [
-            "6-3",
-            "6-4"
+            "6-1",
+            "6-3"
           ],
-          "probability": 0.0169
-        },
-        {
-          "winner": "Lanlana Tararudee",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0146
+          "probability": 0.0147
         },
         {
           "winner": "Daria Snigur",
@@ -437,7 +437,7 @@
           "probability": 0.0143
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "tour": "WTA",
@@ -447,31 +447,31 @@
       "player_b": "Anna Bondar",
       "match_time_utc": "2026-07-24T09:00Z",
       "match_winner": {
-        "player_a_prob": 0.5023,
-        "player_b_prob": 0.4977,
-        "confidence": "medium"
+        "player_a_prob": 0.5022,
+        "player_b_prob": 0.4978,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2362,
-        "player_b_straight_sets_prob": 0.2651
+        "player_a_straight_sets_prob": 0.2252,
+        "player_b_straight_sets_prob": 0.2812
       },
       "games_total": {
-        "average": 24.91,
+        "average": 24.82,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3727,
+      "tiebreak_probability": 0.3679,
       "fair_odds": {
         "player_a": 1.991,
         "player_b": 2.009
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5295,
-          "player_b": 0.4705,
+          "player_a": 0.5597,
+          "player_b": 0.4403,
           "weight": 0.4,
           "has_data": true
         },
@@ -501,21 +501,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.493,
+      "uncertainty": 0.315,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 20,
-        "career_matches_b": 20,
+        "career_matches_a": 40,
+        "career_matches_b": 40,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 20,
-        "form_recent_matches_b": 20,
+        "form_recent_matches_a": 40,
+        "form_recent_matches_b": 40,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5959,
-        "serve_point_b": 0.6001
+        "serve_point_a": 0.5937,
+        "serve_point_b": 0.6023
       },
       "score_distribution": [
         {
@@ -524,7 +524,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0346
+          "probability": 0.0354
         },
         {
           "winner": "Alina Charaeva",
@@ -532,7 +532,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.027
+          "probability": 0.0256
         },
         {
           "winner": "Anna Bondar",
@@ -540,7 +540,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0182
+          "probability": 0.0184
         },
         {
           "winner": "Anna Bondar",
@@ -548,26 +548,464 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0179
+          "probability": 0.0183
         },
         {
           "winner": "Anna Bondar",
           "sets": [
             "6-7",
             "4-6"
+          ],
+          "probability": 0.0174
+        },
+        {
+          "winner": "Anna Bondar",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0161
+        },
+        {
+          "winner": "Anna Bondar",
+          "sets": [
+            "3-6",
+            "4-6"
+          ],
+          "probability": 0.0148
+        },
+        {
+          "winner": "Alina Charaeva",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0139
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "clay",
+      "player_a": "Quentin Halys",
+      "player_b": "Yannick Hanfmann",
+      "match_time_utc": "2026-07-24T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.5089,
+        "player_b_prob": 0.4911,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2878,
+        "player_b_straight_sets_prob": 0.2137
+      },
+      "games_total": {
+        "average": 27.65,
+        "median": 26,
+        "p10": 20,
+        "p25": 22,
+        "p75": 33,
+        "p90": 36
+      },
+      "tiebreak_probability": 0.7308,
+      "fair_odds": {
+        "player_a": 1.965,
+        "player_b": 2.036
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.4395,
+          "player_b": 0.5605,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5125,
+          "player_b": 0.4875,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.5068,
+          "player_b": 0.4932,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5132,
+          "player_b": 0.4868,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.462,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 197,
+        "career_matches_b": 231,
+        "surface_matches_a": 30,
+        "surface_matches_b": 102,
+        "form_recent_matches_a": 60,
+        "form_recent_matches_b": 61,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0.24,
+        "injury_signal_b": 0.35,
+        "serve_point_a": 0.7194,
+        "serve_point_b": 0.7038
+      },
+      "score_distribution": [
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0441
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0437
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0428
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0421
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0396
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0373
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0356
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0349
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "clay",
+      "player_a": "Quentin Halys",
+      "player_b": "Yannick Hanfmann",
+      "match_time_utc": "2026-07-24T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.5089,
+        "player_b_prob": 0.4911,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2878,
+        "player_b_straight_sets_prob": 0.2137
+      },
+      "games_total": {
+        "average": 27.65,
+        "median": 26,
+        "p10": 20,
+        "p25": 22,
+        "p75": 33,
+        "p90": 36
+      },
+      "tiebreak_probability": 0.7308,
+      "fair_odds": {
+        "player_a": 1.965,
+        "player_b": 2.036
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.4395,
+          "player_b": 0.5605,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5125,
+          "player_b": 0.4875,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.5068,
+          "player_b": 0.4932,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5132,
+          "player_b": 0.4868,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.462,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 197,
+        "career_matches_b": 231,
+        "surface_matches_a": 30,
+        "surface_matches_b": 102,
+        "form_recent_matches_a": 60,
+        "form_recent_matches_b": 61,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0.24,
+        "injury_signal_b": 0.35,
+        "serve_point_a": 0.7194,
+        "serve_point_b": 0.7038
+      },
+      "score_distribution": [
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0441
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0437
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0428
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0421
+        },
+        {
+          "winner": "Quentin Halys",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0396
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0373
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0356
+        },
+        {
+          "winner": "Yannick Hanfmann",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0349
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Livesport Prague Open",
+      "surface": "clay",
+      "player_a": "Tereza Valentova",
+      "player_b": "Marie Bouzkova",
+      "match_time_utc": "2026-07-24T10:30Z",
+      "match_winner": {
+        "player_a_prob": 0.489,
+        "player_b_prob": 0.511,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2399,
+        "player_b_straight_sets_prob": 0.2602
+      },
+      "games_total": {
+        "average": 24.91,
+        "median": 25,
+        "p10": 18,
+        "p25": 20,
+        "p75": 30,
+        "p90": 33
+      },
+      "tiebreak_probability": 0.3733,
+      "fair_odds": {
+        "player_a": 2.045,
+        "player_b": 1.957
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.4966,
+          "player_b": 0.5034,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.4176,
+          "player_b": 0.5824,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.43,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 46,
+        "career_matches_b": 28,
+        "surface_matches_a": 0,
+        "surface_matches_b": 0,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 28,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.5968,
+        "serve_point_b": 0.5991
+      },
+      "score_distribution": [
+        {
+          "winner": "Marie Bouzkova",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0357
+        },
+        {
+          "winner": "Tereza Valentova",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0285
+        },
+        {
+          "winner": "Marie Bouzkova",
+          "sets": [
+            "4-6",
+            "2-6"
+          ],
+          "probability": 0.0176
+        },
+        {
+          "winner": "Marie Bouzkova",
+          "sets": [
+            "2-6",
+            "4-6"
+          ],
+          "probability": 0.0174
+        },
+        {
+          "winner": "Marie Bouzkova",
+          "sets": [
+            "4-6",
+            "6-7"
           ],
           "probability": 0.0167
         },
         {
-          "winner": "Anna Bondar",
+          "winner": "Marie Bouzkova",
           "sets": [
-            "4-6",
-            "6-7"
+            "6-7",
+            "4-6"
           ],
-          "probability": 0.016
+          "probability": 0.0164
         },
         {
-          "winner": "Alina Charaeva",
+          "winner": "Tereza Valentova",
           "sets": [
             "6-3",
             "7-6"
@@ -575,61 +1013,61 @@
           "probability": 0.0158
         },
         {
-          "winner": "Alina Charaeva",
+          "winner": "Marie Bouzkova",
           "sets": [
-            "6-3",
-            "6-4"
+            "3-6",
+            "4-6"
           ],
-          "probability": 0.014
+          "probability": 0.0142
         }
       ],
       "confidence": "medium"
     },
     {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Quentin Halys",
-      "player_b": "Yannick Hanfmann",
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "clay",
+      "player_a": "Paula Badosa",
+      "player_b": "Mayar Sherif",
       "match_time_utc": "2026-07-24T10:30Z",
       "match_winner": {
-        "player_a_prob": 0.5032,
-        "player_b_prob": 0.4968,
+        "player_a_prob": 0.4929,
+        "player_b_prob": 0.5071,
         "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2602,
-        "player_b_straight_sets_prob": 0.2332
+        "player_a_straight_sets_prob": 0.2475,
+        "player_b_straight_sets_prob": 0.2522
       },
       "games_total": {
-        "average": 27.82,
-        "median": 26,
-        "p10": 20,
-        "p25": 22,
-        "p75": 33,
-        "p90": 36
+        "average": 24.92,
+        "median": 25,
+        "p10": 18,
+        "p25": 20,
+        "p75": 30,
+        "p90": 33
       },
-      "tiebreak_probability": 0.7416,
+      "tiebreak_probability": 0.3743,
       "fair_odds": {
-        "player_a": 1.987,
-        "player_b": 2.013
+        "player_a": 2.029,
+        "player_b": 1.972
       },
       "model_components": {
         "elo": {
-          "player_a": 0.4702,
-          "player_b": 0.5298,
+          "player_a": 0.4894,
+          "player_b": 0.5106,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.5055,
-          "player_b": 0.4945,
+          "player_a": 0.5,
+          "player_b": 0.5,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.5039,
-          "player_b": 0.4961,
+          "player_a": 0.4438,
+          "player_b": 0.5562,
           "weight": 0.14,
           "has_data": true
         },
@@ -640,239 +1078,93 @@
           "has_data": true
         },
         "injury": {
-          "player_a": 0.5132,
-          "player_b": 0.4868,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": -0.8,
-      "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 167,
-        "career_matches_b": 204,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 80,
-        "form_recent_matches_b": 80,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0.24,
-        "injury_signal_b": 0.35,
-        "serve_point_a": 0.7169,
-        "serve_point_b": 0.7094
-      },
-      "score_distribution": [
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.044
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0422
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0406
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0396
-        },
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0395
-        },
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0393
-        },
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.038
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0349
-        }
-      ],
-      "confidence": "high"
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "Quentin Halys",
-      "player_b": "Yannick Hanfmann",
-      "match_time_utc": "2026-07-24T10:30Z",
-      "match_winner": {
-        "player_a_prob": 0.5032,
-        "player_b_prob": 0.4968,
-        "confidence": "high"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2602,
-        "player_b_straight_sets_prob": 0.2332
-      },
-      "games_total": {
-        "average": 27.82,
-        "median": 26,
-        "p10": 20,
-        "p25": 22,
-        "p75": 33,
-        "p90": 36
-      },
-      "tiebreak_probability": 0.7416,
-      "fair_odds": {
-        "player_a": 1.987,
-        "player_b": 2.013
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.4702,
-          "player_b": 0.5298,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5055,
-          "player_b": 0.4945,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.5039,
-          "player_b": 0.4961,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
           "player_a": 0.5,
           "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5132,
-          "player_b": 0.4868,
           "weight": 0.06,
           "has_data": true
         }
       },
       "model_agreement": "high",
-      "uncertainty": -0.8,
+      "uncertainty": 0.095,
       "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 167,
-        "career_matches_b": 204,
+        "surface_known": true,
+        "career_matches_a": 94,
+        "career_matches_b": 64,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
         "form_recent_matches_a": 80,
-        "form_recent_matches_b": 80,
+        "form_recent_matches_b": 64,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
-        "injury_signal_a": 0.24,
-        "injury_signal_b": 0.35,
-        "serve_point_a": 0.7169,
-        "serve_point_b": 0.7094
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.5978,
+        "serve_point_b": 0.5982
       },
       "score_distribution": [
         {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.044
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0422
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0406
-        },
-        {
-          "winner": "Quentin Halys",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0396
-        },
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0395
-        },
-        {
-          "winner": "Yannick Hanfmann",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0393
-        },
-        {
-          "winner": "Yannick Hanfmann",
+          "winner": "Mayar Sherif",
           "sets": [
             "4-6",
             "4-6"
           ],
-          "probability": 0.038
+          "probability": 0.0355
         },
         {
-          "winner": "Quentin Halys",
+          "winner": "Paula Badosa",
           "sets": [
             "6-3",
             "6-3"
           ],
-          "probability": 0.0349
+          "probability": 0.0297
+        },
+        {
+          "winner": "Mayar Sherif",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0166
+        },
+        {
+          "winner": "Mayar Sherif",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0163
+        },
+        {
+          "winner": "Mayar Sherif",
+          "sets": [
+            "2-6",
+            "4-6"
+          ],
+          "probability": 0.0161
+        },
+        {
+          "winner": "Paula Badosa",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0157
+        },
+        {
+          "winner": "Paula Badosa",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0152
+        },
+        {
+          "winner": "Mayar Sherif",
+          "sets": [
+            "4-6",
+            "2-6"
+          ],
+          "probability": 0.0151
         }
       ],
       "confidence": "high"
@@ -885,31 +1177,31 @@
       "player_b": "Marie Bouzkova",
       "match_time_utc": "2026-07-24T10:30Z",
       "match_winner": {
-        "player_a_prob": 0.4892,
-        "player_b_prob": 0.5108,
-        "confidence": "low"
+        "player_a_prob": 0.489,
+        "player_b_prob": 0.511,
+        "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2313,
-        "player_b_straight_sets_prob": 0.2705
+        "player_a_straight_sets_prob": 0.2399,
+        "player_b_straight_sets_prob": 0.2602
       },
       "games_total": {
-        "average": 24.89,
+        "average": 24.91,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3706,
+      "tiebreak_probability": 0.3733,
       "fair_odds": {
-        "player_a": 2.044,
-        "player_b": 1.958
+        "player_a": 2.045,
+        "player_b": 1.957
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5215,
-          "player_b": 0.4785,
+          "player_a": 0.4966,
+          "player_b": 0.5034,
           "weight": 0.4,
           "has_data": true
         },
@@ -939,21 +1231,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.562,
+      "uncertainty": 0.43,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 23,
-        "career_matches_b": 14,
+        "career_matches_a": 46,
+        "career_matches_b": 28,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 23,
-        "form_recent_matches_b": 14,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 28,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.595,
-        "serve_point_b": 0.6009
+        "serve_point_a": 0.5968,
+        "serve_point_b": 0.5991
       },
       "score_distribution": [
         {
@@ -962,7 +1254,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0346
+          "probability": 0.0357
         },
         {
           "winner": "Tereza Valentova",
@@ -970,15 +1262,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0254
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "2-6",
-            "4-6"
-          ],
-          "probability": 0.0189
+          "probability": 0.0285
         },
         {
           "winner": "Marie Bouzkova",
@@ -986,15 +1270,15 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0175
+          "probability": 0.0176
         },
         {
           "winner": "Marie Bouzkova",
           "sets": [
-            "6-7",
+            "2-6",
             "4-6"
           ],
-          "probability": 0.0173
+          "probability": 0.0174
         },
         {
           "winner": "Marie Bouzkova",
@@ -1002,7 +1286,15 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0171
+          "probability": 0.0167
+        },
+        {
+          "winner": "Marie Bouzkova",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0164
         },
         {
           "winner": "Tereza Valentova",
@@ -1010,7 +1302,7 @@
             "6-3",
             "7-6"
           ],
-          "probability": 0.0144
+          "probability": 0.0158
         },
         {
           "winner": "Marie Bouzkova",
@@ -1018,10 +1310,10 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0138
+          "probability": 0.0142
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "tour": "WTA",
@@ -1031,13 +1323,13 @@
       "player_b": "Mayar Sherif",
       "match_time_utc": "2026-07-24T10:30Z",
       "match_winner": {
-        "player_a_prob": 0.494,
-        "player_b_prob": 0.506,
-        "confidence": "medium"
+        "player_a_prob": 0.4929,
+        "player_b_prob": 0.5071,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2364,
-        "player_b_straight_sets_prob": 0.2638
+        "player_a_straight_sets_prob": 0.2475,
+        "player_b_straight_sets_prob": 0.2522
       },
       "games_total": {
         "average": 24.92,
@@ -1047,15 +1339,15 @@
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3737,
+      "tiebreak_probability": 0.3743,
       "fair_odds": {
-        "player_a": 2.024,
-        "player_b": 1.976
+        "player_a": 2.029,
+        "player_b": 1.972
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5132,
-          "player_b": 0.4868,
+          "player_a": 0.4894,
+          "player_b": 0.5106,
           "weight": 0.4,
           "has_data": true
         },
@@ -1066,8 +1358,8 @@
           "has_data": true
         },
         "form": {
-          "player_a": 0.4452,
-          "player_b": 0.5548,
+          "player_a": 0.4438,
+          "player_b": 0.5562,
           "weight": 0.14,
           "has_data": true
         },
@@ -1085,21 +1377,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.39,
+      "uncertainty": 0.095,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 47,
-        "career_matches_b": 32,
+        "career_matches_a": 94,
+        "career_matches_b": 64,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 47,
-        "form_recent_matches_b": 32,
+        "form_recent_matches_a": 80,
+        "form_recent_matches_b": 64,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5961,
-        "serve_point_b": 0.5998
+        "serve_point_a": 0.5978,
+        "serve_point_b": 0.5982
       },
       "score_distribution": [
         {
@@ -1108,7 +1400,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0348
+          "probability": 0.0355
         },
         {
           "winner": "Paula Badosa",
@@ -1116,31 +1408,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0272
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "2-6",
-            "4-6"
-          ],
-          "probability": 0.0182
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0179
-        },
-        {
-          "winner": "Paula Badosa",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0162
+          "probability": 0.0297
         },
         {
           "winner": "Mayar Sherif",
@@ -1148,7 +1416,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.016
+          "probability": 0.0166
         },
         {
           "winner": "Mayar Sherif",
@@ -1156,267 +1424,31 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0158
+          "probability": 0.0163
         },
         {
           "winner": "Mayar Sherif",
           "sets": [
-            "3-6",
+            "2-6",
             "4-6"
           ],
-          "probability": 0.014
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Livesport Prague Open",
-      "surface": "clay",
-      "player_a": "Tereza Valentova",
-      "player_b": "Marie Bouzkova",
-      "match_time_utc": "2026-07-24T10:30Z",
-      "match_winner": {
-        "player_a_prob": 0.4892,
-        "player_b_prob": 0.5108,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2313,
-        "player_b_straight_sets_prob": 0.2705
-      },
-      "games_total": {
-        "average": 24.89,
-        "median": 25,
-        "p10": 18,
-        "p25": 20,
-        "p75": 30,
-        "p90": 33
-      },
-      "tiebreak_probability": 0.3706,
-      "fair_odds": {
-        "player_a": 2.044,
-        "player_b": 1.958
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.5215,
-          "player_b": 0.4785,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4176,
-          "player_b": 0.5824,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.562,
-      "data_quality": {
-        "surface_known": true,
-        "career_matches_a": 23,
-        "career_matches_b": 14,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 23,
-        "form_recent_matches_b": 14,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.595,
-        "serve_point_b": 0.6009
-      },
-      "score_distribution": [
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0346
+          "probability": 0.0161
         },
         {
-          "winner": "Tereza Valentova",
+          "winner": "Paula Badosa",
           "sets": [
             "6-3",
+            "7-6"
+          ],
+          "probability": 0.0157
+        },
+        {
+          "winner": "Paula Badosa",
+          "sets": [
+            "7-6",
             "6-3"
           ],
-          "probability": 0.0254
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "2-6",
-            "4-6"
-          ],
-          "probability": 0.0189
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0175
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0173
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0171
-        },
-        {
-          "winner": "Tereza Valentova",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0144
-        },
-        {
-          "winner": "Marie Bouzkova",
-          "sets": [
-            "3-6",
-            "4-6"
-          ],
-          "probability": 0.0138
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "clay",
-      "player_a": "Paula Badosa",
-      "player_b": "Mayar Sherif",
-      "match_time_utc": "2026-07-24T10:30Z",
-      "match_winner": {
-        "player_a_prob": 0.494,
-        "player_b_prob": 0.506,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2364,
-        "player_b_straight_sets_prob": 0.2638
-      },
-      "games_total": {
-        "average": 24.92,
-        "median": 25,
-        "p10": 18,
-        "p25": 20,
-        "p75": 30,
-        "p90": 33
-      },
-      "tiebreak_probability": 0.3737,
-      "fair_odds": {
-        "player_a": 2.024,
-        "player_b": 1.976
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.5132,
-          "player_b": 0.4868,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4452,
-          "player_b": 0.5548,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.39,
-      "data_quality": {
-        "surface_known": true,
-        "career_matches_a": 47,
-        "career_matches_b": 32,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 47,
-        "form_recent_matches_b": 32,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.5961,
-        "serve_point_b": 0.5998
-      },
-      "score_distribution": [
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0348
-        },
-        {
-          "winner": "Paula Badosa",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0272
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "2-6",
-            "4-6"
-          ],
-          "probability": 0.0182
+          "probability": 0.0152
         },
         {
           "winner": "Mayar Sherif",
@@ -1424,42 +1456,10 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0179
-        },
-        {
-          "winner": "Paula Badosa",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0162
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.016
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0158
-        },
-        {
-          "winner": "Mayar Sherif",
-          "sets": [
-            "3-6",
-            "4-6"
-          ],
-          "probability": 0.014
+          "probability": 0.0151
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "ATP",
@@ -1469,43 +1469,43 @@
       "player_b": "Tiago Torres",
       "match_time_utc": "2026-07-24T11:00Z",
       "match_winner": {
-        "player_a_prob": 0.438,
-        "player_b_prob": 0.562,
-        "confidence": "low"
+        "player_a_prob": 0.4358,
+        "player_b_prob": 0.5642,
+        "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2538,
-        "player_b_straight_sets_prob": 0.2464
+        "player_a_straight_sets_prob": 0.299,
+        "player_b_straight_sets_prob": 0.1958
       },
       "games_total": {
-        "average": 27.32,
+        "average": 27.26,
         "median": 26,
         "p10": 19,
         "p25": 22,
-        "p75": 33,
+        "p75": 32,
         "p90": 36
       },
-      "tiebreak_probability": 0.6851,
+      "tiebreak_probability": 0.6786,
       "fair_odds": {
-        "player_a": 2.283,
-        "player_b": 1.779
+        "player_a": 2.294,
+        "player_b": 1.773
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3193,
-          "player_b": 0.6807,
+          "player_a": 0.2236,
+          "player_b": 0.7764,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.465,
-          "player_b": 0.535,
+          "player_a": 0.4663,
+          "player_b": 0.5337,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.3893,
-          "player_b": 0.6107,
+          "player_a": 0.3895,
+          "player_b": 0.6105,
           "weight": 0.14,
           "has_data": true
         },
@@ -1522,71 +1522,31 @@
           "has_data": true
         }
       },
-      "model_agreement": "medium",
-      "uncertainty": 0.63,
+      "model_agreement": "low",
+      "uncertainty": 0.521,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 140,
-        "career_matches_b": 14,
+        "career_matches_a": 157,
+        "career_matches_b": 28,
         "surface_matches_a": 51,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 42,
-        "form_recent_matches_b": 14,
+        "form_recent_matches_a": 53,
+        "form_recent_matches_b": 28,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0,
-        "serve_point_a": 0.7006,
-        "serve_point_b": 0.6971
+        "serve_point_a": 0.7081,
+        "serve_point_b": 0.6902
       },
       "score_distribution": [
         {
-          "winner": "Tiago Torres",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.044
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0389
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0388
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.0387
-        },
-        {
           "winner": "Hugo Gaston",
           "sets": [
             "6-3",
-            "7-6"
+            "6-3"
           ],
-          "probability": 0.0357
-        },
-        {
-          "winner": "Hugo Gaston",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0356
+          "probability": 0.0432
         },
         {
           "winner": "Hugo Gaston",
@@ -1594,18 +1554,58 @@
             "7-6",
             "6-3"
           ],
-          "probability": 0.0352
+          "probability": 0.0411
         },
         {
           "winner": "Hugo Gaston",
           "sets": [
             "6-3",
-            "6-3"
+            "7-6"
           ],
-          "probability": 0.0343
+          "probability": 0.0405
+        },
+        {
+          "winner": "Hugo Gaston",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0378
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0349
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0319
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0311
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0307
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "tour": "ATP",
@@ -1615,43 +1615,43 @@
       "player_b": "Tiago Torres",
       "match_time_utc": "2026-07-24T11:00Z",
       "match_winner": {
-        "player_a_prob": 0.438,
-        "player_b_prob": 0.562,
-        "confidence": "low"
+        "player_a_prob": 0.4358,
+        "player_b_prob": 0.5642,
+        "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2538,
-        "player_b_straight_sets_prob": 0.2464
+        "player_a_straight_sets_prob": 0.299,
+        "player_b_straight_sets_prob": 0.1958
       },
       "games_total": {
-        "average": 27.32,
+        "average": 27.26,
         "median": 26,
         "p10": 19,
         "p25": 22,
-        "p75": 33,
+        "p75": 32,
         "p90": 36
       },
-      "tiebreak_probability": 0.6851,
+      "tiebreak_probability": 0.6786,
       "fair_odds": {
-        "player_a": 2.283,
-        "player_b": 1.779
+        "player_a": 2.294,
+        "player_b": 1.773
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3193,
-          "player_b": 0.6807,
+          "player_a": 0.2236,
+          "player_b": 0.7764,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.465,
-          "player_b": 0.535,
+          "player_a": 0.4663,
+          "player_b": 0.5337,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.3893,
-          "player_b": 0.6107,
+          "player_a": 0.3895,
+          "player_b": 0.6105,
           "weight": 0.14,
           "has_data": true
         },
@@ -1668,71 +1668,31 @@
           "has_data": true
         }
       },
-      "model_agreement": "medium",
-      "uncertainty": 0.63,
+      "model_agreement": "low",
+      "uncertainty": 0.521,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 140,
-        "career_matches_b": 14,
+        "career_matches_a": 157,
+        "career_matches_b": 28,
         "surface_matches_a": 51,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 42,
-        "form_recent_matches_b": 14,
+        "form_recent_matches_a": 53,
+        "form_recent_matches_b": 28,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0,
-        "serve_point_a": 0.7006,
-        "serve_point_b": 0.6971
+        "serve_point_a": 0.7081,
+        "serve_point_b": 0.6902
       },
       "score_distribution": [
         {
-          "winner": "Tiago Torres",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.044
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0389
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0388
-        },
-        {
-          "winner": "Tiago Torres",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.0387
-        },
-        {
           "winner": "Hugo Gaston",
           "sets": [
             "6-3",
-            "7-6"
+            "6-3"
           ],
-          "probability": 0.0357
-        },
-        {
-          "winner": "Hugo Gaston",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0356
+          "probability": 0.0432
         },
         {
           "winner": "Hugo Gaston",
@@ -1740,64 +1700,104 @@
             "7-6",
             "6-3"
           ],
-          "probability": 0.0352
+          "probability": 0.0411
         },
         {
           "winner": "Hugo Gaston",
           "sets": [
             "6-3",
-            "6-3"
+            "7-6"
           ],
-          "probability": 0.0343
+          "probability": 0.0405
+        },
+        {
+          "winner": "Hugo Gaston",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0378
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0349
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0319
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0311
+        },
+        {
+          "winner": "Tiago Torres",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0307
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
+      "surface": "clay",
       "player_a": "Tomas Martin Etcheverry",
       "player_b": "Alexander Bublik",
       "match_time_utc": "2026-07-24T12:00Z",
       "match_winner": {
-        "player_a_prob": 0.4697,
-        "player_b_prob": 0.5303,
+        "player_a_prob": 0.4663,
+        "player_b_prob": 0.5337,
         "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2906,
-        "player_b_straight_sets_prob": 0.2129
+        "player_a_straight_sets_prob": 0.2552,
+        "player_b_straight_sets_prob": 0.2455
       },
       "games_total": {
-        "average": 27.83,
+        "average": 27.8,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.7564,
+      "tiebreak_probability": 0.747,
       "fair_odds": {
-        "player_a": 2.129,
-        "player_b": 1.886
+        "player_a": 2.145,
+        "player_b": 1.874
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3099,
-          "player_b": 0.6901,
+          "player_a": 0.3699,
+          "player_b": 0.6301,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.4766,
-          "player_b": 0.5234,
+          "player_a": 0.4696,
+          "player_b": 0.5304,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.5266,
-          "player_b": 0.4734,
+          "player_a": 0.5326,
+          "player_b": 0.4674,
           "weight": 0.14,
           "has_data": true
         },
@@ -1815,54 +1815,30 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": -1.178,
+      "uncertainty": 0.077,
       "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 212,
-        "career_matches_b": 381,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 80,
-        "form_recent_matches_b": 80,
+        "surface_known": true,
+        "career_matches_a": 228,
+        "career_matches_b": 398,
+        "surface_matches_a": 90,
+        "surface_matches_b": 74,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 50,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0.35,
-        "serve_point_a": 0.7251,
-        "serve_point_b": 0.7091
+        "serve_point_a": 0.717,
+        "serve_point_b": 0.713
       },
       "score_distribution": [
         {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0495
-        },
-        {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0471
-        },
-        {
           "winner": "Alexander Bublik",
           "sets": [
             "6-7",
             "6-7"
           ],
-          "probability": 0.0458
-        },
-        {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0443
+          "probability": 0.0465
         },
         {
           "winner": "Alexander Bublik",
@@ -1870,15 +1846,15 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0403
+          "probability": 0.0452
         },
         {
           "winner": "Tomas Martin Etcheverry",
           "sets": [
-            "6-3",
-            "6-3"
+            "7-6",
+            "7-6"
           ],
-          "probability": 0.0375
+          "probability": 0.0442
         },
         {
           "winner": "Alexander Bublik",
@@ -1886,7 +1862,23 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0351
+          "probability": 0.0411
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0401
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0395
         },
         {
           "winner": "Alexander Bublik",
@@ -1894,7 +1886,15 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0307
+          "probability": 0.0379
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0328
         }
       ],
       "confidence": "high"
@@ -1902,48 +1902,48 @@
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
+      "surface": "clay",
       "player_a": "Tomas Martin Etcheverry",
       "player_b": "Alexander Bublik",
       "match_time_utc": "2026-07-24T12:00Z",
       "match_winner": {
-        "player_a_prob": 0.4697,
-        "player_b_prob": 0.5303,
+        "player_a_prob": 0.4663,
+        "player_b_prob": 0.5337,
         "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2906,
-        "player_b_straight_sets_prob": 0.2129
+        "player_a_straight_sets_prob": 0.2552,
+        "player_b_straight_sets_prob": 0.2455
       },
       "games_total": {
-        "average": 27.83,
+        "average": 27.8,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.7564,
+      "tiebreak_probability": 0.747,
       "fair_odds": {
-        "player_a": 2.129,
-        "player_b": 1.886
+        "player_a": 2.145,
+        "player_b": 1.874
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3099,
-          "player_b": 0.6901,
+          "player_a": 0.3699,
+          "player_b": 0.6301,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.4766,
-          "player_b": 0.5234,
+          "player_a": 0.4696,
+          "player_b": 0.5304,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.5266,
-          "player_b": 0.4734,
+          "player_a": 0.5326,
+          "player_b": 0.4674,
           "weight": 0.14,
           "has_data": true
         },
@@ -1961,54 +1961,30 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": -1.178,
+      "uncertainty": 0.077,
       "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 212,
-        "career_matches_b": 381,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 80,
-        "form_recent_matches_b": 80,
+        "surface_known": true,
+        "career_matches_a": 228,
+        "career_matches_b": 398,
+        "surface_matches_a": 90,
+        "surface_matches_b": 74,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 50,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0.35,
-        "serve_point_a": 0.7251,
-        "serve_point_b": 0.7091
+        "serve_point_a": 0.717,
+        "serve_point_b": 0.713
       },
       "score_distribution": [
         {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0495
-        },
-        {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0471
-        },
-        {
           "winner": "Alexander Bublik",
           "sets": [
             "6-7",
             "6-7"
           ],
-          "probability": 0.0458
-        },
-        {
-          "winner": "Tomas Martin Etcheverry",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0443
+          "probability": 0.0465
         },
         {
           "winner": "Alexander Bublik",
@@ -2016,15 +1992,15 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0403
+          "probability": 0.0452
         },
         {
           "winner": "Tomas Martin Etcheverry",
           "sets": [
-            "6-3",
-            "6-3"
+            "7-6",
+            "7-6"
           ],
-          "probability": 0.0375
+          "probability": 0.0442
         },
         {
           "winner": "Alexander Bublik",
@@ -2032,7 +2008,23 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0351
+          "probability": 0.0411
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0401
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0395
         },
         {
           "winner": "Alexander Bublik",
@@ -2040,7 +2032,15 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0307
+          "probability": 0.0379
+        },
+        {
+          "winner": "Tomas Martin Etcheverry",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0328
         }
       ],
       "confidence": "high"
@@ -2053,31 +2053,31 @@
       "player_b": "Oleksandra Oliynykova",
       "match_time_utc": "2026-07-24T12:00Z",
       "match_winner": {
-        "player_a_prob": 0.5135,
-        "player_b_prob": 0.4865,
-        "confidence": "medium"
+        "player_a_prob": 0.5139,
+        "player_b_prob": 0.4861,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2119,
-        "player_b_straight_sets_prob": 0.3041
+        "player_a_straight_sets_prob": 0.2023,
+        "player_b_straight_sets_prob": 0.3135
       },
       "games_total": {
-        "average": 24.73,
+        "average": 24.74,
         "median": 24,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3633,
+      "tiebreak_probability": 0.3663,
       "fair_odds": {
-        "player_a": 1.948,
-        "player_b": 2.055
+        "player_a": 1.946,
+        "player_b": 2.057
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6102,
-          "player_b": 0.3898,
+          "player_a": 0.6279,
+          "player_b": 0.3721,
           "weight": 0.4,
           "has_data": true
         },
@@ -2106,22 +2106,22 @@
           "has_data": true
         }
       },
-      "model_agreement": "high",
-      "uncertainty": 0.408,
+      "model_agreement": "medium",
+      "uncertainty": 0.127,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 40,
-        "career_matches_b": 31,
+        "career_matches_a": 80,
+        "career_matches_b": 62,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 40,
-        "form_recent_matches_b": 31,
+        "form_recent_matches_a": 80,
+        "form_recent_matches_b": 62,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5914,
-        "serve_point_b": 0.6046
+        "serve_point_a": 0.5901,
+        "serve_point_b": 0.6058
       },
       "score_distribution": [
         {
@@ -2130,7 +2130,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0375
+          "probability": 0.0388
         },
         {
           "winner": "Elina Avanesyan",
@@ -2138,7 +2138,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0234
+          "probability": 0.0231
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2146,7 +2146,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0213
+          "probability": 0.0223
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2154,7 +2154,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0206
+          "probability": 0.0212
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2162,7 +2162,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0192
+          "probability": 0.019
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2170,7 +2170,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0161
+          "probability": 0.0173
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2178,18 +2178,18 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0152
+          "probability": 0.015
         },
         {
           "winner": "Oleksandra Oliynykova",
           "sets": [
             "4-6",
-            "5-7"
+            "3-6"
           ],
-          "probability": 0.0144
+          "probability": 0.0149
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -2199,31 +2199,31 @@
       "player_b": "Oleksandra Oliynykova",
       "match_time_utc": "2026-07-24T12:00Z",
       "match_winner": {
-        "player_a_prob": 0.5135,
-        "player_b_prob": 0.4865,
-        "confidence": "medium"
+        "player_a_prob": 0.5139,
+        "player_b_prob": 0.4861,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2119,
-        "player_b_straight_sets_prob": 0.3041
+        "player_a_straight_sets_prob": 0.2023,
+        "player_b_straight_sets_prob": 0.3135
       },
       "games_total": {
-        "average": 24.73,
+        "average": 24.74,
         "median": 24,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3633,
+      "tiebreak_probability": 0.3663,
       "fair_odds": {
-        "player_a": 1.948,
-        "player_b": 2.055
+        "player_a": 1.946,
+        "player_b": 2.057
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6102,
-          "player_b": 0.3898,
+          "player_a": 0.6279,
+          "player_b": 0.3721,
           "weight": 0.4,
           "has_data": true
         },
@@ -2252,22 +2252,22 @@
           "has_data": true
         }
       },
-      "model_agreement": "high",
-      "uncertainty": 0.408,
+      "model_agreement": "medium",
+      "uncertainty": 0.127,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 40,
-        "career_matches_b": 31,
+        "career_matches_a": 80,
+        "career_matches_b": 62,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 40,
-        "form_recent_matches_b": 31,
+        "form_recent_matches_a": 80,
+        "form_recent_matches_b": 62,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5914,
-        "serve_point_b": 0.6046
+        "serve_point_a": 0.5901,
+        "serve_point_b": 0.6058
       },
       "score_distribution": [
         {
@@ -2276,7 +2276,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0375
+          "probability": 0.0388
         },
         {
           "winner": "Elina Avanesyan",
@@ -2284,7 +2284,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0234
+          "probability": 0.0231
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2292,7 +2292,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0213
+          "probability": 0.0223
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2300,7 +2300,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0206
+          "probability": 0.0212
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2308,7 +2308,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0192
+          "probability": 0.019
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2316,7 +2316,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0161
+          "probability": 0.0173
         },
         {
           "winner": "Oleksandra Oliynykova",
@@ -2324,18 +2324,18 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0152
+          "probability": 0.015
         },
         {
           "winner": "Oleksandra Oliynykova",
           "sets": [
             "4-6",
-            "5-7"
+            "3-6"
           ],
-          "probability": 0.0144
+          "probability": 0.0149
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -2345,31 +2345,31 @@
       "player_b": "Lilli Tagger",
       "match_time_utc": "2026-07-24T12:05Z",
       "match_winner": {
-        "player_a_prob": 0.5021,
-        "player_b_prob": 0.4979,
-        "confidence": "medium"
+        "player_a_prob": 0.4988,
+        "player_b_prob": 0.5012,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2717,
-        "player_b_straight_sets_prob": 0.2288
+        "player_a_straight_sets_prob": 0.295,
+        "player_b_straight_sets_prob": 0.2112
       },
       "games_total": {
-        "average": 24.92,
+        "average": 24.82,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3783,
+      "tiebreak_probability": 0.3732,
       "fair_odds": {
-        "player_a": 1.992,
-        "player_b": 2.008
+        "player_a": 2.005,
+        "player_b": 1.995
       },
       "model_components": {
         "elo": {
-          "player_a": 0.4609,
-          "player_b": 0.5391,
+          "player_a": 0.4195,
+          "player_b": 0.5805,
           "weight": 0.4,
           "has_data": true
         },
@@ -2399,46 +2399,46 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.467,
+      "uncertainty": 0.264,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 23,
-        "career_matches_b": 23,
+        "career_matches_a": 46,
+        "career_matches_b": 46,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 23,
-        "form_recent_matches_b": 23,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 46,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6008,
-        "serve_point_b": 0.5952
+        "serve_point_a": 0.6038,
+        "serve_point_b": 0.5922
       },
       "score_distribution": [
-        {
-          "winner": "Lilli Tagger",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0345
-        },
         {
           "winner": "Sara Bejlek",
           "sets": [
             "6-3",
             "6-3"
           ],
-          "probability": 0.0307
+          "probability": 0.0327
+        },
+        {
+          "winner": "Lilli Tagger",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0318
         },
         {
           "winner": "Sara Bejlek",
           "sets": [
-            "7-6",
-            "6-3"
+            "6-3",
+            "6-4"
           ],
-          "probability": 0.0165
+          "probability": 0.0178
         },
         {
           "winner": "Sara Bejlek",
@@ -2446,13 +2446,13 @@
             "6-3",
             "7-6"
           ],
-          "probability": 0.0163
+          "probability": 0.0173
         },
         {
-          "winner": "Lilli Tagger",
+          "winner": "Sara Bejlek",
           "sets": [
-            "2-6",
-            "4-6"
+            "7-6",
+            "6-3"
           ],
           "probability": 0.0159
         },
@@ -2462,26 +2462,26 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0158
-        },
-        {
-          "winner": "Lilli Tagger",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0152
+          "probability": 0.0147
         },
         {
           "winner": "Sara Bejlek",
           "sets": [
-            "6-3",
-            "6-4"
+            "6-4",
+            "6-3"
           ],
-          "probability": 0.015
+          "probability": 0.0146
+        },
+        {
+          "winner": "Lilli Tagger",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0143
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -2491,31 +2491,31 @@
       "player_b": "Lilli Tagger",
       "match_time_utc": "2026-07-24T12:05Z",
       "match_winner": {
-        "player_a_prob": 0.5021,
-        "player_b_prob": 0.4979,
-        "confidence": "medium"
+        "player_a_prob": 0.4988,
+        "player_b_prob": 0.5012,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2717,
-        "player_b_straight_sets_prob": 0.2288
+        "player_a_straight_sets_prob": 0.295,
+        "player_b_straight_sets_prob": 0.2112
       },
       "games_total": {
-        "average": 24.92,
+        "average": 24.82,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3783,
+      "tiebreak_probability": 0.3732,
       "fair_odds": {
-        "player_a": 1.992,
-        "player_b": 2.008
+        "player_a": 2.005,
+        "player_b": 1.995
       },
       "model_components": {
         "elo": {
-          "player_a": 0.4609,
-          "player_b": 0.5391,
+          "player_a": 0.4195,
+          "player_b": 0.5805,
           "weight": 0.4,
           "has_data": true
         },
@@ -2545,46 +2545,46 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.467,
+      "uncertainty": 0.264,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 23,
-        "career_matches_b": 23,
+        "career_matches_a": 46,
+        "career_matches_b": 46,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 23,
-        "form_recent_matches_b": 23,
+        "form_recent_matches_a": 46,
+        "form_recent_matches_b": 46,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6008,
-        "serve_point_b": 0.5952
+        "serve_point_a": 0.6038,
+        "serve_point_b": 0.5922
       },
       "score_distribution": [
-        {
-          "winner": "Lilli Tagger",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0345
-        },
         {
           "winner": "Sara Bejlek",
           "sets": [
             "6-3",
             "6-3"
           ],
-          "probability": 0.0307
+          "probability": 0.0327
+        },
+        {
+          "winner": "Lilli Tagger",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0318
         },
         {
           "winner": "Sara Bejlek",
           "sets": [
-            "7-6",
-            "6-3"
+            "6-3",
+            "6-4"
           ],
-          "probability": 0.0165
+          "probability": 0.0178
         },
         {
           "winner": "Sara Bejlek",
@@ -2592,13 +2592,13 @@
             "6-3",
             "7-6"
           ],
-          "probability": 0.0163
+          "probability": 0.0173
         },
         {
-          "winner": "Lilli Tagger",
+          "winner": "Sara Bejlek",
           "sets": [
-            "2-6",
-            "4-6"
+            "7-6",
+            "6-3"
           ],
           "probability": 0.0159
         },
@@ -2608,26 +2608,26 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0158
-        },
-        {
-          "winner": "Lilli Tagger",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0152
+          "probability": 0.0147
         },
         {
           "winner": "Sara Bejlek",
           "sets": [
-            "6-3",
-            "6-4"
+            "6-4",
+            "6-3"
           ],
-          "probability": 0.015
+          "probability": 0.0146
+        },
+        {
+          "winner": "Lilli Tagger",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0143
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "ATP",
@@ -2637,26 +2637,26 @@
       "player_b": "Andrey Rublev",
       "match_time_utc": "2026-07-24T12:30Z",
       "match_winner": {
-        "player_a_prob": 0.441,
-        "player_b_prob": 0.559,
+        "player_a_prob": 0.4395,
+        "player_b_prob": 0.5605,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2892,
-        "player_b_straight_sets_prob": 0.2069
+        "player_a_straight_sets_prob": 0.2863,
+        "player_b_straight_sets_prob": 0.2087
       },
       "games_total": {
-        "average": 27.61,
+        "average": 27.67,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.721,
+      "tiebreak_probability": 0.7267,
       "fair_odds": {
-        "player_a": 2.267,
-        "player_b": 1.789
+        "player_a": 2.275,
+        "player_b": 1.784
       },
       "model_components": {
         "elo": {
@@ -2666,14 +2666,14 @@
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.4657,
-          "player_b": 0.5343,
+          "player_a": 0.4632,
+          "player_b": 0.5368,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.431,
-          "player_b": 0.569,
+          "player_a": 0.4309,
+          "player_b": 0.5691,
           "weight": 0.14,
           "has_data": true
         },
@@ -2694,32 +2694,32 @@
       "uncertainty": 0.583,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 81,
-        "career_matches_b": 597,
+        "career_matches_a": 99,
+        "career_matches_b": 616,
         "surface_matches_a": 21,
         "surface_matches_b": 132,
-        "form_recent_matches_a": 39,
-        "form_recent_matches_b": 33,
+        "form_recent_matches_a": 45,
+        "form_recent_matches_b": 48,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0.35,
-        "serve_point_a": 0.7182,
-        "serve_point_b": 0.7005
+        "serve_point_a": 0.7189,
+        "serve_point_b": 0.7025
       },
       "score_distribution": [
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "6-3",
-            "7-6"
+            "7-6",
+            "6-3"
           ],
-          "probability": 0.0441
+          "probability": 0.0431
         },
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "7-6",
+            "6-3",
             "7-6"
           ],
           "probability": 0.0426
@@ -2727,18 +2727,10 @@
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0403
-        },
-        {
-          "winner": "Luca Van Assche",
-          "sets": [
             "7-6",
-            "6-3"
+            "7-6"
           ],
-          "probability": 0.0398
+          "probability": 0.042
         },
         {
           "winner": "Andrey Rublev",
@@ -2746,7 +2738,15 @@
             "6-7",
             "6-7"
           ],
-          "probability": 0.0385
+          "probability": 0.0406
+        },
+        {
+          "winner": "Luca Van Assche",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0405
         },
         {
           "winner": "Andrey Rublev",
@@ -2754,7 +2754,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0371
+          "probability": 0.0366
         },
         {
           "winner": "Andrey Rublev",
@@ -2762,7 +2762,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0348
+          "probability": 0.0349
         },
         {
           "winner": "Andrey Rublev",
@@ -2783,26 +2783,26 @@
       "player_b": "Andrey Rublev",
       "match_time_utc": "2026-07-24T12:30Z",
       "match_winner": {
-        "player_a_prob": 0.441,
-        "player_b_prob": 0.559,
+        "player_a_prob": 0.4395,
+        "player_b_prob": 0.5605,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2892,
-        "player_b_straight_sets_prob": 0.2069
+        "player_a_straight_sets_prob": 0.2863,
+        "player_b_straight_sets_prob": 0.2087
       },
       "games_total": {
-        "average": 27.61,
+        "average": 27.67,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.721,
+      "tiebreak_probability": 0.7267,
       "fair_odds": {
-        "player_a": 2.267,
-        "player_b": 1.789
+        "player_a": 2.275,
+        "player_b": 1.784
       },
       "model_components": {
         "elo": {
@@ -2812,14 +2812,14 @@
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.4657,
-          "player_b": 0.5343,
+          "player_a": 0.4632,
+          "player_b": 0.5368,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.431,
-          "player_b": 0.569,
+          "player_a": 0.4309,
+          "player_b": 0.5691,
           "weight": 0.14,
           "has_data": true
         },
@@ -2840,32 +2840,32 @@
       "uncertainty": 0.583,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 81,
-        "career_matches_b": 597,
+        "career_matches_a": 99,
+        "career_matches_b": 616,
         "surface_matches_a": 21,
         "surface_matches_b": 132,
-        "form_recent_matches_a": 39,
-        "form_recent_matches_b": 33,
+        "form_recent_matches_a": 45,
+        "form_recent_matches_b": 48,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0.35,
-        "serve_point_a": 0.7182,
-        "serve_point_b": 0.7005
+        "serve_point_a": 0.7189,
+        "serve_point_b": 0.7025
       },
       "score_distribution": [
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "6-3",
-            "7-6"
+            "7-6",
+            "6-3"
           ],
-          "probability": 0.0441
+          "probability": 0.0431
         },
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "7-6",
+            "6-3",
             "7-6"
           ],
           "probability": 0.0426
@@ -2873,18 +2873,10 @@
         {
           "winner": "Luca Van Assche",
           "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0403
-        },
-        {
-          "winner": "Luca Van Assche",
-          "sets": [
             "7-6",
-            "6-3"
+            "7-6"
           ],
-          "probability": 0.0398
+          "probability": 0.042
         },
         {
           "winner": "Andrey Rublev",
@@ -2892,7 +2884,15 @@
             "6-7",
             "6-7"
           ],
-          "probability": 0.0385
+          "probability": 0.0406
+        },
+        {
+          "winner": "Luca Van Assche",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0405
         },
         {
           "winner": "Andrey Rublev",
@@ -2900,7 +2900,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0371
+          "probability": 0.0366
         },
         {
           "winner": "Andrey Rublev",
@@ -2908,7 +2908,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0348
+          "probability": 0.0349
         },
         {
           "winner": "Andrey Rublev",
@@ -2929,31 +2929,31 @@
       "player_b": "Dominika Salkova",
       "match_time_utc": "2026-07-24T13:35Z",
       "match_winner": {
-        "player_a_prob": 0.5139,
-        "player_b_prob": 0.4861,
-        "confidence": "medium"
+        "player_a_prob": 0.5137,
+        "player_b_prob": 0.4863,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2367,
-        "player_b_straight_sets_prob": 0.2646
+        "player_a_straight_sets_prob": 0.2209,
+        "player_b_straight_sets_prob": 0.2867
       },
       "games_total": {
-        "average": 24.91,
+        "average": 24.8,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3733,
+      "tiebreak_probability": 0.3653,
       "fair_odds": {
-        "player_a": 1.946,
-        "player_b": 2.057
+        "player_a": 1.947,
+        "player_b": 2.056
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5454,
-          "player_b": 0.4546,
+          "player_a": 0.5864,
+          "player_b": 0.4136,
           "weight": 0.4,
           "has_data": true
         },
@@ -2983,21 +2983,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.42,
+      "uncertainty": 0.156,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 29,
-        "career_matches_b": 32,
+        "career_matches_a": 58,
+        "career_matches_b": 64,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 29,
-        "form_recent_matches_b": 32,
+        "form_recent_matches_a": 58,
+        "form_recent_matches_b": 64,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.596,
-        "serve_point_b": 0.5999
+        "serve_point_a": 0.5931,
+        "serve_point_b": 0.6029
       },
       "score_distribution": [
         {
@@ -3006,7 +3006,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0351
+          "probability": 0.0357
         },
         {
           "winner": "Barbora Krejcikova",
@@ -3014,7 +3014,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0272
+          "probability": 0.0257
         },
         {
           "winner": "Dominika Salkova",
@@ -3022,7 +3022,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0182
+          "probability": 0.0197
         },
         {
           "winner": "Dominika Salkova",
@@ -3030,7 +3030,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0176
+          "probability": 0.0192
         },
         {
           "winner": "Dominika Salkova",
@@ -3038,7 +3038,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0163
+          "probability": 0.0177
         },
         {
           "winner": "Dominika Salkova",
@@ -3046,15 +3046,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0159
-        },
-        {
-          "winner": "Barbora Krejcikova",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0159
+          "probability": 0.016
         },
         {
           "winner": "Dominika Salkova",
@@ -3062,10 +3054,18 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0143
+          "probability": 0.015
+        },
+        {
+          "winner": "Barbora Krejcikova",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.014
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -3075,31 +3075,31 @@
       "player_b": "Dominika Salkova",
       "match_time_utc": "2026-07-24T13:35Z",
       "match_winner": {
-        "player_a_prob": 0.5139,
-        "player_b_prob": 0.4861,
-        "confidence": "medium"
+        "player_a_prob": 0.5137,
+        "player_b_prob": 0.4863,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2367,
-        "player_b_straight_sets_prob": 0.2646
+        "player_a_straight_sets_prob": 0.2209,
+        "player_b_straight_sets_prob": 0.2867
       },
       "games_total": {
-        "average": 24.91,
+        "average": 24.8,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3733,
+      "tiebreak_probability": 0.3653,
       "fair_odds": {
-        "player_a": 1.946,
-        "player_b": 2.057
+        "player_a": 1.947,
+        "player_b": 2.056
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5454,
-          "player_b": 0.4546,
+          "player_a": 0.5864,
+          "player_b": 0.4136,
           "weight": 0.4,
           "has_data": true
         },
@@ -3129,21 +3129,21 @@
         }
       },
       "model_agreement": "high",
-      "uncertainty": 0.42,
+      "uncertainty": 0.156,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 29,
-        "career_matches_b": 32,
+        "career_matches_a": 58,
+        "career_matches_b": 64,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 29,
-        "form_recent_matches_b": 32,
+        "form_recent_matches_a": 58,
+        "form_recent_matches_b": 64,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.596,
-        "serve_point_b": 0.5999
+        "serve_point_a": 0.5931,
+        "serve_point_b": 0.6029
       },
       "score_distribution": [
         {
@@ -3152,7 +3152,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0351
+          "probability": 0.0357
         },
         {
           "winner": "Barbora Krejcikova",
@@ -3160,7 +3160,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0272
+          "probability": 0.0257
         },
         {
           "winner": "Dominika Salkova",
@@ -3168,7 +3168,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0182
+          "probability": 0.0197
         },
         {
           "winner": "Dominika Salkova",
@@ -3176,7 +3176,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0176
+          "probability": 0.0192
         },
         {
           "winner": "Dominika Salkova",
@@ -3184,7 +3184,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0163
+          "probability": 0.0177
         },
         {
           "winner": "Dominika Salkova",
@@ -3192,7 +3192,15 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0159
+          "probability": 0.016
+        },
+        {
+          "winner": "Dominika Salkova",
+          "sets": [
+            "3-6",
+            "4-6"
+          ],
+          "probability": 0.015
         },
         {
           "winner": "Barbora Krejcikova",
@@ -3200,15 +3208,299 @@
             "6-3",
             "7-6"
           ],
-          "probability": 0.0159
+          "probability": 0.014
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Jennifer Ruggeri",
+      "player_b": "Francesca Jones",
+      "match_time_utc": "2026-07-24T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4821,
+        "player_b_prob": 0.5179,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3444,
+        "player_b_straight_sets_prob": 0.1724
+      },
+      "games_total": {
+        "average": 24.6,
+        "median": 24,
+        "p10": 17,
+        "p25": 19,
+        "p75": 30,
+        "p90": 32
+      },
+      "tiebreak_probability": 0.3648,
+      "fair_odds": {
+        "player_a": 2.074,
+        "player_b": 1.931
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.2994,
+          "player_b": 0.7006,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.3896,
+          "player_b": 0.6104,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "medium",
+      "uncertainty": 0.398,
+      "data_quality": {
+        "surface_known": false,
+        "career_matches_a": 34,
+        "career_matches_b": 58,
+        "surface_matches_a": 0,
+        "surface_matches_b": 0,
+        "form_recent_matches_a": 34,
+        "form_recent_matches_b": 58,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.6106,
+        "serve_point_b": 0.5854
+      },
+      "score_distribution": [
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0391
         },
         {
-          "winner": "Dominika Salkova",
+          "winner": "Francesca Jones",
           "sets": [
-            "3-6",
+            "4-6",
             "4-6"
+          ],
+          "probability": 0.0248
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-3",
+            "6-4"
+          ],
+          "probability": 0.0186
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0184
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.018
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-4",
+            "6-3"
+          ],
+          "probability": 0.0163
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-2",
+            "6-3"
           ],
           "probability": 0.0143
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-3",
+            "6-1"
+          ],
+          "probability": 0.0142
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "MSC Hamburg Ladies Open",
+      "surface": "clay",
+      "player_a": "Anhelina Kalinina",
+      "player_b": "Tamara Korpatsch",
+      "match_time_utc": "2026-07-24T15:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4937,
+        "player_b_prob": 0.5063,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2152,
+        "player_b_straight_sets_prob": 0.299
+      },
+      "games_total": {
+        "average": 24.74,
+        "median": 24,
+        "p10": 18,
+        "p25": 20,
+        "p75": 30,
+        "p90": 33
+      },
+      "tiebreak_probability": 0.3647,
+      "fair_odds": {
+        "player_a": 2.025,
+        "player_b": 1.975
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.5709,
+          "player_b": 0.4291,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.4475,
+          "player_b": 0.5525,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "medium",
+      "uncertainty": 0.401,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 32,
+        "career_matches_b": 36,
+        "surface_matches_a": 0,
+        "surface_matches_b": 0,
+        "form_recent_matches_a": 32,
+        "form_recent_matches_b": 36,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.592,
+        "serve_point_b": 0.604
+      },
+      "score_distribution": [
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0363
+        },
+        {
+          "winner": "Anhelina Kalinina",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0243
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "4-6",
+            "2-6"
+          ],
+          "probability": 0.0198
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "2-6",
+            "4-6"
+          ],
+          "probability": 0.0198
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0181
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.018
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "3-6",
+            "4-6"
+          ],
+          "probability": 0.0154
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "4-6",
+            "3-6"
+          ],
+          "probability": 0.0148
         }
       ],
       "confidence": "medium"
@@ -3221,31 +3513,31 @@
       "player_b": "Francesca Jones",
       "match_time_utc": "2026-07-24T15:00Z",
       "match_winner": {
-        "player_a_prob": 0.4841,
-        "player_b_prob": 0.5159,
+        "player_a_prob": 0.4821,
+        "player_b_prob": 0.5179,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3181,
-        "player_b_straight_sets_prob": 0.1973
+        "player_a_straight_sets_prob": 0.3444,
+        "player_b_straight_sets_prob": 0.1724
       },
       "games_total": {
-        "average": 24.69,
+        "average": 24.6,
         "median": 24,
         "p10": 17,
-        "p25": 20,
+        "p25": 19,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3693,
+      "tiebreak_probability": 0.3648,
       "fair_odds": {
-        "player_a": 2.066,
-        "player_b": 1.938
+        "player_a": 2.074,
+        "player_b": 1.931
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3534,
-          "player_b": 0.6466,
+          "player_a": 0.2994,
+          "player_b": 0.7006,
           "weight": 0.4,
           "has_data": true
         },
@@ -3275,21 +3567,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.543,
+      "uncertainty": 0.398,
       "data_quality": {
         "surface_known": false,
-        "career_matches_a": 17,
-        "career_matches_b": 29,
+        "career_matches_a": 34,
+        "career_matches_b": 58,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 17,
-        "form_recent_matches_b": 29,
+        "form_recent_matches_a": 34,
+        "form_recent_matches_b": 58,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6067,
-        "serve_point_b": 0.5893
+        "serve_point_a": 0.6106,
+        "serve_point_b": 0.5854
       },
       "score_distribution": [
         {
@@ -3298,7 +3590,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0369
+          "probability": 0.0391
         },
         {
           "winner": "Francesca Jones",
@@ -3306,23 +3598,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0278
-        },
-        {
-          "winner": "Jennifer Ruggeri",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0178
-        },
-        {
-          "winner": "Jennifer Ruggeri",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0176
+          "probability": 0.0248
         },
         {
           "winner": "Jennifer Ruggeri",
@@ -3330,7 +3606,23 @@
             "6-3",
             "6-4"
           ],
-          "probability": 0.0168
+          "probability": 0.0186
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0184
+        },
+        {
+          "winner": "Jennifer Ruggeri",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.018
         },
         {
           "winner": "Jennifer Ruggeri",
@@ -3338,23 +3630,23 @@
             "6-4",
             "6-3"
           ],
-          "probability": 0.016
+          "probability": 0.0163
         },
         {
-          "winner": "Francesca Jones",
+          "winner": "Jennifer Ruggeri",
           "sets": [
-            "6-7",
-            "4-6"
+            "6-2",
+            "6-3"
           ],
-          "probability": 0.0149
+          "probability": 0.0143
         },
         {
-          "winner": "Francesca Jones",
+          "winner": "Jennifer Ruggeri",
           "sets": [
-            "2-6",
-            "4-6"
+            "6-3",
+            "6-1"
           ],
-          "probability": 0.0138
+          "probability": 0.0142
         }
       ],
       "confidence": "medium"
@@ -3367,31 +3659,31 @@
       "player_b": "Tamara Korpatsch",
       "match_time_utc": "2026-07-24T15:00Z",
       "match_winner": {
-        "player_a_prob": 0.4944,
-        "player_b_prob": 0.5056,
+        "player_a_prob": 0.4937,
+        "player_b_prob": 0.5063,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2378,
-        "player_b_straight_sets_prob": 0.2641
+        "player_a_straight_sets_prob": 0.2152,
+        "player_b_straight_sets_prob": 0.299
       },
       "games_total": {
-        "average": 24.9,
-        "median": 25,
+        "average": 24.74,
+        "median": 24,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3733,
+      "tiebreak_probability": 0.3647,
       "fair_odds": {
-        "player_a": 2.022,
-        "player_b": 1.978
+        "player_a": 2.025,
+        "player_b": 1.975
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5124,
-          "player_b": 0.4876,
+          "player_a": 0.5709,
+          "player_b": 0.4291,
           "weight": 0.4,
           "has_data": true
         },
@@ -3420,22 +3712,22 @@
           "has_data": true
         }
       },
-      "model_agreement": "high",
-      "uncertainty": 0.536,
+      "model_agreement": "medium",
+      "uncertainty": 0.401,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 16,
-        "career_matches_b": 18,
+        "career_matches_a": 32,
+        "career_matches_b": 36,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 16,
-        "form_recent_matches_b": 18,
+        "form_recent_matches_a": 32,
+        "form_recent_matches_b": 36,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5962,
-        "serve_point_b": 0.5997
+        "serve_point_a": 0.592,
+        "serve_point_b": 0.604
       },
       "score_distribution": [
         {
@@ -3444,7 +3736,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0352
+          "probability": 0.0363
         },
         {
           "winner": "Anhelina Kalinina",
@@ -3452,7 +3744,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0276
+          "probability": 0.0243
         },
         {
           "winner": "Tamara Korpatsch",
@@ -3460,7 +3752,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0182
+          "probability": 0.0198
         },
         {
           "winner": "Tamara Korpatsch",
@@ -3468,23 +3760,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0179
-        },
-        {
-          "winner": "Tamara Korpatsch",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0164
-        },
-        {
-          "winner": "Anhelina Kalinina",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0164
+          "probability": 0.0198
         },
         {
           "winner": "Tamara Korpatsch",
@@ -3492,7 +3768,15 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0158
+          "probability": 0.0181
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.018
         },
         {
           "winner": "Tamara Korpatsch",
@@ -3500,7 +3784,307 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0138
+          "probability": 0.0154
+        },
+        {
+          "winner": "Tamara Korpatsch",
+          "sets": [
+            "4-6",
+            "3-6"
+          ],
+          "probability": 0.0148
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "clay",
+      "player_a": "Alexander Blockx",
+      "player_b": "Roman Andres Burruchaga",
+      "match_time_utc": "2026-07-24T16:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4926,
+        "player_b_prob": 0.5074,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2566,
+        "player_b_straight_sets_prob": 0.2446
+      },
+      "games_total": {
+        "average": 27.4,
+        "median": 26,
+        "p10": 20,
+        "p25": 22,
+        "p75": 33,
+        "p90": 36
+      },
+      "tiebreak_probability": 0.6987,
+      "fair_odds": {
+        "player_a": 2.03,
+        "player_b": 1.971
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.4733,
+          "player_b": 0.5267,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5088,
+          "player_b": 0.4912,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.4187,
+          "player_b": 0.5813,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.376,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 34,
+        "career_matches_b": 55,
+        "surface_matches_a": 0,
+        "surface_matches_b": 11,
+        "form_recent_matches_a": 18,
+        "form_recent_matches_b": 55,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.7049,
+        "serve_point_b": 0.6992
+      },
+      "score_distribution": [
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.042
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0408
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0404
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0383
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0375
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0361
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0361
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0354
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Millennium Estoril Open",
+      "surface": "clay",
+      "player_a": "Alexander Blockx",
+      "player_b": "Roman Andres Burruchaga",
+      "match_time_utc": "2026-07-24T16:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4926,
+        "player_b_prob": 0.5074,
+        "confidence": "medium"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2566,
+        "player_b_straight_sets_prob": 0.2446
+      },
+      "games_total": {
+        "average": 27.4,
+        "median": 26,
+        "p10": 20,
+        "p25": 22,
+        "p75": 33,
+        "p90": 36
+      },
+      "tiebreak_probability": 0.6987,
+      "fair_odds": {
+        "player_a": 2.03,
+        "player_b": 1.971
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.4733,
+          "player_b": 0.5267,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5088,
+          "player_b": 0.4912,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.4187,
+          "player_b": 0.5813,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.376,
+      "data_quality": {
+        "surface_known": true,
+        "career_matches_a": 34,
+        "career_matches_b": 55,
+        "surface_matches_a": 0,
+        "surface_matches_b": 11,
+        "form_recent_matches_a": 18,
+        "form_recent_matches_b": 55,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.7049,
+        "serve_point_b": 0.6992
+      },
+      "score_distribution": [
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.042
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0408
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0404
+        },
+        {
+          "winner": "Roman Andres Burruchaga",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0383
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0375
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0361
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0361
+        },
+        {
+          "winner": "Alexander Blockx",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0354
         }
       ],
       "confidence": "medium"
@@ -3509,35 +4093,35 @@
       "tour": "WTA",
       "tournament": "Palermo Ladies Open",
       "surface": "unknown",
-      "player_a": "Jennifer Ruggeri",
-      "player_b": "Francesca Jones",
-      "match_time_utc": "2026-07-24T15:00Z",
+      "player_a": "Clara Burel",
+      "player_b": "Alevtina Ibragimova",
+      "match_time_utc": "2026-07-24T17:00Z",
       "match_winner": {
-        "player_a_prob": 0.4841,
-        "player_b_prob": 0.5159,
-        "confidence": "medium"
+        "player_a_prob": 0.4986,
+        "player_b_prob": 0.5014,
+        "confidence": "high"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.3181,
-        "player_b_straight_sets_prob": 0.1973
+        "player_a_straight_sets_prob": 0.3177,
+        "player_b_straight_sets_prob": 0.1978
       },
       "games_total": {
-        "average": 24.69,
+        "average": 24.68,
         "median": 24,
         "p10": 17,
         "p25": 20,
         "p75": 30,
         "p90": 32
       },
-      "tiebreak_probability": 0.3693,
+      "tiebreak_probability": 0.369,
       "fair_odds": {
-        "player_a": 2.066,
-        "player_b": 1.938
+        "player_a": 2.005,
+        "player_b": 1.995
       },
       "model_components": {
         "elo": {
-          "player_a": 0.3534,
-          "player_b": 0.6466,
+          "player_a": 0.3771,
+          "player_b": 0.6229,
           "weight": 0.4,
           "has_data": true
         },
@@ -3548,8 +4132,8 @@
           "has_data": true
         },
         "form": {
-          "player_a": 0.3896,
-          "player_b": 0.6104,
+          "player_a": 0.4872,
+          "player_b": 0.5128,
           "weight": 0.14,
           "has_data": true
         },
@@ -3567,57 +4151,57 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.543,
+      "uncertainty": 0.218,
       "data_quality": {
         "surface_known": false,
-        "career_matches_a": 17,
-        "career_matches_b": 29,
+        "career_matches_a": 52,
+        "career_matches_b": 60,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 17,
-        "form_recent_matches_b": 29,
+        "form_recent_matches_a": 52,
+        "form_recent_matches_b": 60,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6067,
+        "serve_point_a": 0.6066,
         "serve_point_b": 0.5893
       },
       "score_distribution": [
         {
-          "winner": "Jennifer Ruggeri",
+          "winner": "Clara Burel",
           "sets": [
             "6-3",
             "6-3"
           ],
-          "probability": 0.0369
+          "probability": 0.0367
         },
         {
-          "winner": "Francesca Jones",
+          "winner": "Alevtina Ibragimova",
           "sets": [
             "4-6",
             "4-6"
           ],
-          "probability": 0.0278
+          "probability": 0.0279
         },
         {
-          "winner": "Jennifer Ruggeri",
+          "winner": "Clara Burel",
           "sets": [
             "6-3",
             "7-6"
           ],
-          "probability": 0.0178
+          "probability": 0.0179
         },
         {
-          "winner": "Jennifer Ruggeri",
+          "winner": "Clara Burel",
           "sets": [
             "7-6",
             "6-3"
           ],
-          "probability": 0.0176
+          "probability": 0.0177
         },
         {
-          "winner": "Jennifer Ruggeri",
+          "winner": "Clara Burel",
           "sets": [
             "6-3",
             "6-4"
@@ -3625,7 +4209,7 @@
           "probability": 0.0168
         },
         {
-          "winner": "Jennifer Ruggeri",
+          "winner": "Clara Burel",
           "sets": [
             "6-4",
             "6-3"
@@ -3633,57 +4217,57 @@
           "probability": 0.016
         },
         {
-          "winner": "Francesca Jones",
+          "winner": "Alevtina Ibragimova",
           "sets": [
             "6-7",
             "4-6"
           ],
-          "probability": 0.0149
+          "probability": 0.0147
         },
         {
-          "winner": "Francesca Jones",
+          "winner": "Alevtina Ibragimova",
           "sets": [
             "2-6",
             "4-6"
           ],
-          "probability": 0.0138
+          "probability": 0.0142
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
-      "tournament": "MSC Hamburg Ladies Open",
-      "surface": "clay",
-      "player_a": "Anhelina Kalinina",
-      "player_b": "Tamara Korpatsch",
-      "match_time_utc": "2026-07-24T15:00Z",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Lucia Bronzetti",
+      "player_b": "Yasmine Kabbaj",
+      "match_time_utc": "2026-07-24T17:00Z",
       "match_winner": {
-        "player_a_prob": 0.4944,
-        "player_b_prob": 0.5056,
+        "player_a_prob": 0.5077,
+        "player_b_prob": 0.4923,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2378,
-        "player_b_straight_sets_prob": 0.2641
+        "player_a_straight_sets_prob": 0.1924,
+        "player_b_straight_sets_prob": 0.3216
       },
       "games_total": {
-        "average": 24.9,
+        "average": 24.78,
         "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3733,
+      "tiebreak_probability": 0.3666,
       "fair_odds": {
-        "player_a": 2.022,
-        "player_b": 1.978
+        "player_a": 1.97,
+        "player_b": 2.031
       },
       "model_components": {
         "elo": {
-          "player_a": 0.5124,
-          "player_b": 0.4876,
+          "player_a": 0.6354,
+          "player_b": 0.3646,
           "weight": 0.4,
           "has_data": true
         },
@@ -3694,8 +4278,8 @@
           "has_data": true
         },
         "form": {
-          "player_a": 0.4475,
-          "player_b": 0.5525,
+          "player_a": 0.5446,
+          "player_b": 0.4554,
           "weight": 0.14,
           "has_data": true
         },
@@ -3712,485 +4296,201 @@
           "has_data": true
         }
       },
-      "model_agreement": "high",
-      "uncertainty": 0.536,
+      "model_agreement": "medium",
+      "uncertainty": 0.385,
       "data_quality": {
-        "surface_known": true,
-        "career_matches_a": 16,
-        "career_matches_b": 18,
+        "surface_known": false,
+        "career_matches_a": 58,
+        "career_matches_b": 34,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 16,
-        "form_recent_matches_b": 18,
+        "form_recent_matches_a": 58,
+        "form_recent_matches_b": 34,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5962,
-        "serve_point_b": 0.5997
+        "serve_point_a": 0.589,
+        "serve_point_b": 0.607
       },
       "score_distribution": [
         {
-          "winner": "Tamara Korpatsch",
+          "winner": "Yasmine Kabbaj",
           "sets": [
             "4-6",
             "4-6"
           ],
-          "probability": 0.0352
+          "probability": 0.0408
         },
         {
-          "winner": "Anhelina Kalinina",
+          "winner": "Yasmine Kabbaj",
+          "sets": [
+            "4-6",
+            "2-6"
+          ],
+          "probability": 0.0227
+        },
+        {
+          "winner": "Lucia Bronzetti",
           "sets": [
             "6-3",
             "6-3"
           ],
-          "probability": 0.0276
+          "probability": 0.022
         },
         {
-          "winner": "Tamara Korpatsch",
+          "winner": "Yasmine Kabbaj",
+          "sets": [
+            "2-6",
+            "4-6"
+          ],
+          "probability": 0.0215
+        },
+        {
+          "winner": "Yasmine Kabbaj",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0189
+        },
+        {
+          "winner": "Yasmine Kabbaj",
           "sets": [
             "4-6",
-            "2-6"
+            "6-7"
           ],
           "probability": 0.0182
         },
         {
-          "winner": "Tamara Korpatsch",
+          "winner": "Yasmine Kabbaj",
           "sets": [
-            "2-6",
+            "3-6",
             "4-6"
+          ],
+          "probability": 0.0153
+        },
+        {
+          "winner": "Yasmine Kabbaj",
+          "sets": [
+            "4-6",
+            "5-7"
+          ],
+          "probability": 0.0147
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "tour": "WTA",
+      "tournament": "Palermo Ladies Open",
+      "surface": "unknown",
+      "player_a": "Clara Burel",
+      "player_b": "Alevtina Ibragimova",
+      "match_time_utc": "2026-07-24T17:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4986,
+        "player_b_prob": 0.5014,
+        "confidence": "high"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.3177,
+        "player_b_straight_sets_prob": 0.1978
+      },
+      "games_total": {
+        "average": 24.68,
+        "median": 24,
+        "p10": 17,
+        "p25": 20,
+        "p75": 30,
+        "p90": 32
+      },
+      "tiebreak_probability": 0.369,
+      "fair_odds": {
+        "player_a": 2.005,
+        "player_b": 1.995
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.3771,
+          "player_b": 0.6229,
+          "weight": 0.4,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.32,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.4872,
+          "player_b": 0.5128,
+          "weight": 0.14,
+          "has_data": true
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.08,
+          "has_data": true
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.06,
+          "has_data": true
+        }
+      },
+      "model_agreement": "medium",
+      "uncertainty": 0.218,
+      "data_quality": {
+        "surface_known": false,
+        "career_matches_a": 52,
+        "career_matches_b": 60,
+        "surface_matches_a": 0,
+        "surface_matches_b": 0,
+        "form_recent_matches_a": 52,
+        "form_recent_matches_b": 60,
+        "fatigue_a": 0.1,
+        "fatigue_b": 0.1,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.6066,
+        "serve_point_b": 0.5893
+      },
+      "score_distribution": [
+        {
+          "winner": "Clara Burel",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0367
+        },
+        {
+          "winner": "Alevtina Ibragimova",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0279
+        },
+        {
+          "winner": "Clara Burel",
+          "sets": [
+            "6-3",
+            "7-6"
           ],
           "probability": 0.0179
         },
         {
-          "winner": "Tamara Korpatsch",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0164
-        },
-        {
-          "winner": "Anhelina Kalinina",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0164
-        },
-        {
-          "winner": "Tamara Korpatsch",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0158
-        },
-        {
-          "winner": "Tamara Korpatsch",
-          "sets": [
-            "3-6",
-            "4-6"
-          ],
-          "probability": 0.0138
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "clay",
-      "player_a": "Alexander Blockx",
-      "player_b": "Roman Andres Burruchaga",
-      "match_time_utc": "2026-07-24T16:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4927,
-        "player_b_prob": 0.5073,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.2468
-      },
-      "games_total": {
-        "average": 27.4,
-        "median": 26,
-        "p10": 20,
-        "p25": 22,
-        "p75": 33,
-        "p90": 36
-      },
-      "tiebreak_probability": 0.6987,
-      "fair_odds": {
-        "player_a": 2.03,
-        "player_b": 1.971
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.4753,
-          "player_b": 0.5247,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5088,
-          "player_b": 0.4912,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4187,
-          "player_b": 0.5813,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.459,
-      "data_quality": {
-        "surface_known": true,
-        "career_matches_a": 25,
-        "career_matches_b": 33,
-        "surface_matches_a": 0,
-        "surface_matches_b": 11,
-        "form_recent_matches_a": 9,
-        "form_recent_matches_b": 33,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.7047,
-        "serve_point_b": 0.6993
-      },
-      "score_distribution": [
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0415
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0413
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0413
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.0391
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0373
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0361
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0352
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0348
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
-      "surface": "clay",
-      "player_a": "Alexander Blockx",
-      "player_b": "Roman Andres Burruchaga",
-      "match_time_utc": "2026-07-24T16:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4927,
-        "player_b_prob": 0.5073,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2545,
-        "player_b_straight_sets_prob": 0.2468
-      },
-      "games_total": {
-        "average": 27.4,
-        "median": 26,
-        "p10": 20,
-        "p25": 22,
-        "p75": 33,
-        "p90": 36
-      },
-      "tiebreak_probability": 0.6987,
-      "fair_odds": {
-        "player_a": 2.03,
-        "player_b": 1.971
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.4753,
-          "player_b": 0.5247,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5088,
-          "player_b": 0.4912,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4187,
-          "player_b": 0.5813,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.459,
-      "data_quality": {
-        "surface_known": true,
-        "career_matches_a": 25,
-        "career_matches_b": 33,
-        "surface_matches_a": 0,
-        "surface_matches_b": 11,
-        "form_recent_matches_a": 9,
-        "form_recent_matches_b": 33,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.7047,
-        "serve_point_b": 0.6993
-      },
-      "score_distribution": [
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0415
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0413
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0413
-        },
-        {
-          "winner": "Roman Andres Burruchaga",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.0391
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0373
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0361
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0352
-        },
-        {
-          "winner": "Alexander Blockx",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0348
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Clara Burel",
-      "player_b": "Alevtina Ibragimova",
-      "match_time_utc": "2026-07-24T17:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4986,
-        "player_b_prob": 0.5014,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2908,
-        "player_b_straight_sets_prob": 0.2183
-      },
-      "games_total": {
-        "average": 24.81,
-        "median": 25,
-        "p10": 18,
-        "p25": 20,
-        "p75": 30,
-        "p90": 33
-      },
-      "tiebreak_probability": 0.3752,
-      "fair_odds": {
-        "player_a": 2.006,
-        "player_b": 1.994
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.4329,
-          "player_b": 0.5671,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4872,
-          "player_b": 0.5128,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.445,
-      "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 26,
-        "career_matches_b": 30,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 26,
-        "form_recent_matches_b": 30,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.6026,
-        "serve_point_b": 0.5934
-      },
-      "score_distribution": [
-        {
-          "winner": "Alevtina Ibragimova",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0326
-        },
-        {
           "winner": "Clara Burel",
           "sets": [
-            "6-3",
+            "7-6",
             "6-3"
           ],
-          "probability": 0.0309
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0178
+          "probability": 0.0177
         },
         {
           "winner": "Clara Burel",
@@ -4198,23 +4498,7 @@
             "6-3",
             "6-4"
           ],
-          "probability": 0.0169
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0163
-        },
-        {
-          "winner": "Alevtina Ibragimova",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0147
+          "probability": 0.0168
         },
         {
           "winner": "Clara Burel",
@@ -4222,18 +4506,26 @@
             "6-4",
             "6-3"
           ],
+          "probability": 0.016
+        },
+        {
+          "winner": "Alevtina Ibragimova",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
           "probability": 0.0147
         },
         {
           "winner": "Alevtina Ibragimova",
           "sets": [
-            "4-6",
-            "6-7"
+            "2-6",
+            "4-6"
           ],
-          "probability": 0.0145
+          "probability": 0.0142
         }
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "tour": "WTA",
@@ -4243,31 +4535,31 @@
       "player_b": "Yasmine Kabbaj",
       "match_time_utc": "2026-07-24T17:00Z",
       "match_winner": {
-        "player_a_prob": 0.5081,
-        "player_b_prob": 0.4919,
+        "player_a_prob": 0.5077,
+        "player_b_prob": 0.4923,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2123,
-        "player_b_straight_sets_prob": 0.3023
+        "player_a_straight_sets_prob": 0.1924,
+        "player_b_straight_sets_prob": 0.3216
       },
       "games_total": {
-        "average": 24.74,
-        "median": 24,
+        "average": 24.78,
+        "median": 25,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3629,
+      "tiebreak_probability": 0.3666,
       "fair_odds": {
-        "player_a": 1.968,
-        "player_b": 2.033
+        "player_a": 1.97,
+        "player_b": 2.031
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6008,
-          "player_b": 0.3992,
+          "player_a": 0.6354,
+          "player_b": 0.3646,
           "weight": 0.4,
           "has_data": true
         },
@@ -4296,22 +4588,22 @@
           "has_data": true
         }
       },
-      "model_agreement": "high",
-      "uncertainty": 0.534,
+      "model_agreement": "medium",
+      "uncertainty": 0.385,
       "data_quality": {
         "surface_known": false,
-        "career_matches_a": 29,
-        "career_matches_b": 17,
+        "career_matches_a": 58,
+        "career_matches_b": 34,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 29,
-        "form_recent_matches_b": 17,
+        "form_recent_matches_a": 58,
+        "form_recent_matches_b": 34,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5915,
-        "serve_point_b": 0.6045
+        "serve_point_a": 0.589,
+        "serve_point_b": 0.607
       },
       "score_distribution": [
         {
@@ -4320,7 +4612,15 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0372
+          "probability": 0.0408
+        },
+        {
+          "winner": "Yasmine Kabbaj",
+          "sets": [
+            "4-6",
+            "2-6"
+          ],
+          "probability": 0.0227
         },
         {
           "winner": "Lucia Bronzetti",
@@ -4328,15 +4628,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0239
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0212
+          "probability": 0.022
         },
         {
           "winner": "Yasmine Kabbaj",
@@ -4344,7 +4636,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0206
+          "probability": 0.0215
         },
         {
           "winner": "Yasmine Kabbaj",
@@ -4352,7 +4644,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0195
+          "probability": 0.0189
         },
         {
           "winner": "Yasmine Kabbaj",
@@ -4360,7 +4652,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0163
+          "probability": 0.0182
         },
         {
           "winner": "Yasmine Kabbaj",
@@ -4368,307 +4660,15 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0154
+          "probability": 0.0153
         },
         {
           "winner": "Yasmine Kabbaj",
           "sets": [
             "4-6",
-            "3-6"
-          ],
-          "probability": 0.0145
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Clara Burel",
-      "player_b": "Alevtina Ibragimova",
-      "match_time_utc": "2026-07-24T17:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4986,
-        "player_b_prob": 0.5014,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2908,
-        "player_b_straight_sets_prob": 0.2183
-      },
-      "games_total": {
-        "average": 24.81,
-        "median": 25,
-        "p10": 18,
-        "p25": 20,
-        "p75": 30,
-        "p90": 33
-      },
-      "tiebreak_probability": 0.3752,
-      "fair_odds": {
-        "player_a": 2.006,
-        "player_b": 1.994
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.4329,
-          "player_b": 0.5671,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.4872,
-          "player_b": 0.5128,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.445,
-      "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 26,
-        "career_matches_b": 30,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 26,
-        "form_recent_matches_b": 30,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.6026,
-        "serve_point_b": 0.5934
-      },
-      "score_distribution": [
-        {
-          "winner": "Alevtina Ibragimova",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0326
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0309
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0178
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "6-3",
-            "6-4"
-          ],
-          "probability": 0.0169
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0163
-        },
-        {
-          "winner": "Alevtina Ibragimova",
-          "sets": [
-            "4-6",
-            "2-6"
+            "5-7"
           ],
           "probability": 0.0147
-        },
-        {
-          "winner": "Clara Burel",
-          "sets": [
-            "6-4",
-            "6-3"
-          ],
-          "probability": 0.0147
-        },
-        {
-          "winner": "Alevtina Ibragimova",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0145
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "tour": "WTA",
-      "tournament": "Palermo Ladies Open",
-      "surface": "unknown",
-      "player_a": "Lucia Bronzetti",
-      "player_b": "Yasmine Kabbaj",
-      "match_time_utc": "2026-07-24T17:00Z",
-      "match_winner": {
-        "player_a_prob": 0.5081,
-        "player_b_prob": 0.4919,
-        "confidence": "medium"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2123,
-        "player_b_straight_sets_prob": 0.3023
-      },
-      "games_total": {
-        "average": 24.74,
-        "median": 24,
-        "p10": 18,
-        "p25": 20,
-        "p75": 30,
-        "p90": 33
-      },
-      "tiebreak_probability": 0.3629,
-      "fair_odds": {
-        "player_a": 1.968,
-        "player_b": 2.033
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.6008,
-          "player_b": 0.3992,
-          "weight": 0.4,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.32,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.5446,
-          "player_b": 0.4554,
-          "weight": 0.14,
-          "has_data": true
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.08,
-          "has_data": true
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.06,
-          "has_data": true
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.534,
-      "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 29,
-        "career_matches_b": 17,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 29,
-        "form_recent_matches_b": 17,
-        "fatigue_a": 0.1,
-        "fatigue_b": 0.1,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.5915,
-        "serve_point_b": 0.6045
-      },
-      "score_distribution": [
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0372
-        },
-        {
-          "winner": "Lucia Bronzetti",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0239
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "4-6",
-            "2-6"
-          ],
-          "probability": 0.0212
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "2-6",
-            "4-6"
-          ],
-          "probability": 0.0206
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0195
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0163
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "3-6",
-            "4-6"
-          ],
-          "probability": 0.0154
-        },
-        {
-          "winner": "Yasmine Kabbaj",
-          "sets": [
-            "4-6",
-            "3-6"
-          ],
-          "probability": 0.0145
         }
       ],
       "confidence": "medium"
@@ -4681,43 +4681,43 @@
       "player_b": "Jaime Faria",
       "match_time_utc": "2026-07-24T17:30Z",
       "match_winner": {
-        "player_a_prob": 0.5259,
-        "player_b_prob": 0.4741,
+        "player_a_prob": 0.5261,
+        "player_b_prob": 0.4739,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2037,
-        "player_b_straight_sets_prob": 0.3093
+        "player_a_straight_sets_prob": 0.2172,
+        "player_b_straight_sets_prob": 0.2752
       },
       "games_total": {
-        "average": 27.28,
+        "average": 27.51,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.6922,
+      "tiebreak_probability": 0.6968,
       "fair_odds": {
-        "player_a": 1.902,
-        "player_b": 2.109
+        "player_a": 1.901,
+        "player_b": 2.11
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6963,
-          "player_b": 0.3037,
+          "player_a": 0.6361,
+          "player_b": 0.3639,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.5223,
-          "player_b": 0.4777,
+          "player_a": 0.5236,
+          "player_b": 0.4764,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.494,
-          "player_b": 0.506,
+          "player_a": 0.4937,
+          "player_b": 0.5063,
           "weight": 0.14,
           "has_data": true
         },
@@ -4735,21 +4735,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.678,
+      "uncertainty": 0.666,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 130,
-        "career_matches_b": 39,
+        "career_matches_a": 149,
+        "career_matches_b": 59,
         "surface_matches_a": 61,
         "surface_matches_b": 10,
-        "form_recent_matches_a": 47,
-        "form_recent_matches_b": 30,
+        "form_recent_matches_a": 57,
+        "form_recent_matches_b": 50,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6934,
-        "serve_point_b": 0.7108
+        "serve_point_a": 0.6983,
+        "serve_point_b": 0.7065
       },
       "score_distribution": [
         {
@@ -4758,7 +4758,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0556
+          "probability": 0.0487
         },
         {
           "winner": "Jaime Faria",
@@ -4766,7 +4766,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0504
+          "probability": 0.0447
         },
         {
           "winner": "Jaime Faria",
@@ -4774,7 +4774,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0467
+          "probability": 0.0431
         },
         {
           "winner": "Jaime Faria",
@@ -4782,7 +4782,7 @@
             "6-7",
             "6-7"
           ],
-          "probability": 0.0392
+          "probability": 0.0413
         },
         {
           "winner": "Luciano Darderi",
@@ -4790,15 +4790,7 @@
             "7-6",
             "7-6"
           ],
-          "probability": 0.0336
-        },
-        {
-          "winner": "Luciano Darderi",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0315
+          "probability": 0.0352
         },
         {
           "winner": "Luciano Darderi",
@@ -4806,7 +4798,15 @@
             "7-6",
             "6-3"
           ],
-          "probability": 0.0299
+          "probability": 0.0307
+        },
+        {
+          "winner": "Luciano Darderi",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0296
         },
         {
           "winner": "Luciano Darderi",
@@ -4814,7 +4814,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0253
+          "probability": 0.0293
         }
       ],
       "confidence": "low"
@@ -4827,43 +4827,43 @@
       "player_b": "Jaime Faria",
       "match_time_utc": "2026-07-24T17:30Z",
       "match_winner": {
-        "player_a_prob": 0.5259,
-        "player_b_prob": 0.4741,
+        "player_a_prob": 0.5261,
+        "player_b_prob": 0.4739,
         "confidence": "low"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.2037,
-        "player_b_straight_sets_prob": 0.3093
+        "player_a_straight_sets_prob": 0.2172,
+        "player_b_straight_sets_prob": 0.2752
       },
       "games_total": {
-        "average": 27.28,
+        "average": 27.51,
         "median": 26,
         "p10": 20,
         "p25": 22,
         "p75": 33,
         "p90": 36
       },
-      "tiebreak_probability": 0.6922,
+      "tiebreak_probability": 0.6968,
       "fair_odds": {
-        "player_a": 1.902,
-        "player_b": 2.109
+        "player_a": 1.901,
+        "player_b": 2.11
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6963,
-          "player_b": 0.3037,
+          "player_a": 0.6361,
+          "player_b": 0.3639,
           "weight": 0.4,
           "has_data": true
         },
         "serve_return": {
-          "player_a": 0.5223,
-          "player_b": 0.4777,
+          "player_a": 0.5236,
+          "player_b": 0.4764,
           "weight": 0.32,
           "has_data": true
         },
         "form": {
-          "player_a": 0.494,
-          "player_b": 0.506,
+          "player_a": 0.4937,
+          "player_b": 0.5063,
           "weight": 0.14,
           "has_data": true
         },
@@ -4881,21 +4881,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.678,
+      "uncertainty": 0.666,
       "data_quality": {
         "surface_known": true,
-        "career_matches_a": 130,
-        "career_matches_b": 39,
+        "career_matches_a": 149,
+        "career_matches_b": 59,
         "surface_matches_a": 61,
         "surface_matches_b": 10,
-        "form_recent_matches_a": 47,
-        "form_recent_matches_b": 30,
+        "form_recent_matches_a": 57,
+        "form_recent_matches_b": 50,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0.35,
         "injury_signal_b": 0,
-        "serve_point_a": 0.6934,
-        "serve_point_b": 0.7108
+        "serve_point_a": 0.6983,
+        "serve_point_b": 0.7065
       },
       "score_distribution": [
         {
@@ -4904,7 +4904,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.0556
+          "probability": 0.0487
         },
         {
           "winner": "Jaime Faria",
@@ -4912,7 +4912,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0504
+          "probability": 0.0447
         },
         {
           "winner": "Jaime Faria",
@@ -4920,7 +4920,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0467
+          "probability": 0.0431
         },
         {
           "winner": "Jaime Faria",
@@ -4928,7 +4928,7 @@
             "6-7",
             "6-7"
           ],
-          "probability": 0.0392
+          "probability": 0.0413
         },
         {
           "winner": "Luciano Darderi",
@@ -4936,15 +4936,7 @@
             "7-6",
             "7-6"
           ],
-          "probability": 0.0336
-        },
-        {
-          "winner": "Luciano Darderi",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0315
+          "probability": 0.0352
         },
         {
           "winner": "Luciano Darderi",
@@ -4952,7 +4944,15 @@
             "7-6",
             "6-3"
           ],
-          "probability": 0.0299
+          "probability": 0.0307
+        },
+        {
+          "winner": "Luciano Darderi",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0296
         },
         {
           "winner": "Luciano Darderi",
@@ -4960,7 +4960,7 @@
             "6-3",
             "6-3"
           ],
-          "probability": 0.0253
+          "probability": 0.0293
         }
       ],
       "confidence": "low"
@@ -4973,31 +4973,31 @@
       "player_b": "Fiona Ferro",
       "match_time_utc": "2026-07-24T18:30Z",
       "match_winner": {
-        "player_a_prob": 0.5101,
-        "player_b_prob": 0.4899,
+        "player_a_prob": 0.5106,
+        "player_b_prob": 0.4894,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.1862,
-        "player_b_straight_sets_prob": 0.3305
+        "player_a_straight_sets_prob": 0.1754,
+        "player_b_straight_sets_prob": 0.3447
       },
       "games_total": {
-        "average": 24.77,
+        "average": 24.67,
         "median": 24,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3674,
+      "tiebreak_probability": 0.363,
       "fair_odds": {
-        "player_a": 1.96,
-        "player_b": 2.041
+        "player_a": 1.959,
+        "player_b": 2.043
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6547,
-          "player_b": 0.3453,
+          "player_a": 0.6797,
+          "player_b": 0.3203,
           "weight": 0.4,
           "has_data": true
         },
@@ -5027,21 +5027,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.545,
+      "uncertainty": 0.394,
       "data_quality": {
         "surface_known": false,
-        "career_matches_a": 37,
-        "career_matches_b": 17,
+        "career_matches_a": 74,
+        "career_matches_b": 34,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 37,
-        "form_recent_matches_b": 17,
+        "form_recent_matches_a": 74,
+        "form_recent_matches_b": 34,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5878,
-        "serve_point_b": 0.6081
+        "serve_point_a": 0.586,
+        "serve_point_b": 0.6099
       },
       "score_distribution": [
         {
@@ -5050,7 +5050,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.04
+          "probability": 0.0394
         },
         {
           "winner": "Fiona Ferro",
@@ -5058,7 +5058,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0247
+          "probability": 0.0243
         },
         {
           "winner": "Fiona Ferro",
@@ -5066,7 +5066,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0219
+          "probability": 0.0227
         },
         {
           "winner": "Mina Hodzic",
@@ -5082,7 +5082,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0188
+          "probability": 0.0213
         },
         {
           "winner": "Fiona Ferro",
@@ -5090,7 +5090,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0187
+          "probability": 0.0192
         },
         {
           "winner": "Fiona Ferro",
@@ -5098,15 +5098,15 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0152
+          "probability": 0.0164
         },
         {
           "winner": "Fiona Ferro",
           "sets": [
-            "5-7",
-            "4-6"
+            "4-6",
+            "3-6"
           ],
-          "probability": 0.015
+          "probability": 0.0163
         }
       ],
       "confidence": "medium"
@@ -5119,31 +5119,31 @@
       "player_b": "Fiona Ferro",
       "match_time_utc": "2026-07-24T18:30Z",
       "match_winner": {
-        "player_a_prob": 0.5101,
-        "player_b_prob": 0.4899,
+        "player_a_prob": 0.5106,
+        "player_b_prob": 0.4894,
         "confidence": "medium"
       },
       "set_winner": {
-        "player_a_straight_sets_prob": 0.1862,
-        "player_b_straight_sets_prob": 0.3305
+        "player_a_straight_sets_prob": 0.1754,
+        "player_b_straight_sets_prob": 0.3447
       },
       "games_total": {
-        "average": 24.77,
+        "average": 24.67,
         "median": 24,
         "p10": 18,
         "p25": 20,
         "p75": 30,
         "p90": 33
       },
-      "tiebreak_probability": 0.3674,
+      "tiebreak_probability": 0.363,
       "fair_odds": {
-        "player_a": 1.96,
-        "player_b": 2.041
+        "player_a": 1.959,
+        "player_b": 2.043
       },
       "model_components": {
         "elo": {
-          "player_a": 0.6547,
-          "player_b": 0.3453,
+          "player_a": 0.6797,
+          "player_b": 0.3203,
           "weight": 0.4,
           "has_data": true
         },
@@ -5173,21 +5173,21 @@
         }
       },
       "model_agreement": "medium",
-      "uncertainty": 0.545,
+      "uncertainty": 0.394,
       "data_quality": {
         "surface_known": false,
-        "career_matches_a": 37,
-        "career_matches_b": 17,
+        "career_matches_a": 74,
+        "career_matches_b": 34,
         "surface_matches_a": 0,
         "surface_matches_b": 0,
-        "form_recent_matches_a": 37,
-        "form_recent_matches_b": 17,
+        "form_recent_matches_a": 74,
+        "form_recent_matches_b": 34,
         "fatigue_a": 0.1,
         "fatigue_b": 0.1,
         "injury_signal_a": 0,
         "injury_signal_b": 0,
-        "serve_point_a": 0.5878,
-        "serve_point_b": 0.6081
+        "serve_point_a": 0.586,
+        "serve_point_b": 0.6099
       },
       "score_distribution": [
         {
@@ -5196,7 +5196,7 @@
             "4-6",
             "4-6"
           ],
-          "probability": 0.04
+          "probability": 0.0394
         },
         {
           "winner": "Fiona Ferro",
@@ -5204,7 +5204,7 @@
             "4-6",
             "2-6"
           ],
-          "probability": 0.0247
+          "probability": 0.0243
         },
         {
           "winner": "Fiona Ferro",
@@ -5212,7 +5212,7 @@
             "2-6",
             "4-6"
           ],
-          "probability": 0.0219
+          "probability": 0.0227
         },
         {
           "winner": "Mina Hodzic",
@@ -5228,7 +5228,7 @@
             "4-6",
             "6-7"
           ],
-          "probability": 0.0188
+          "probability": 0.0213
         },
         {
           "winner": "Fiona Ferro",
@@ -5236,7 +5236,7 @@
             "6-7",
             "4-6"
           ],
-          "probability": 0.0187
+          "probability": 0.0192
         },
         {
           "winner": "Fiona Ferro",
@@ -5244,15 +5244,15 @@
             "3-6",
             "4-6"
           ],
-          "probability": 0.0152
+          "probability": 0.0164
         },
         {
           "winner": "Fiona Ferro",
           "sets": [
-            "5-7",
-            "4-6"
+            "4-6",
+            "3-6"
           ],
-          "probability": 0.015
+          "probability": 0.0163
         }
       ],
       "confidence": "medium"
@@ -5260,7 +5260,7 @@
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
+      "surface": "clay",
       "player_a": "TBD",
       "player_b": "TBD",
       "match_time_utc": "2026-07-25T04:00Z",
@@ -5321,7 +5321,7 @@
       "model_agreement": "high",
       "uncertainty": 0.67,
       "data_quality": {
-        "surface_known": false,
+        "surface_known": true,
         "career_matches_a": 0,
         "career_matches_b": 0,
         "surface_matches_a": 0,
@@ -5406,152 +5406,6 @@
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
-      "player_a": "TBD",
-      "player_b": "TBD",
-      "match_time_utc": "2026-07-25T04:00Z",
-      "match_winner": {
-        "player_a_prob": 0.4971,
-        "player_b_prob": 0.5029,
-        "confidence": "low"
-      },
-      "set_winner": {
-        "player_a_straight_sets_prob": 0.2423,
-        "player_b_straight_sets_prob": 0.253
-      },
-      "games_total": {
-        "average": 27.58,
-        "median": 26,
-        "p10": 20,
-        "p25": 22,
-        "p75": 33,
-        "p90": 36
-      },
-      "tiebreak_probability": 0.7093,
-      "fair_odds": {
-        "player_a": 2.012,
-        "player_b": 1.988
-      },
-      "model_components": {
-        "elo": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.556,
-          "has_data": true
-        },
-        "serve_return": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.444,
-          "has_data": true
-        },
-        "form": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.0,
-          "has_data": false
-        },
-        "fatigue": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.0,
-          "has_data": false
-        },
-        "injury": {
-          "player_a": 0.5,
-          "player_b": 0.5,
-          "weight": 0.0,
-          "has_data": false
-        }
-      },
-      "model_agreement": "high",
-      "uncertainty": 0.67,
-      "data_quality": {
-        "surface_known": false,
-        "career_matches_a": 0,
-        "career_matches_b": 0,
-        "surface_matches_a": 0,
-        "surface_matches_b": 0,
-        "form_recent_matches_a": 0,
-        "form_recent_matches_b": 0,
-        "fatigue_a": 0,
-        "fatigue_b": 0,
-        "injury_signal_a": 0,
-        "injury_signal_b": 0,
-        "serve_point_a": 0.7066,
-        "serve_point_b": 0.7066
-      },
-      "score_distribution": [
-        {
-          "winner": "TBD",
-          "sets": [
-            "4-6",
-            "6-7"
-          ],
-          "probability": 0.0453
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "6-7",
-            "4-6"
-          ],
-          "probability": 0.0429
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "6-7",
-            "6-7"
-          ],
-          "probability": 0.0417
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "4-6",
-            "4-6"
-          ],
-          "probability": 0.0403
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "7-6",
-            "7-6"
-          ],
-          "probability": 0.0371
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "6-3",
-            "7-6"
-          ],
-          "probability": 0.0367
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "7-6",
-            "6-3"
-          ],
-          "probability": 0.0333
-        },
-        {
-          "winner": "TBD",
-          "sets": [
-            "6-3",
-            "6-3"
-          ],
-          "probability": 0.0328
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "tour": "ATP",
-      "tournament": "Millennium Estoril Open",
       "surface": "clay",
       "player_a": "TBD",
       "player_b": "TBD",
@@ -5843,8 +5697,8 @@
     },
     {
       "tour": "ATP",
-      "tournament": "Generali Open",
-      "surface": "unknown",
+      "tournament": "Millennium Estoril Open",
+      "surface": "clay",
       "player_a": "TBD",
       "player_b": "TBD",
       "match_time_utc": "2026-07-25T04:00Z",
@@ -5905,7 +5759,7 @@
       "model_agreement": "high",
       "uncertainty": 0.67,
       "data_quality": {
-        "surface_known": false,
+        "surface_known": true,
         "career_matches_a": 0,
         "career_matches_b": 0,
         "surface_matches_a": 0,
@@ -5990,7 +5844,7 @@
     {
       "tour": "ATP",
       "tournament": "Generali Open",
-      "surface": "unknown",
+      "surface": "clay",
       "player_a": "TBD",
       "player_b": "TBD",
       "match_time_utc": "2026-07-25T04:00Z",
@@ -6051,7 +5905,153 @@
       "model_agreement": "high",
       "uncertainty": 0.67,
       "data_quality": {
-        "surface_known": false,
+        "surface_known": true,
+        "career_matches_a": 0,
+        "career_matches_b": 0,
+        "surface_matches_a": 0,
+        "surface_matches_b": 0,
+        "form_recent_matches_a": 0,
+        "form_recent_matches_b": 0,
+        "fatigue_a": 0,
+        "fatigue_b": 0,
+        "injury_signal_a": 0,
+        "injury_signal_b": 0,
+        "serve_point_a": 0.7066,
+        "serve_point_b": 0.7066
+      },
+      "score_distribution": [
+        {
+          "winner": "TBD",
+          "sets": [
+            "4-6",
+            "6-7"
+          ],
+          "probability": 0.0453
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "6-7",
+            "4-6"
+          ],
+          "probability": 0.0429
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "6-7",
+            "6-7"
+          ],
+          "probability": 0.0417
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "4-6",
+            "4-6"
+          ],
+          "probability": 0.0403
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "7-6",
+            "7-6"
+          ],
+          "probability": 0.0371
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "6-3",
+            "7-6"
+          ],
+          "probability": 0.0367
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "7-6",
+            "6-3"
+          ],
+          "probability": 0.0333
+        },
+        {
+          "winner": "TBD",
+          "sets": [
+            "6-3",
+            "6-3"
+          ],
+          "probability": 0.0328
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "tour": "ATP",
+      "tournament": "Generali Open",
+      "surface": "clay",
+      "player_a": "TBD",
+      "player_b": "TBD",
+      "match_time_utc": "2026-07-25T04:00Z",
+      "match_winner": {
+        "player_a_prob": 0.4971,
+        "player_b_prob": 0.5029,
+        "confidence": "low"
+      },
+      "set_winner": {
+        "player_a_straight_sets_prob": 0.2423,
+        "player_b_straight_sets_prob": 0.253
+      },
+      "games_total": {
+        "average": 27.58,
+        "median": 26,
+        "p10": 20,
+        "p25": 22,
+        "p75": 33,
+        "p90": 36
+      },
+      "tiebreak_probability": 0.7093,
+      "fair_odds": {
+        "player_a": 2.012,
+        "player_b": 1.988
+      },
+      "model_components": {
+        "elo": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.556,
+          "has_data": true
+        },
+        "serve_return": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.444,
+          "has_data": true
+        },
+        "form": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.0,
+          "has_data": false
+        },
+        "fatigue": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.0,
+          "has_data": false
+        },
+        "injury": {
+          "player_a": 0.5,
+          "player_b": 0.5,
+          "weight": 0.0,
+          "has_data": false
+        }
+      },
+      "model_agreement": "high",
+      "uncertainty": 0.67,
+      "data_quality": {
+        "surface_known": true,
         "career_matches_a": 0,
         "career_matches_b": 0,
         "surface_matches_a": 0,
