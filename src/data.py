@@ -44,6 +44,15 @@ TOURNAMENT_SURFACE_MAP=[
     ("cluj-napoca","clay"),("cluj","clay"),("bucharest","clay"),
     ("chennai","hard"),("pune","hard"),("newport","grass"),("mallorca open","grass"),
     ("hertogenbosch","grass"),("ilkley","grass"),
+    # Sponsor-prefixed names seen from live ESPN data that don't contain the host city
+    ("generali open","clay"),  # Kitzbuhel, Austria
+    ("swiss open","clay"),  # Gstaad
+    ("nordea open","clay"),  # Bastad
+    ("plava laguna","clay"),  # Umag
+    ("emilia-romagna open","clay"),  # Parma
+    ("almaty open","indoor_hard"),
+    ("moselle open","indoor_hard"),  # Metz
+    ("european open","indoor_hard"),  # Antwerp
 ]
 
 def surface_from_tournament_name(name):
@@ -77,7 +86,10 @@ def extract_matches(payload, tour):
                 a=x.get("athlete",{}); names.append(a.get("displayName") or a.get("shortName") or x.get("name"))
             if len(names)!=2 or not all(names): continue
             status=c.get("status",{}).get("type",{})
-            out.append({"tour":tour,"tournament":tournament,"match_id":c.get("id"),"date":c.get("date"),"completed":status.get("completed",False),"players":names,"competitors":cs})
+            # Some ESPN tennis payloads expose ground/surface info directly on the
+            # competition or venue object; prefer that over name-guessing when present.
+            espn_surface=(c.get("groundCondition") or c.get("surface") or (c.get("venue") or {}).get("surface"))
+            out.append({"tour":tour,"tournament":tournament,"match_id":c.get("id"),"date":c.get("date"),"completed":status.get("completed",False),"players":names,"competitors":cs,"espn_surface":espn_surface})
     return out
 
 def fetch_upcoming(tour, days_ahead=1):

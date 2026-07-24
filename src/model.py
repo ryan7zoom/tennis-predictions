@@ -73,7 +73,7 @@ def make_prediction(engine, a, b, tournament, tour, surface, best_of, match_date
     else:
         agreement_label = "low"
 
-    uncertainty = round(min(0.95, 0.12 + 0.55*(1-rel_sample/60) + 0.20*agreement_spread + 0.15*max(f["injury_a"], f["injury_b"])), 3)
+    uncertainty = round(clamp(0.12 + 0.55*(1-rel_sample/60) + 0.20*agreement_spread + 0.15*max(f["injury_a"], f["injury_b"]), 0.02, 0.95), 3)
     fair_a = 1/final_p
     fair_b = 1/(1-final_p)
 

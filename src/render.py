@@ -6,173 +6,274 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tennis Predictions</title>
+<title>Match Point</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=Roboto+Mono:wght@500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
 
   :root {{
-    /* Light theme -- warm neutral paper, green as accent only */
-    --bg: #f6f5f1;
-    --bg-line: #ece9e1;
-    --card-bg: #ffffff;
-    --card-border: #e2e0d8;
-    --text-primary: #24261f;
-    --text-secondary: #77786d;
-    --accent: #4a7c59;
-    --high: #3f7a4f;
-    --medium: #b8863f;
-    --low: #c1573f;
-    --bar-track: #eae8e0;
-    --time-bg: #eef0e8;
-    --shadow: 0 1px 2px rgba(20,20,15,0.05), 0 1px 10px rgba(20,20,15,0.03);
-  }}
-  @media (prefers-color-scheme: dark) {{
-    :root {{
-      /* Dark theme -- neutral charcoal, green as accent only */
-      --bg: #17181a;
-      --bg-line: #1e2022;
-      --card-bg: #1f2123;
-      --card-border: #2c2f31;
-      --text-primary: #eceae4;
-      --text-secondary: #93958f;
-      --accent: #7fbb8f;
-      --high: #7fbb8f;
-      --medium: #d6ab68;
-      --low: #d98a72;
-      --bar-track: #2a2d2f;
-      --time-bg: #232826;
-      --shadow: 0 1px 3px rgba(0,0,0,0.35);
-    }}
+    /* Court-inspired palette: deep court green, clay terracotta, hard-court blue, grass */
+    --bg: #0e1912;
+    --bg-elevated: #142218;
+    --card-bg: #16261a;
+    --card-border: #24382b;
+    --card-border-hover: #35513f;
+    --text-primary: #f4f1e6;
+    --text-secondary: #93a394;
+    --text-dim: #5e6f61;
+
+    --clay: #c1571f;
+    --clay-glow: rgba(193,87,31,0.22);
+    --hard: #2e7fc4;
+    --hard-glow: rgba(46,127,196,0.22);
+    --grass: #5b9c4c;
+    --grass-glow: rgba(91,156,76,0.22);
+    --indoor: #8b6fc9;
+    --indoor-glow: rgba(139,111,201,0.22);
+    --unknown: #5e6f61;
+
+    --high: #6fbf73;
+    --medium: #d6a24a;
+    --low: #d9704f;
+
+    --bar-track: #1e2f22;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.28);
   }}
   * {{ box-sizing: border-box; }}
+  html {{ scroll-behavior: smooth; }}
   body {{
-    background: var(--bg);
-    background-image: repeating-linear-gradient(
-      to bottom, transparent, transparent 79px, var(--bg-line) 79px, var(--bg-line) 80px
-    );
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, var(--clay-glow), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 0%, var(--hard-glow), transparent 55%),
+      var(--bg);
     color: var(--text-primary);
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Archivo', -apple-system, sans-serif;
     margin: 0;
-    padding: 24px 16px 48px;
+    padding: 20px 14px 56px;
     -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
   }}
-  .masthead {{ margin-bottom: 22px; }}
-  h1 {{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 2.1rem;
-    letter-spacing: 0.01em;
-    margin: 0 0 2px;
-    line-height: 1;
+
+  /* ---------- Masthead ---------- */
+  .masthead {{ margin-bottom: 20px; padding-top: 4px; }}
+  .eyebrow {{
+    font-family: 'Space Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--clay);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
   }}
-  h1::after {{
+  .eyebrow::before {{
     content: '';
-    display: block;
-    width: 46px;
-    height: 3px;
-    background: var(--accent);
-    margin-top: 10px;
-    border-radius: 2px;
+    width: 7px; height: 7px;
+    background: var(--clay);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--clay);
   }}
-  .meta {{ color: var(--text-secondary); font-size: 0.82rem; margin-top: 12px; }}
-  .tabs {{ display: flex; gap: 8px; margin: 20px 0 18px; }}
+  h1 {{
+    font-family: 'Anton', 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 0.92;
+    background: linear-gradient(180deg, #ffffff 0%, #d8d2bf 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }}
+  .baseline {{
+    margin-top: 10px;
+    height: 0;
+    border-top: 2px dashed var(--card-border);
+    position: relative;
+    width: 100%;
+  }}
+  .baseline::after {{
+    content: '';
+    position: absolute; left: 0; top: -2px;
+    width: 64px; height: 2px;
+    background: var(--clay);
+  }}
+  .meta {{
+    color: var(--text-dim);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    margin-top: 12px;
+    letter-spacing: 0.01em;
+  }}
+
+  /* ---------- Tabs ---------- */
+  .tabs {{ display: flex; gap: 6px; margin: 22px 0 18px; }}
   .tab {{
-    background: transparent;
+    background: var(--bg-elevated);
     border: 1px solid var(--card-border);
     color: var(--text-secondary);
-    padding: 7px 18px;
-    border-radius: 999px;
+    padding: 8px 20px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     transition: all 0.15s ease;
   }}
-  .tab.active {{ color: var(--bg); background: var(--accent); border-color: var(--accent); }}
-  .cards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }}
+  .tab.active {{
+    color: #fff8ee;
+    background: var(--clay);
+    border-color: var(--clay);
+    box-shadow: 0 2px 14px var(--clay-glow);
+  }}
+
+  /* ---------- Cards ---------- */
+  .cards {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }}
   .card {{
     background: var(--card-bg);
     border: 1px solid var(--card-border);
-    border-radius: 10px;
-    padding: 14px 18px 18px;
+    border-left: 3px solid var(--surface-color, var(--unknown));
+    border-radius: 12px;
+    padding: 16px 18px 18px;
     box-shadow: var(--shadow);
+    position: relative;
+    transition: border-color 0.15s ease;
   }}
-  .card-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }}
-  .tour-badge {{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.68rem;
-    color: var(--text-secondary);
+  .card:hover {{ border-color: var(--card-border-hover); }}
+  .card:hover {{ border-left-color: var(--surface-color, var(--unknown)); }}
+
+  .card-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; gap: 8px; }}
+  .surface-tag {{
+    font-family: 'Space Mono', monospace;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    color: var(--surface-color, var(--text-dim));
+    display: flex; align-items: center; gap: 6px;
   }}
-  .confidence {{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.65rem;
-    font-weight: 600;
+  .surface-tag::before {{
+    content: '';
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    background: var(--surface-color, var(--unknown));
+  }}
+  .surface-tag .tour {{ color: var(--text-dim); font-weight: 500; }}
+
+  .confidence-meter {{ display: flex; align-items: center; gap: 5px; }}
+  .confidence-meter .dot {{ width: 6px; height: 6px; border-radius: 50%; background: var(--card-border); }}
+  .confidence-meter.high .dot:nth-child(-n+3) {{ background: var(--high); }}
+  .confidence-meter.medium .dot:nth-child(-n+2) {{ background: var(--medium); }}
+  .confidence-meter.low .dot:nth-child(-n+1) {{ background: var(--low); }}
+  .confidence-label {{
+    font-family: 'Space Mono', monospace;
+    font-size: 0.64rem;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 3px 9px;
-    border-radius: 999px;
+    letter-spacing: 0.06em;
+    margin-left: 3px;
   }}
-  .confidence.high {{ background: rgba(74,124,89,0.14); color: var(--high); }}
-  .confidence.medium {{ background: rgba(184,134,63,0.16); color: var(--medium); }}
-  .confidence.low {{ background: rgba(193,87,63,0.14); color: var(--low); }}
+  .confidence-meter.high .confidence-label {{ color: var(--high); }}
+  .confidence-meter.medium .confidence-label {{ color: var(--medium); }}
+  .confidence-meter.low .confidence-label {{ color: var(--low); }}
+
   .matchup {{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 1.28rem;
-    line-height: 1.15;
-    margin-bottom: 2px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 1.22rem;
+    line-height: 1.2;
+    margin-bottom: 3px;
+    letter-spacing: -0.01em;
   }}
+  .matchup .vs {{ color: var(--text-dim); font-weight: 500; font-size: 0.95rem; margin: 0 2px; }}
+
   .sub-row {{
     display: flex; justify-content: space-between; align-items: baseline;
-    margin-bottom: 14px; gap: 10px;
+    margin-bottom: 16px; gap: 10px;
   }}
   .tournament {{ font-size: 0.78rem; color: var(--text-secondary); }}
   .match-time {{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.72rem;
-    font-weight: 500;
-    color: var(--accent);
-    background: var(--time-bg);
-    padding: 2px 8px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--clay);
+    background: rgba(193,87,31,0.12);
+    padding: 3px 9px;
     border-radius: 5px;
     white-space: nowrap;
     flex-shrink: 0;
   }}
-  .match-time.tbd {{ color: var(--text-secondary); }}
+  .match-time.tbd {{ color: var(--text-dim); background: rgba(94,111,97,0.14); }}
 
-  .winner-bar {{ margin-bottom: 12px; }}
-  .winner-bar-labels {{
+  /* score bar */
+  .score-bar {{ margin-bottom: 14px; }}
+  .score-bar-labels {{
     display: flex; justify-content: space-between;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.9rem; font-weight: 600;
-    margin-bottom: 5px;
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem; font-weight: 700;
+    margin-bottom: 6px;
   }}
-  .winner-bar-track {{
-    display: flex; height: 7px; border-radius: 4px; overflow: hidden;
+  .score-bar-labels .leader {{ color: var(--clay); }}
+  .score-bar-track {{
+    display: flex; height: 8px; border-radius: 4px; overflow: hidden;
     background: var(--bar-track);
+    gap: 2px;
   }}
-  .winner-bar-fill-a {{ background: var(--accent); height: 100%; }}
-  .winner-bar-fill-b {{ background: var(--text-secondary); opacity: 0.35; height: 100%; }}
-  .winner-bar-names {{
+  .score-bar-fill-a {{ background: var(--clay); height: 100%; border-radius: 3px 0 0 3px; }}
+  .score-bar-fill-b {{ background: var(--text-dim); height: 100%; border-radius: 0 3px 3px 0; }}
+  .score-bar-names {{
     display: flex; justify-content: space-between;
-    font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px;
+    font-size: 0.72rem; color: var(--text-secondary); margin-top: 5px;
+    font-weight: 600;
   }}
 
-  .market-row {{
-    display: flex; justify-content: space-between; align-items: baseline;
-    font-size: 0.82rem; padding: 7px 0;
-    border-top: 1px solid var(--card-border);
+  /* stat grid */
+  .stat-grid {{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--card-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 12px;
   }}
-  .market-label {{ color: var(--text-secondary); }}
-  .market-value {{ font-family: 'Roboto Mono', monospace; font-weight: 500; text-align: right; }}
-  .empty {{ color: var(--text-secondary); padding: 60px 20px; text-align: center; font-size: 0.9rem; }}
+  .stat-cell {{
+    background: var(--bg-elevated);
+    padding: 9px 11px;
+  }}
+  .stat-cell.full {{ grid-column: 1 / -1; }}
+  .stat-label {{
+    font-size: 0.66rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 3px;
+  }}
+  .stat-value {{
+    font-family: 'Space Mono', monospace;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }}
+  .stat-value.dim {{ font-weight: 400; color: var(--text-secondary); font-size: 0.78rem; }}
+
+  .empty {{
+    color: var(--text-dim);
+    padding: 70px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Space Mono', monospace;
+    grid-column: 1 / -1;
+  }}
 </style>
 </head>
 <body>
   <div class="masthead">
-    <h1>Tennis Predictions</h1>
-    <div class="meta">Generated {generated_at} &middot; {n_predictions} matches &middot; {n_gaps} data gap(s) flagged &middot; times shown in your local timezone</div>
+    <div class="eyebrow">Live model output</div>
+    <h1>Match Point</h1>
+    <div class="baseline"></div>
+    <div class="meta">{generated_at} &nbsp;/&nbsp; {n_predictions} matches &nbsp;/&nbsp; {n_gaps} data gap(s) flagged &nbsp;/&nbsp; local time</div>
   </div>
 
   <div class="tabs">
@@ -229,26 +330,78 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-
-
 CARD_TEMPLATE = """
-<div class="card">
-  <div class="card-top"><span class="tour-badge">{tour} · {surface}</span><span class="confidence {confidence}">{confidence} confidence</span></div>
-  <div class="matchup">{player_a} vs {player_b}</div>
+<div class="card" style="--surface-color: {surface_color};">
+  <div class="card-top">
+    <span class="surface-tag"><span class="tour">{tour}</span> &middot; {surface}</span>
+    <span class="confidence-meter {confidence}">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      <span class="confidence-label">{confidence}</span>
+    </span>
+  </div>
+  <div class="matchup">{player_a}<span class="vs">vs</span>{player_b}</div>
   <div class="sub-row"><span class="tournament">{tournament}</span><span class="match-time" data-utc="{time}">&nbsp;</span></div>
-  <div class="winner-bar"><div class="winner-bar-labels"><span>{a_pct}%</span><span>{b_pct}%</span></div><div class="winner-bar-track"><div class="winner-bar-fill-a" style="width:{a_pct}%"></div><div class="winner-bar-fill-b" style="width:{b_pct}%"></div></div><div class="winner-bar-names"><span>{player_a}</span><span>{player_b}</span></div></div>
-  <div class="market-row"><span class="market-label">Fair odds</span><span class="market-value">{fair_a} / {fair_b}</span></div>
-  <div class="market-row"><span class="market-label">Straight sets</span><span class="market-value">{player_a} {straight_a}% / {player_b} {straight_b}%</span></div>
-  <div class="market-row"><span class="market-label">Total games</span><span class="market-value">avg {avg} · median {median} · TB {tb}%</span></div>
-  <div class="market-row"><span class="market-label">Model agreement</span><span class="market-value">{agreement} · uncertainty {uncertainty}</span></div>
+  <div class="score-bar">
+    <div class="score-bar-labels"><span class="{a_leader}">{a_pct}%</span><span class="{b_leader}">{b_pct}%</span></div>
+    <div class="score-bar-track"><div class="score-bar-fill-a" style="width:{a_pct}%"></div><div class="score-bar-fill-b" style="width:{b_pct}%"></div></div>
+    <div class="score-bar-names"><span>{player_a}</span><span>{player_b}</span></div>
+  </div>
+  <div class="stat-grid">
+    <div class="stat-cell"><div class="stat-label">Fair odds</div><div class="stat-value">{fair_a} / {fair_b}</div></div>
+    <div class="stat-cell"><div class="stat-label">Straight sets</div><div class="stat-value dim">{straight_a}% / {straight_b}%</div></div>
+    <div class="stat-cell"><div class="stat-label">Total games</div><div class="stat-value">avg {avg} &middot; med {median}</div></div>
+    <div class="stat-cell"><div class="stat-label">Tiebreak chance</div><div class="stat-value">{tb}%</div></div>
+    <div class="stat-cell full"><div class="stat-label">Model agreement</div><div class="stat-value dim">{agreement} &middot; uncertainty {uncertainty}</div></div>
+  </div>
 </div>
 """
 
+SURFACE_COLORS = {
+    "clay": "var(--clay)",
+    "hard": "var(--hard)",
+    "grass": "var(--grass)",
+    "indoor_hard": "var(--indoor)",
+    "indoor_clay": "var(--indoor)",
+    "unknown": "var(--unknown)",
+}
+
 def render_card(p):
-    return CARD_TEMPLATE.format(tour=p.get('tour',''),surface=p.get('surface','unknown'),confidence=p.get('confidence','low'),player_a=p.get('player_a',''),player_b=p.get('player_b',''),tournament=p.get('tournament',''),time=p.get('match_time_utc') or '',a_pct=round(p['match_winner']['player_a_prob']*100,1),b_pct=round(p['match_winner']['player_b_prob']*100,1),fair_a=p.get('fair_odds',{}).get('player_a','—'),fair_b=p.get('fair_odds',{}).get('player_b','—'),straight_a=round(p['set_winner']['player_a_straight_sets_prob']*100,1),straight_b=round(p['set_winner']['player_b_straight_sets_prob']*100,1),avg=p['games_total']['average'],median=p['games_total']['median'],tb=round(p.get('tiebreak_probability',0)*100,1),agreement=p.get('model_agreement','—'),uncertainty=p.get('uncertainty','—'))
+    a_pct = round(p['match_winner']['player_a_prob']*100, 1)
+    b_pct = round(p['match_winner']['player_b_prob']*100, 1)
+    surface = p.get('surface', 'unknown') or 'unknown'
+    return CARD_TEMPLATE.format(
+        tour=p.get('tour', ''),
+        surface=surface,
+        surface_color=SURFACE_COLORS.get(surface, "var(--unknown)"),
+        confidence=p.get('confidence', 'low'),
+        player_a=p.get('player_a', ''),
+        player_b=p.get('player_b', ''),
+        tournament=p.get('tournament', ''),
+        time=p.get('match_time_utc') or '',
+        a_pct=a_pct, b_pct=b_pct,
+        a_leader='leader' if a_pct >= b_pct else '',
+        b_leader='leader' if b_pct > a_pct else '',
+        fair_a=p.get('fair_odds', {}).get('player_a', '—'),
+        fair_b=p.get('fair_odds', {}).get('player_b', '—'),
+        straight_a=round(p['set_winner']['player_a_straight_sets_prob']*100, 1),
+        straight_b=round(p['set_winner']['player_b_straight_sets_prob']*100, 1),
+        avg=p['games_total']['average'], median=p['games_total']['median'],
+        tb=round(p.get('tiebreak_probability', 0)*100, 1),
+        agreement=p.get('model_agreement', '—'),
+        uncertainty=p.get('uncertainty', '—'),
+    )
 
 def render_site(data, output_path='index.html'):
-    predictions=data.get('predictions',[])
-    atp=[p for p in predictions if p.get('tour')=='ATP']; wta=[p for p in predictions if p.get('tour')=='WTA']
-    html=HTML_TEMPLATE.format(generated_at=data.get('generated_at',''),n_predictions=len(predictions),n_gaps=len(data.get('data_quality',{}).get('errors',[])),cards_all=''.join(render_card(p) for p in predictions) or '<div class="empty">No matches found.</div>',cards_atp=''.join(render_card(p) for p in atp) or '<div class="empty">No ATP matches found.</div>',cards_wta=''.join(render_card(p) for p in wta) or '<div class="empty">No WTA matches found.</div>')
-    with open(output_path,'w',encoding='utf-8') as f: f.write(html)
+    predictions = data.get('predictions', [])
+    atp = [p for p in predictions if p.get('tour') == 'ATP']
+    wta = [p for p in predictions if p.get('tour') == 'WTA']
+    html = HTML_TEMPLATE.format(
+        generated_at=data.get('generated_at', ''),
+        n_predictions=len(predictions),
+        n_gaps=len(data.get('data_quality', {}).get('errors', [])),
+        cards_all=''.join(render_card(p) for p in predictions) or '<div class="empty">No matches found.</div>',
+        cards_atp=''.join(render_card(p) for p in atp) or '<div class="empty">No ATP matches found.</div>',
+        cards_wta=''.join(render_card(p) for p in wta) or '<div class="empty">No WTA matches found.</div>',
+    )
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html)

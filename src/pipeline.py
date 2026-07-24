@@ -66,9 +66,14 @@ def run(verbose=True):
         for m in fetch_upcoming(tour,1):
             a,b=m["players"]
             best_of=5 if tour=="atp" and m["tournament"].lower() in {"australian open","french open","roland garros","wimbledon","us open"} else 3
-            # Surface is inferred conservatively from tournament name via a shared lookup
-            # table (src/data.py); unmatched tournaments stay "unknown" rather than guessed.
-            surface=surface_from_tournament_name(m["tournament"])
+            # Surface: prefer ESPN's own field if the payload provides one (rare but
+            # more reliable than name-guessing), else fall back to the tournament-name
+            # lookup table (src/data.py). Unmatched tournaments stay "unknown" rather
+            # than guessed -- a growing but inevitably incomplete list, since sponsor
+            # names change year to year (e.g. "Generali Open" = Kitzbuhel).
+            surface=normalize_surface({"surface": m.get("espn_surface")}) if m.get("espn_surface") else None
+            if not surface:
+                surface=surface_from_tournament_name(m["tournament"])
             try: predictions.append(make_prediction(engine,a,b,m["tournament"],tour,surface,best_of,m.get("date")))
             except Exception as e: quality["errors"].append(f"{tour} {a} vs {b}: {e}")
     predictions.sort(key=lambda x:x.get("match_time_utc") or "9999")
