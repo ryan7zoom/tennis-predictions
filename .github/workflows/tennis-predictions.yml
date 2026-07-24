@@ -1,37 +1,27 @@
 name: Tennis Predictions
-
 on:
   schedule:
-    # Runs once a day at 09:00 UTC. Adjust the cron time to your preference.
     - cron: '0 9 * * *'
-  workflow_dispatch: {}
-    # ^ this is what makes the "Run workflow" button appear under the
-    #   Actions tab for manual triggering.
-
+  workflow_dispatch:
 permissions:
   contents: write
-
 jobs:
   generate-predictions:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    timeout-minutes: 30
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Run prediction pipeline
+      - name: Run modular prediction pipeline
         run: python3 prediction.py
-
-      - name: Commit updated predictions and Elo state
+      - name: Commit updated model state and predictions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add predictions.json index.html elo_state_atp.json elo_state_wta.json
-          git diff --staged --quiet || git commit -m "Daily tennis predictions update"
+          git add predictions.json index.html model_state_atp.json model_state_wta.json
+          git diff --staged --quiet || git commit -m "Daily tennis model update"
           git push
