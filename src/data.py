@@ -9,6 +9,51 @@ WTA_URL="https://raw.githubusercontent.com/JeffSackmann/tennis_wta/master/wta_ma
 
 SURFACE_MAP={"hard":"hard","clay":"clay","grass":"grass","carpet":"indoor_hard"}
 
+# Tournament name (lowercase substring) -> surface, for live/upcoming matches where
+# no historical "surface" column exists yet. Ordered roughly by specificity; the
+# first matching token wins, so longer/more specific names should precede generic ones.
+TOURNAMENT_SURFACE_MAP=[
+    # Grand Slams
+    ("wimbledon","grass"),("french open","clay"),("roland garros","clay"),
+    ("australian open","hard"),("us open","hard"),
+    # Masters/WTA 1000
+    ("indian wells","hard"),("miami open","hard"),("miami masters","hard"),
+    ("madrid","clay"),("italian open","clay"),("internazionali","clay"),("rome","clay"),
+    ("monte-carlo","clay"),("monte carlo","clay"),("canadian open","hard"),("national bank open","hard"),
+    ("cincinnati","hard"),("shanghai","hard"),("paris masters","indoor_hard"),
+    ("beijing","hard"),("wuhan","hard"),("guadalajara","hard"),
+    # 500s / notable smaller events
+    ("halle","grass"),("queen's","grass"),("queens","grass"),("eastbourne","grass"),
+    ("s-hertogenbosch","grass"),("birmingham","grass"),("nottingham","grass"),("mallorca","grass"),
+    ("bad homburg","grass"),("berlin","grass"),
+    ("stuttgart","clay"),("charleston","clay"),("barcelona","clay"),("munich","clay"),
+    ("estoril","clay"),("bastad","clay"),("hamburg","clay"),
+    ("gstaad","clay"),("umag","clay"),("kitzbuhel","clay"),
+    ("rio de janeiro","clay"),("rio open","clay"),("acapulco","hard"),("dubai","hard"),
+    ("doha","hard"),("qatar","hard"),("rotterdam","indoor_hard"),("vienna","indoor_hard"),
+    ("basel","indoor_hard"),("paris","indoor_hard"),("antwerp","indoor_hard"),
+    ("tokyo","hard"),("japan open","hard"),("korea open","hard"),("seoul","hard"),
+    ("washington","hard"),("dc open","hard"),("citi open","hard"),
+    ("montreal","hard"),("toronto","hard"),("winston-salem","hard"),
+    ("adelaide","hard"),("auckland","hard"),("hong kong","hard"),("brisbane","hard"),
+    ("united cup","hard"),("atp cup","hard"),("davis cup","hard"),("billie jean king cup","hard"),
+    ("prague","clay"),("livesport","clay"),("geneva","clay"),("lyon","clay"),
+    ("marrakech","clay"),("houston","clay"),("santiago","clay"),("cordoba","clay"),
+    ("buenos aires","clay"),("delray beach","hard"),("dallas","indoor_hard"),
+    ("montpellier","indoor_hard"),("marseille","indoor_hard"),("open sud de france","indoor_hard"),
+    ("cluj-napoca","clay"),("cluj","clay"),("bucharest","clay"),
+    ("chennai","hard"),("pune","hard"),("newport","grass"),("mallorca open","grass"),
+    ("hertogenbosch","grass"),("ilkley","grass"),
+]
+
+def surface_from_tournament_name(name):
+    """Best-effort surface lookup for live/upcoming matches based on tournament name.
+    Returns None (unknown) if no token matches, rather than guessing."""
+    lname=(name or "").lower()
+    for token,surface in TOURNAMENT_SURFACE_MAP:
+        if token in lname: return surface
+    return None
+
 def http_json(url, timeout=30):
     req=urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=timeout) as r: return json.loads(r.read().decode())

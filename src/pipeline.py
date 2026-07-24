@@ -1,7 +1,7 @@
 from __future__ import annotations
 import json, os
 from datetime import datetime, timezone
-from .data import fetch_upcoming, iter_historical_rows, normalize_surface, tier_from_row, parse_stats, parse_score
+from .data import fetch_upcoming, iter_historical_rows, normalize_surface, surface_from_tournament_name, tier_from_row, parse_stats, parse_score
 from .ratings import RatingEngine
 from .model import make_prediction
 
@@ -66,11 +66,9 @@ def run(verbose=True):
         for m in fetch_upcoming(tour,1):
             a,b=m["players"]
             best_of=5 if tour=="atp" and m["tournament"].lower() in {"australian open","french open","roland garros","wimbledon","us open"} else 3
-            # Surface is inferred conservatively from tournament name; unknown remains unknown.
-            name=m["tournament"].lower()
-            surface=None
-            for token,s in (("wimbledon","grass"),("french open","clay"),("roland garros","clay"),("australian open","hard"),("us open","hard"),("indian wells","hard"),("miami open","hard"),("madrid","clay"),("rome","clay"),("italian open","clay"),("monte-carlo","clay"),("monte carlo","clay"),("halle","grass"),("queen","grass"),("queens","grass"),("eastbourne","grass"),("stuttgart","clay"),("charleston","clay"),("berlin","grass"),("bad homburg","grass"),("rotterdam","indoor_hard"),("vienna","indoor_hard"),("basel","indoor_hard"),("paris","indoor_hard")):
-                if token in name: surface=s; break
+            # Surface is inferred conservatively from tournament name via a shared lookup
+            # table (src/data.py); unmatched tournaments stay "unknown" rather than guessed.
+            surface=surface_from_tournament_name(m["tournament"])
             try: predictions.append(make_prediction(engine,a,b,m["tournament"],tour,surface,best_of,m.get("date")))
             except Exception as e: quality["errors"].append(f"{tour} {a} vs {b}: {e}")
     predictions.sort(key=lambda x:x.get("match_time_utc") or "9999")

@@ -59,4 +59,8 @@ def simulate_match(p_a_serve, p_b_serve, best_of=3, n=12000, seed=42):
         if best_of==3 and sb==2 and sa==0: straight_b+=1
         total_games.append(games); score_counts[tuple(sets)] += 1
     total_games.sort()
-    return {"win_a":wins_a/n,"win_b":wins_b/n,"straight_a":straight_a/n,"straight_b":straight_b/n,"tiebreak":tb_matches/n,"avg_games":sum(total_games)/n,"median_games":total_games[n//2],"p10_games":total_games[int(n*.10)],"p25_games":total_games[int(n*.25)],"p75_games":total_games[int(n*.75)],"p90_games":total_games[int(n*.90)],"score_distribution":[{"score":"-".join(f"{a}-{b}" for a,b in k),"prob":v/n} for k,v in score_counts.most_common(8)]}
+    score_distribution=[]
+    for k,v in score_counts.most_common(8):
+        sets_a=sum(1 for a,b in k if a>b); sets_b=sum(1 for a,b in k if b>a)
+        score_distribution.append({"sets_won":(sets_a,sets_b),"set_scores":[f"{a}-{b}" for a,b in k],"prob":v/n})
+    return {"win_a":wins_a/n,"win_b":wins_b/n,"straight_a":straight_a/n,"straight_b":straight_b/n,"tiebreak":tb_matches/n,"avg_games":sum(total_games)/n,"median_games":total_games[n//2],"p10_games":total_games[int(n*.10)],"p25_games":total_games[int(n*.25)],"p75_games":total_games[int(n*.75)],"p90_games":total_games[int(n*.90)],"score_distribution":score_distribution}

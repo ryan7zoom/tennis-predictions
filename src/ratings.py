@@ -79,12 +79,27 @@ class PlayerState:
             den += w
         return num / den
 
-    def serve_strength(self, today, surface=None):
+    # Cold-start priors used when a player has little/no historical data yet.
+    # ATP and WTA serve/return rates differ meaningfully on average, so a single
+    # ATP-shaped prior for both tours systematically overrates WTA serve dominance
+    # for thin-sample players -- exactly the case (e.g. a 14-match sample) where
+    # the prior dominates the estimate.
+    SERVE_PRIORS = {
+        "atp": {"spp": 0.62, "sg": 0.78, "first": 0.72, "second": 0.52},
+        "wta": {"spp": 0.57, "sg": 0.68, "first": 0.66, "second": 0.48},
+    }
+    RETURN_PRIORS = {
+        "atp": {"rpp": 0.38, "rg": 0.22},
+        "wta": {"rpp": 0.43, "rg": 0.32},
+    }
+
+    def serve_strength(self, today, surface=None, tour="atp"):
         # Weighted blend of point-level and game-level service performance.
-        spp = self._weighted_mean(self.serve_points, today, 180, 0.62, 12)
-        sg = self._weighted_mean(self.service_games, today, 180, 0.78, 12)
-        first = self._weighted_mean(self.first_serve_points, today, 180, 0.72, 10)
-        second = self._weighted_mean(self.second_serve_points, today, 180, 0.52, 10)
+        pr = self.SERVE_PRIORS.get((tour or "atp").lower(), self.SERVE_PRIORS["atp"])
+        spp = self._weighted_mean(self.serve_points, today, 180, pr["spp"], 12)
+        sg = self._weighted_mean(self.service_games, today, 180, pr["sg"], 12)
+        first = self._weighted_mean(self.first_serve_points, today, 180, pr["first"], 10)
+        second = self._weighted_mean(self.second_serve_points, today, 180, pr["second"], 10)
         base = 0.35 * spp + 0.30 * sg + 0.20 * first + 0.15 * second
         if surface and self.surface_matches.get(surface, 0) >= 8:
             # surface-specific evidence is kept in recent observations
@@ -92,11 +107,13 @@ class PlayerState:
             if vals:
                 surf = self._weighted_mean([(x[0], x[1]["serve"]) for x in vals], today, 240, base, 10)
                 base = 0.65 * base + 0.35 * surf
-        return clamp(base, 0.45, 0.80)
+        lo, hi = (0.45, 0.80) if (tour or "atp").lower() == "atp" else (0.40, 0.75)
+        return clamp(base, lo, hi)
 
-    def return_strength(self, today, surface=None):
-        rpp = self._weighted_mean(self.return_points, today, 180, 0.38, 12)
-        rg = self._weighted_mean(self.return_games, today, 180, 0.22, 12)
+    def return_strength(self, today, surface=None, tour="atp"):
+        pr = self.RETURN_PRIORS.get((tour or "atp").lower(), self.RETURN_PRIORS["atp"])
+        rpp = self._weighted_mean(self.return_points, today, 180, pr["rpp"], 12)
+        rg = self._weighted_mean(self.return_games, today, 180, pr["rg"], 12)
         base = 0.60 * rpp + 0.40 * rg
         if surface and self.surface_matches.get(surface, 0) >= 8:
             vals = [x for x in self.recent if x[1].get("surface") == surface and x[1].get("return") is not None]
@@ -106,6 +123,9 @@ class PlayerState:
         return clamp(base, 0.20, 0.60)
 
     def recent_form(self, today, surface=None):
+        """Returns (form_score, has_data, n_matches). form_score is 0.5 with
+        has_data=False when there is no usable recent match history -- callers
+        must not treat that 0.5 as a genuine 'even form' signal."""
         vals = []
         for ds, obs in self.recent:
             if surface and obs.get("surface") not in (None, surface):
@@ -116,22 +136,26 @@ class PlayerState:
                 age = 3650
             vals.append((obs.get("won", 0), decay_weight(age, 45)))
         if not vals:
-            return 0.5
+            return 0.5, False, 0
         num = sum(v * w for v, w in vals)
         den = sum(w for _, w in vals)
-        return clamp(num / den, 0.0, 1.0)
+        return clamp(num / den, 0.0, 1.0), True, len(vals)
 
     def fatigue_score(self, today):
+        """Returns (score, has_data). score=0.0 with has_data=False means 'no
+        recent match history to assess fatigue from', not 'confirmed fresh'."""
         # Workload is intentionally smooth rather than a hard arbitrary penalty.
         minutes = 0.0
         sets = 0
         games = 0
+        has_data = False
         for ds, obs in self.recent:
             try:
                 age = (today - datetime.strptime(ds, "%Y%m%d").date()).days
             except Exception:
                 continue
             if age <= 7:
+                has_data = True
                 w = decay_weight(age, 5)
                 minutes += (obs.get("minutes") or 0) * w
                 sets += (obs.get("sets") or 0) * w
@@ -145,11 +169,14 @@ class PlayerState:
                 rest = (today - datetime.strptime(self.last_match_date, "%Y%m%d").date()).days
                 if rest <= 1:
                     score += 0.10
+                    has_data = True
             except Exception:
                 pass
-        return clamp(score, 0, 1)
+        return clamp(score, 0, 1), has_data
 
     def injury_signal(self, today):
+        """Returns (signal, has_data). has_data is False only when we have never
+        seen this player play a match, so there is no basis for a reading at all."""
         signal = 0.0
         if self.last_retirement_date:
             try:
@@ -166,7 +193,8 @@ class PlayerState:
                     signal += min(0.20, (layoff - 30) / 750)
             except Exception:
                 pass
-        return clamp(signal, 0, 1)
+        has_data = self.last_match_date is not None
+        return clamp(signal, 0, 1), has_data
 
 
 class RatingEngine:
@@ -209,7 +237,12 @@ class RatingEngine:
                 getattr(p, attr).append((ds, float(val)))
                 if len(getattr(p, attr)) > 300: getattr(p, attr)[:] = getattr(p, attr)[-300:]
 
-    def predict_features(self, a_name, b_name, surface, match_date):
+    # Tour-level average points won on serve. ATP servers hit noticeably harder
+    # than WTA on average, so a single shared baseline systematically overrates
+    # WTA service dominance (and therefore overrates tiebreak/deuce-set rates).
+    SERVE_BASELINE = {"atp": 0.62, "wta": 0.57}
+
+    def predict_features(self, a_name, b_name, surface, match_date, tour="atp"):
         try: today = datetime.strptime(str(match_date)[:8], "%Y%m%d").date()
         except Exception: today = date.today()
         a = self.player(a_name); b = self.player(b_name)
@@ -222,15 +255,35 @@ class RatingEngine:
             ar = aw * ar + (1-aw) * a.overall_elo
             br = bw * br + (1-bw) * b.overall_elo
         elo_p = elo_expected(ar, br)
-        serve_a = a.serve_strength(today, surface); serve_b = b.serve_strength(today, surface)
-        ret_a = a.return_strength(today, surface); ret_b = b.return_strength(today, surface)
-        # Serve/return matchup estimate. Baselines are calibrated around typical tour rates.
-        p_a_on_serve = clamp(0.62 + 0.85*(serve_a-0.62) - 0.65*(ret_b-0.38), 0.48, 0.82)
-        p_b_on_serve = clamp(0.62 + 0.85*(serve_b-0.62) - 0.65*(ret_a-0.38), 0.48, 0.82)
-        fatigue_a = a.fatigue_score(today); fatigue_b = b.fatigue_score(today)
-        injury_a = a.injury_signal(today); injury_b = b.injury_signal(today)
-        form_a = a.recent_form(today, surface); form_b = b.recent_form(today, surface)
-        return {"elo_prob_a": elo_p, "serve_point_a": p_a_on_serve, "serve_point_b": p_b_on_serve, "serve_rating_a": serve_a, "serve_rating_b": serve_b, "return_rating_a": ret_a, "return_rating_b": ret_b, "fatigue_a": fatigue_a, "fatigue_b": fatigue_b, "injury_a": injury_a, "injury_b": injury_b, "form_a": form_a, "form_b": form_b, "sample_a": a.overall_matches, "sample_b": b.overall_matches}
+        serve_a = a.serve_strength(today, surface, tour); serve_b = b.serve_strength(today, surface, tour)
+        ret_a = a.return_strength(today, surface, tour); ret_b = b.return_strength(today, surface, tour)
+        # Serve/return matchup estimate. Baseline is tour-specific: ATP and WTA
+        # have meaningfully different average points-won-on-serve rates.
+        baseline = self.SERVE_BASELINE.get((tour or "atp").lower(), 0.62)
+        p_a_on_serve = clamp(baseline + 0.85*(serve_a-baseline) - 0.65*(ret_b-0.38), 0.42, 0.82)
+        p_b_on_serve = clamp(baseline + 0.85*(serve_b-baseline) - 0.65*(ret_a-0.38), 0.42, 0.82)
+        fatigue_a, fatigue_a_has_data = a.fatigue_score(today)
+        fatigue_b, fatigue_b_has_data = b.fatigue_score(today)
+        injury_a, injury_a_has_data = a.injury_signal(today)
+        injury_b, injury_b_has_data = b.injury_signal(today)
+        form_a, form_a_has_data, form_a_n = a.recent_form(today, surface)
+        form_b, form_b_has_data, form_b_n = b.recent_form(today, surface)
+        return {
+            "elo_prob_a": elo_p, "serve_point_a": p_a_on_serve, "serve_point_b": p_b_on_serve,
+            "serve_rating_a": serve_a, "serve_rating_b": serve_b, "return_rating_a": ret_a, "return_rating_b": ret_b,
+            "fatigue_a": fatigue_a, "fatigue_b": fatigue_b,
+            "fatigue_a_has_data": fatigue_a_has_data, "fatigue_b_has_data": fatigue_b_has_data,
+            "injury_a": injury_a, "injury_b": injury_b,
+            "injury_a_has_data": injury_a_has_data, "injury_b_has_data": injury_b_has_data,
+            "form_a": form_a, "form_b": form_b,
+            "form_a_has_data": form_a_has_data, "form_b_has_data": form_b_has_data,
+            "form_a_n": form_a_n, "form_b_n": form_b_n,
+            "career_matches_a": a.overall_matches, "career_matches_b": b.overall_matches,
+            "surface_matches_a": a.surface_matches.get(surface, 0) if surface in SURFACES else 0,
+            "surface_matches_b": b.surface_matches.get(surface, 0) if surface in SURFACES else 0,
+            # Back-compat aliases; prefer the explicit career_/surface_ fields above.
+            "sample_a": a.overall_matches, "sample_b": b.overall_matches,
+        }
 
     def to_dict(self):
         out = {}
